@@ -1,0 +1,82 @@
+@font-face {
+	font-family: GilroyMedium;
+	src: url(../assets/fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+	font-family: GilroySemiBold;
+	src: url(../assets/fonts/Gilroy-SemiBold.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	overflow: hidden;
+	font-family: GilroyMedium;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	background: #131313;
+}
+
+.navbar {
+	background: #2b2b2b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 99px;
+	height: 100vh;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.navbar .links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 50%;
+	justify-content: space-around;
+}
+
+.navbar .links a img {
+	opacity: 0.4;
+}
+
+.active {
+	opacity: 1 !important;
+}
+
+.navbar .logout {
+	justify-self: end;
+}
+
+.initial {
+	height: 45px;
+	width: 45px;
+	background: #5207ef;
+	border-radius: 50%;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logout {
+	cursor: pointer;
+}
+
+.container {
+	padding: 1%;
+	color: #ffffff;
+}
