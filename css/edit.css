@@ -3,12 +3,16 @@
 }
 
 .all_questions {
-    overflow: scroll;
+    overflow:scroll;
     display: flex;
     flex-direction: column;
     width: 800px;
     height: 100%;
-    background-color: #050505;
+    background-color: #353535;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 .selected_question {
@@ -34,6 +38,7 @@
     width: 225px;
     height: 58px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .edit {
@@ -54,6 +59,10 @@
     padding: 15px;
 }
 
+.question:hover {
+    background-color: #5207EF;
+    box-shadow: 0 5px 15px rgba(233, 218, 218, 0.3);
+}
 
 .questionNumber {
     font-weight: bold;
@@ -152,10 +161,9 @@ a>.optionSelect {
 
 .questionPic img {
     width: 427px;
-    height: 300.14px;
+    height: 400.14px;
     margin-left: 80px;
     top: 175px;
-
     border-radius: 7.55752px;
 }
 
