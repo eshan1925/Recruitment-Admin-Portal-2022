@@ -1,12 +1,13 @@
 #container_np {
     padding: 0%;
+    max-width: 740px;
 }
 
 .all_questions {
     overflow: scroll;
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 740px;
     height: 100%;
     background-color: #050505;
 }
@@ -27,7 +28,7 @@
 
 .question_selector {
     position: relative;
-    width: 50rem;
+    width: 740px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,7 +41,8 @@
     border-radius: 7px;
     width: 225px;
     height: 58px;
-    margin-left: 15px;
+    /* margin-left: 10px; */
+    /* margin-right: 50px; */
     cursor: pointer;
 
 }
@@ -92,21 +94,6 @@ a>.question {
     text-align: center;
 }
 
-/* .filter {
-    position: static;
-    left: 27.79%;
-    right: 63.22%;
-    top: 35.49%;
-    bottom: 35.49%;
-
-    box-sizing: border-box;
-
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
-} */
 
 
 
@@ -116,7 +103,7 @@ a>.question {
     overflow: scroll;
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 700px;
     height: 100%;
     background-color: #1d1d1d;
 }
@@ -130,11 +117,15 @@ a>.question {
     padding: 15px;
     margin-top: 15px;
     border-radius: 6px;
+
 }
 
 a>.options {
     color: white;
     text-decoration: none !important;
+
+    min-height: 10vh;
+
 }
 
 
@@ -149,9 +140,10 @@ a>.optionSelect {
 
 .optionSelect {
     font-weight: 100;
-    font-size: large;
+    font-size: 1rem;
     text-align: left;
     word-wrap: break-word;
+
 
 }
 
@@ -164,6 +156,14 @@ a>.optionSelect {
 .optionList {
     margin-top: 20px;
     margin-bottom: 5;
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+p.content {
+    flex: 1;
 }
 
 
@@ -172,7 +172,6 @@ a>.optionSelect {
     height: 400.14px;
     margin-left: 80px;
     top: 175px;
-    /* background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QEBAPDw0NDQ8PEA8PDw0NDQ8NDQ8PFREWFhURFRUYHSggGBolGxUVITEhJSk3Li4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIANoA5wMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACAQAQEAAgICAgMAAAAAAAAAAAABAhExQXHBgbESIWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9pBn8gaE39LABZF0DI0ugYGtAMjYDA0gILokBBVgMjSgwNgMDRQZFAQIUAABznN+XRzl/dBcW8ZwmMagKABD+AAqRQRQBAgCKAJViKCqiggJQAoCCpQQpSgAAOc5ro5zmg6RqMtQChQDgACKigAAItAQVAAUBUgAFAQVAKioCAtBAAGMea25zmg6LEjUAAAClBFSKAoABEACgCpFAhsARQARQESqAhQoIAA54810c5zQdIqRYCgAQIABegBQARUANCgiyooBoAAUERQEABCgCAAOfddHO8g6RYm+1gKAAAAACgAAAipVBFQBaAAqKCAAgAJSqlBAAHPu/Do5zm+QdI0zFgLRFAgqAAAoAAIAAAqVQSKigKiggAIAAlVKCAAMTm+Y2xOb5BtqMtQEiooBSAAAKAAigIAAACiKACggAIABUqpQQABjHmtsY9+QbixI1AKIoEAAVFAAAABAAKABFRQFQAAAQAEyVMgQABid+W2J7BtqMrAIoAAALEAUAAAEA0AAAqKAAACAAAqZLEyBkABjHvzW3Oe6DpFSKClEBYAAqKAAACAAAAAKiwAIAIqAAAsZyaZyBAAHOe66MT3QbistAsAAAAWIAoACKlAAAAAVFAABFEABYAzk0zkCAAMY+62zJ90FaiKAooIKlAAgKACCoBDYAAAKigipFARUAVmNAJkrOQIAAKAhtQE2uwA2bADZsANmwA2bAEgoCWrKAJKKAm12AJs2oCG1ATYoCCgP/9k=");  */
     border-radius: 7.55752px;
 }
 
@@ -180,14 +179,14 @@ a>.optionSelect {
     color: white;
     background-color: #4506C8;
     border-radius: 7px;
-    width: 225px;
+    width: 205px;
     height: 58px;
-    margin-right: 65px;
+    margin-right: 100px;
     cursor: pointer;
+
 }
 
 .qhead {
-    /* margin-top: 10px; */
     padding: 10px;
     margin-left: 30px;
 }
@@ -201,7 +200,6 @@ a>.optionSelect {
 
 .qdesc {
     margin-top: 9px;
-    /* padding: 20px; */
     font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
 }
