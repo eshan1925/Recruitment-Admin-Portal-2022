@@ -3,12 +3,16 @@
 }
 
 .all_questions {
-    overflow: scroll;
+    overflow:scroll;
     display: flex;
     flex-direction: column;
     width: 800px;
     height: 100%;
-    background-color: #050505;
+    background-color: #353535;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 .selected_question {
@@ -34,6 +38,7 @@
     width: 225px;
     height: 58px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .edit {
@@ -54,6 +59,10 @@
     padding: 15px;
 }
 
+.question:hover {
+    background-color: #5207EF;
+    box-shadow: 0 5px 15px rgba(233, 218, 218, 0.3);
+}
 
 .questionNumber {
     font-weight: bold;
@@ -153,7 +162,7 @@ a>.optionSelect {
 
 .questionPic img {
     width: 427px;
-    height: 300.14px;
+    height: 400.14px;
     margin-left: 80px;
     top: 175px;
     background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QEBAPDw0NDQ8PEA8PDw0NDQ8NDQ8PFREWFhURFRUYHSggGBolGxUVITEhJSk3Li4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIANoA5wMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACAQAQEAAgICAgMAAAAAAAAAAAABAhExQXHBgbESIWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9pBn8gaE39LABZF0DI0ugYGtAMjYDA0gILokBBVgMjSgwNgMDRQZFAQIUAABznN+XRzl/dBcW8ZwmMagKABD+AAqRQRQBAgCKAJViKCqiggJQAoCCpQQpSgAAOc5ro5zmg6RqMtQChQDgACKigAAItAQVAAUBUgAFAQVAKioCAtBAAGMea25zmg6LEjUAAAClBFSKAoABEACgCpFAhsARQARQESqAhQoIAA54810c5zQdIqRYCgAQIABegBQARUANCgiyooBoAAUERQEABCgCAAOfddHO8g6RYm+1gKAAAAACgAAAipVBFQBaAAqKCAAgAJSqlBAAHPu/Do5zm+QdI0zFgLRFAgqAAAoAAIAAAqVQSKigKiggAIAAlVKCAAMTm+Y2xOb5BtqMtQEiooBSAAAKAAigIAAACiKACggAIABUqpQQABjHmtsY9+QbixI1AKIoEAAVFAAAABAAKABFRQFQAAAQAEyVMgQABid+W2J7BtqMrAIoAAALEAUAAAEA0AAAqKAAACAAAqZLEyBkABjHvzW3Oe6DpFSKClEBYAAqKAAACAAAAAKiwAIAIqAAAsZyaZyBAAHOe66MT3QbistAsAAAAWIAoACKlAAAAAVFAABFEABYAzk0zkCAAMY+62zJ90FaiKAooIKlAAgKACCoBDYAAAKigipFARUAVmNAJkrOQIAAKAhtQE2uwA2bADZsANmwA2bAEgoCWrKAJKKAm12AJs2oCG1ATYoCCgP/9k=");
