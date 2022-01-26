@@ -99,10 +99,12 @@ a>.question {
     height: 42px;
     width: 142px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .questionType option {
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -266,4 +268,8 @@ p.content {
 
 ::-ms-input-placeholder {
     color: #fff;
+}
+
+.hidden {
+    display: none;
 }

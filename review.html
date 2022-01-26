@@ -41,13 +41,13 @@
 
       <div class="question_selector">
 
-        <select class="questionType" name="questionType" id="questionType">
+        <select class="questionType form-control  " name="questionType" id="category" onchange="selectCategory()">
 
           <option value="All">User</option>
           <option value="easy">Questions</option>
         </select>
       </div>
-      <div class="question_section">
+      <div class="user_section" id="user_section">
         <a href="#">
           <div class="question">
             <div class="questionNumber">Name : Robin Hobin</div>
@@ -126,140 +126,304 @@
           </div>
         </a>
       </div>
+
+
+
+
+
+      <div id="question_section" class="question_section hidden">
+        <a href="#">
+          <div class="question">
+            <div class="questionNumber">Question 1</div>
+            <b>Reg no.</b> : 20BIT0262 <br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp; Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 2</div>
+            <b>Reg no.</b> : 20BIT0262 <br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 3</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 4</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 5</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 6</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 7</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 8</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 9</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 10</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+        <a href="">
+          <div class="question">
+            <div class="questionNumber">Question 11</div>
+            <b>Reg no.</b> : 20BIT0262<br>
+            <b>Attempted Questions</b>: 4 <b>&nbsp;&nbsp;Unattempted Questions</b>: 2 <b>&nbsp;&nbsp;Marks</b>: XX/20
+          </div>
+        </a>
+      </div>
     </div>
     <div class="selected_question"></div>
   </div>
 
 
+
+
+
+
+
   <div class="container" id="container_np">
     <div class="all_options">
 
-      <div class="question_selector_right">
+      <div class="" id="rightQuestionFirst">
+        <div class="question_selector_right">
 
-        <div class="qhead">
-          <h2 class="qnum">Name: Robin Hobin</h2>
-          <p class="qdesc"><span>Registration Number: 20BIT062</span></p>
+          <div class="qhead ">
+            <h2 class="qnum">Name: Robin Hobin</h2>
+            <p class="qdesc"><span>Registration Number: 20BIT062</span></p>
+          </div>
+          <button class="change">Save</button>
         </div>
-        <button class="change">Save</button>
+        <div class="displaySection">
+          <div class="markContainer">
+            <div class="answerUser">
+              <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente
+              laboriosam
+              labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
+              dicta
+              nisi? Nulla, reprehenderit voluptate.
+            </div>
+            <div class="userMarks">
+              <input placeholder="_ _/10" class="score" type="text">
+            </div>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium
+            placeat
+            quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis
+            ratione
+            at deserunt.
+            Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
+            Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
+            rem
+            eius ipsum dolore.
+            Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
+            ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
+            consequatur magnam distinctio vel.
+          </div>
+          <div class="markContainer">
+            <div class="answerUser">
+              <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente
+              laboriosam
+              labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
+              dicta
+              nisi? Nulla, reprehenderit voluptate.
+            </div>
+            <div class="userMarks">
+              <input placeholder="_ _/10" class="score" type="text">
+            </div>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium
+            placeat
+            quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis
+            ratione
+            at deserunt.
+            Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
+            Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
+            rem
+            eius ipsum dolore.
+            Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
+            ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
+            consequatur magnam distinctio vel.
+          </div>
+          <div class="markContainer">
+            <div class="answerUser">
+              <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente
+              laboriosam
+              labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
+              dicta
+              nisi? Nulla, reprehenderit voluptate.
+            </div>
+            <div class="userMarks">
+              <input placeholder="_ _/10" class="score" type="text">
+            </div>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium
+            placeat
+            quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis
+            ratione
+            at deserunt.
+            Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
+            Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
+            rem
+            eius ipsum dolore.
+            Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
+            ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
+            consequatur magnam distinctio vel.
+          </div>
+          <div class="markContainer">
+            <div class="answerUser">
+              <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente
+              laboriosam
+              labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
+              dicta
+              nisi? Nulla, reprehenderit voluptate.
+            </div>
+            <div class="userMarks">
+              <input placeholder="_ _/10" class="score" type="text">
+            </div>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium
+            placeat
+            quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis
+            ratione
+            at deserunt.
+            Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
+            Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
+            rem
+            eius ipsum dolore.
+            Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
+            ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
+            consequatur magnam distinctio vel.
+          </div>
+          <div class="markContainer">
+            <div class="answerUser">
+              <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente
+              laboriosam
+              labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
+              dicta
+              nisi? Nulla, reprehenderit voluptate.
+            </div>
+            <div class="userMarks">
+              <input placeholder="__/10" class="score" type="text">
+            </div>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium
+            placeat
+            quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis
+            ratione
+            at deserunt.
+            Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
+            Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
+            rem
+            eius ipsum dolore.
+            Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
+            ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
+            consequatur magnam distinctio vel.
+          </div>
+        </div>
       </div>
-      <div class="displaySection">
-        <div class="markContainer">
-          <div class="answerUser">
-            <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente laboriosam
-            labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
-            dicta
-            nisi? Nulla, reprehenderit voluptate.
-          </div>
-          <div class="userMarks">
-            <input placeholder="_ _/10" class="score" type="text">
-          </div>
-        </div>
-        <div class="answer">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium placeat
-          quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis ratione
-          at deserunt.
-          Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
-          Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
-          rem
-          eius ipsum dolore.
-          Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
-          ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
-          consequatur magnam distinctio vel.
-        </div>
-        <div class="markContainer">
-          <div class="answerUser">
-            <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente laboriosam
-            labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
-            dicta
-            nisi? Nulla, reprehenderit voluptate.
-          </div>
-          <div class="userMarks">
-            <input placeholder="_ _/10" class="score" type="text">
-          </div>
-        </div>
-        <div class="answer">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium placeat
-          quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis ratione
-          at deserunt.
-          Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
-          Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
-          rem
-          eius ipsum dolore.
-          Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
-          ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
-          consequatur magnam distinctio vel.
-        </div>
-        <div class="markContainer">
-          <div class="answerUser">
-            <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente laboriosam
-            labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
-            dicta
-            nisi? Nulla, reprehenderit voluptate.
-          </div>
-          <div class="userMarks">
-            <input placeholder="_ _/10" class="score" type="text">
+
+
+
+      <div class="hidden" id="rightQuestionSecond">
+        <div class="container" id="container_np">
+          <div class="all_options">
+
+            <div class="question_selector">
+
+              <div class="qhead">
+                <h2 class="qnum">Question <span>1</span> :</h2>
+                <p class="qdesc"><span>Find the Output</span></p>
+              </div>
+              <button class="change">Save Changes</button>
+            </div>
+            <div class="questionPic">
+              <img src="./assets/images/SampleQuestion.png" alt="">
+            </div>
+            <div class="optionList">
+              <a id="decorate" href="#">
+                <div class="options">
+                  <div class="optionSelect">
+                    <p class="content">A. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </a>
+              <a id="decorate" href="#">
+                <div class="options">
+                  <div class="optionSelect">
+                    <p class="content">B. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </a>
+              <a id="decorate" href="#">
+                <div class="options">
+                  <div class="optionSelect">
+                    <p class="content">C. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </a>
+              <a id="decorate" href="#">
+                <div class="options">
+                  <div class="optionSelect">
+                    <p class="content">D. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </a>
+
+            </div>
           </div>
         </div>
-        <div class="answer">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium placeat
-          quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis ratione
-          at deserunt.
-          Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
-          Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
-          rem
-          eius ipsum dolore.
-          Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
-          ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
-          consequatur magnam distinctio vel.
-        </div>
-        <div class="markContainer">
-          <div class="answerUser">
-            <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente laboriosam
-            labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
-            dicta
-            nisi? Nulla, reprehenderit voluptate.
-          </div>
-          <div class="userMarks">
-            <input placeholder="_ _/10" class="score" type="text">
-          </div>
-        </div>
-        <div class="answer">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium placeat
-          quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis ratione
-          at deserunt.
-          Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
-          Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
-          rem
-          eius ipsum dolore.
-          Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
-          ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
-          consequatur magnam distinctio vel.
-        </div>
-        <div class="markContainer">
-          <div class="answerUser">
-            <b>Question 1:</b>&nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente laboriosam
-            labore ab, eius, dolores perferendis atque nam ipsum voluptatibus quidem facere commodi, sit recusandae
-            dicta
-            nisi? Nulla, reprehenderit voluptate.
-          </div>
-          <div class="userMarks">
-            <input placeholder="__/10" class="score" type="text">
-          </div>
-        </div>
-        <div class="answer">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti laudantium placeat
-          quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis debitis ratione
-          at deserunt.
-          Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus quidem.
-          Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores perferendis
-          rem
-          eius ipsum dolore.
-          Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor, quaerat
-          ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium adipisci,
-          consequatur magnam distinctio vel.
-        </div>
+
       </div>
     </div>
+  </div>
+
+
+
+  <script src="./assets/js/review.js"></script>
 
 </body>
 
