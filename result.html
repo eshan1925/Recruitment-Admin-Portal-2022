@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,29 +8,146 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
     <link rel="stylesheet" href="./css/main.css" />
-</head>
+    <link rel="stylesheet" href="./css/result.css" />
+  </head>
 
-<body>
+  <body>
     <div class="navbar">
-        <div class="initial" id="initial">AB</div>
-        <div class="links">
-            <a href="./domain.html" title="Upload Questions">
-                <img src="./assets/navbar/upload.svg" class="active" />
-            </a>
-            <a href="./review.html" title="View Answers">
-                <img src="./assets/navbar/answers.svg" />
-            </a>
-            <a href="./result.html" title="Result">
-                <img src="./assets/navbar/result.svg" />
-            </a>
-            <a href="./task.html" title="Upload Task">
-                <img src="./assets/navbar/task.svg" />
-            </a>
-        </div>
-        <div class="logout" title="Log Out">
-            <img src="./assets/navbar/logout.svg" />
-        </div>
+      <div class="initial" id="initial">AB</div>
+      <div class="links">
+        <a href="./domain.html" title="Upload Questions">
+          <img src="./assets/navbar/upload.svg" class="active" />
+        </a>
+        <a href="./review.html" title="View Answers">
+          <img src="./assets/navbar/answers.svg" />
+        </a>
+        <a href="./result.html" title="Result">
+          <img src="./assets/navbar/result.svg" />
+        </a>
+        <a href="./task.html" title="Upload Task">
+          <img src="./assets/navbar/task.svg" />
+        </a>
+      </div>
+      <div class="logout" title="Log Out">
+        <img src="./assets/navbar/logout.svg" />
+      </div>
     </div>
-</body>
 
+    <!-- Results page -->
+    <div class="results" id="results">
+      <div class="header">
+        <div class="result_selector">
+          <select
+            class="questionType form-control"
+            name="questionType"
+            id="category"
+            onchange="selectCategory()"
+          >
+            <option value="All">All</option>
+            <option value="Selected">Selected</option>
+            <option value="Not Selected">Not Selected</option>
+          </select>
+          <div class="cutoff_set">
+            Set Cutoff Score <span>(Total Score:20.00)</span> &nbsp;&nbsp;
+            <input placeholder="_ _" type="text" />
+          </div>
+          <button class="save">Save</button>
+        </div>
+        <div class="main_heading">
+          Technical Results <br />
+          <span>10 Questions . Objective Type</span>
+        </div>
+        <button class="publish">Publish</button>
+      </div>
+      <div class="student_list">
+        <table class="student_selection_status">
+          <tr class="table_headings">
+            <th class="S_no">S No.</th>
+            <th>Name</th>
+            <th>Reg. No.</th>
+            <th>Marks</th>
+            <th>Status</th>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          <tr class="table_data">
+            <td class="S_no">1.</td>
+            <td>Robin Hobin</td>
+            <td>21BEC0789</td>
+            <td>18/20</td>
+            <td>Selected</td>
+          </tr>
+          
+        </table>
+      </div>
+    </div>
+  </body>
 </html>
