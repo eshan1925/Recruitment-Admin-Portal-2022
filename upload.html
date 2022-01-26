@@ -7,7 +7,7 @@
 		<title>Recruitments Admin | ADG VIT</title>
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="./assets/favicon.png" />
-		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/upload.css" />
 	</head>
 	<body>
 		<div class="navbar">
@@ -31,5 +31,29 @@
 			</div>
 		</div>
 		<div class="container">Upload CSV File Page</div>
+		<div class="upload-window">
+			<div class="uw-text1">Technical Questions</div>
+				<form action="" enctype="multipart/form-data" class="upload-form">
+				<div class="drop-zone">
+				<div class="drop-zone__prompt">
+				<div class="us-text1">
+					Upload the CSV FIle Containing All Questions
+				</div>
+				<div class="us-text2">
+					Drag and Drop
+				</div>
+				<div class="us-text3">
+					or
+				</div>
+				<div class="us-text4">
+					Upload
+				</div>
+			</div>
+			<input type="file" name="myFile" class="drop-zone__input">
+			</div>
+			<input type="submit" class="file-submit">
+		</form>
+		</div>
+		<script src="./js/upload.js"></script>
 	</body>
 </html>
