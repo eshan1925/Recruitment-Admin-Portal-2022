@@ -2,8 +2,7 @@
 
 ## 1. Review.html
 
-![image](https://user-images.githubusercontent.com/78701779/151301929-eab87b7e-49ff-41eb-8200-1641854617d7.png)
-
+![image](https://user-images.githubusercontent.com/78701779/151344125-25e9d6ac-d5d1-48cf-8606-cb12632bff36.png)
 
 ## 2. Result.html
 
