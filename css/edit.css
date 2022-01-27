@@ -90,6 +90,8 @@ a>.question {
     height: 42px;
     width: 142px;
     border-radius: 5px;
+    background-color: #050505;
+    color: #fff;
 }
 
 .questionType option {

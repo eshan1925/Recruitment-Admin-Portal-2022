@@ -1,14 +1,8 @@
 function selectCategory() {
     var category = document.getElementById("category");
-    // console.log(category);
-
     var selectedCategory = category.options[category.selectedIndex].text;
     let element1 = document.getElementById("user_section");
-
     let element2 = document.getElementById("question_section");
-
-
-
     let element3 = document.getElementById("rightQuestionFirst");
     let element4 = document.getElementById("rightQuestionSecond");
 

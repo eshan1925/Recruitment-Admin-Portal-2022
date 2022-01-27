@@ -3,11 +3,12 @@
   width: 100%;
   overflow: scroll;
 }
+
 ::-webkit-scrollbar {
-    width: 0;
-    /* Remove scrollbar space */
-    background:transparent;
-    /* Optional: just make scrollbar invisible */
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
 }
 
 .header {
@@ -29,7 +30,7 @@
   width: 142px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #2D2D2D;
   color: white;
 }
 
@@ -43,11 +44,11 @@
   color: white;
 }
 
-.cutoff_set > span {
+.cutoff_set>span {
   color: grey;
 }
 
-.cutoff_set > input {
+.cutoff_set>input {
   text-align: center;
   color: white;
   background-color: transparent;
@@ -67,7 +68,7 @@
   margin-right: 27%;
 }
 
-.main_heading > span {
+.main_heading>span {
   color: gray;
   font-size: 18px;
 }
@@ -97,27 +98,24 @@
   cursor: pointer;
 }
 
-table{
-    outline: 0;
-    margin-top: 5%;
-    color: rgb(213, 202, 202);
-    width: 100%;
-    font-size: 22px;
-    line-height: 33.4px;
-    text-align: center;
+table {
+  outline: 0;
+  margin-top: 5%;
+  color: rgb(213, 202, 202);
+  width: 100%;
+  font-size: 22px;
+  line-height: 33.4px;
+  text-align: center;
 }
 
-tr{
-    height: 3em;
+tr {
+  height: 3em;
 }
 
-tr:nth-child(even){
-    background-color: rgba(31,31,31,0.4);
+tr:nth-child(even) {
+  background-color: rgba(31, 31, 31, 0.4);
 }
 
-tr:nth-child()
-
-
-.S_no{
-    width: 8rem;
+tr:nth-child() .S_no {
+  width: 8rem;
 }
