@@ -197,7 +197,19 @@ p.content {
     border-radius: 7px;
     width: 170px;
     height: 50px;
-    margin-right: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+
+}
+
+.change_2 {
+
+    color: white;
+    background-color: #4506C8;
+    border-radius: 7px;
+    width: 170px;
+    height: 50px;
+    margin-right: 65px;
     cursor: pointer;
 
 }

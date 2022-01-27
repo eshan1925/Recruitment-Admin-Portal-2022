@@ -40,7 +40,7 @@
 }
 
 .cutoff_set {
-  margin-top: 3%;
+  margin-top: 5%;
   color: white;
 }
 
@@ -50,6 +50,7 @@
 
 .cutoff_set>input {
   text-align: center;
+  margin-top: 5px;
   color: white;
   background-color: transparent;
   width: 45px;
@@ -86,7 +87,7 @@
 }
 
 .save {
-  margin-top: 2%;
+  margin-top: 6%;
 
   color: white;
   background-color: #4506c8;
@@ -118,4 +119,8 @@ tr:nth-child(even) {
 
 tr:nth-child() .S_no {
   width: 8rem;
+}
+
+.hidden {
+  display: none;
 }
