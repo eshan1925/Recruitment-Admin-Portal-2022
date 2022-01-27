@@ -207,3 +207,7 @@ p.content {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
 }
+
+.hidden {
+    display: none;
+}

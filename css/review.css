@@ -220,6 +220,12 @@ p.content {
     color: rgba(255, 255, 255, 0.7);
 }
 
+.sreg {
+    margin-top: 9px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .markContainer {
     display: flex;
     flex-direction: row;
