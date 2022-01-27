@@ -30,28 +30,30 @@
 				<img src="./assets/navbar/logout.svg" />
 			</div>
 		</div>
-		<div class="upload-window">
-			<div class="uw-text1">Technical Questions</div>
-				<form action="" enctype="multipart/form-data" class="upload-form">
-				<div class="drop-zone">
-				<div class="drop-zone__prompt">
-				<div class="us-text1">
-					Upload the CSV FIle Containing All Questions
+		<div class="uploadArea">
+			<div class="upload-window">
+				<div class="uw-text1">Technical Questions</div>
+					<form action="" enctype="multipart/form-data" class="upload-form">
+					<div class="drop-zone">
+					<div class="drop-zone__prompt">
+					<div class="us-text1">
+						Upload the CSV FIle Containing All Questions
+					</div>
+					<div class="us-text2">
+						Drag and Drop
+					</div>
+					<div class="us-text3">
+						or
+					</div>
+					<div class="us-text4">
+						Upload
+					</div>
 				</div>
-				<div class="us-text2">
-					Drag and Drop
+				<input type="file" name="myFile" class="drop-zone__input">
 				</div>
-				<div class="us-text3">
-					or
-				</div>
-				<div class="us-text4">
-					Upload
-				</div>
+				<input type="submit" class="file-submit">
+			</form>
 			</div>
-			<input type="file" name="myFile" class="drop-zone__input">
-			</div>
-			<input type="submit" class="file-submit">
-		</form>
 		</div>
 		<script src="./assets/upload.js"></script>
 	</body>
