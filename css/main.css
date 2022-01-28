@@ -21,9 +21,24 @@ html {
 
 body {
 	height: 100vh;
+	width: 100vw;
+	padding: 0;
 	display: flex;
 	flex-direction: row;
 	background: #131313;
+	font-family: GilroyMedium;
+}
+
+a {
+	text-decoration: none;
+}
+button {
+	font-family: GilroyMedium;
+	font-size: 16px;
+	line-height: 143%;
+	letter-spacing: 1px;
+	font-weight: 500;
+	border: none;
 }
 
 .navbar {
@@ -32,7 +47,8 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	width: 99px;
+	width: 5vw;
+	min-width: 5vw;
 	height: 100vh;
 	padding-top: 1%;
 	padding-bottom: 1%;

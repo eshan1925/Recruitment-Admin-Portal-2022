@@ -1,213 +1,223 @@
 #container_np {
-    padding: 0%;
-    max-width: 740px;
+	padding: 0%;
+	width: 45vw;
 }
 
 .all_questions {
-    overflow: scroll;
-    display: flex;
-    flex-direction: column;
-    width: 740px;
-    height: 100%;
-    background-color: #050505;
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	height: 100%;
+	background-color: #1f1f1f;
 }
 
 ::-webkit-scrollbar {
-    width: 0;
-    /* Remove scrollbar space */
-    background: transparent;
-    /* Optional: just make scrollbar invisible */
+	width: 0;
+	/* Remove scrollbar space */
+	background: transparent;
+	/* Optional: just make scrollbar invisible */
 }
 
 .selected_question {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    background-color: #2D2D2D;
+	display: flex;
+	flex-direction: column;
+	/* width: 100%; */
+	background-color: #2d2d2d;
 }
 
 .question_selector {
-    position: relative;
-    width: 740px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1.8rem;
+	position: absolute;
+	width: 50%;
+	height: 10vh;
+	padding-top: 5%;
+	/* margin-bottom: 15vh; */
+	overflow: hidden;
+	background-color: #1f1f1f;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.8rem;
+}
+.question_selector1 {
+	position: absolute;
+	width: 45%;
+	height: 10vh;
+	padding-top: 5%;
+	overflow: hidden;
+	background-color: #131313;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.8rem;
 }
 
 .publish {
-    color: white;
-    background-color: #4506C8;
-    border-radius: 7px;
-    width: 225px;
-    height: 58px;
-    /* margin-left: 10px; */
-    /* margin-right: 50px; */
-    cursor: pointer;
-
+	color: white;
+	background-color: #4506c8;
+	border-radius: 7px;
+	width: auto;
+	height: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	/* margin-left: 10px; */
+	/* margin-right: 50px; */
+	cursor: pointer;
 }
 
 .edit {
-    color: white;
-    background-color: #4506C8;
-    border-radius: 7px;
-    width: 225px;
-    height: 58px;
-    margin-left: 430px;
+	color: white;
+	background-color: #4506c8;
+	border-radius: 7px;
+	width: 225px;
+	height: 58px;
+	margin-left: 430px;
 }
-
+.question_section,
+.questionView {
+	/* overflow-y: scroll; */
+	margin-top: 15vh;
+}
 .question {
-    border-radius: 12px;
-    background-color: #2B2B2B;
-    width: 654px;
-    height: 119px;
-    margin: 15px;
-    padding: 15px;
+	border-radius: 12px;
+	background-color: #2b2b2b;
+	width: 95%;
+	height: 119px;
+	margin: 15px;
+	padding: 15px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 143%;
+	color: rgba(255, 255, 255, 0.7);
+	border: 3px solid #2b2b2b;
 }
 
 .question:hover {
-    /* background-color: #5207EF;
-    box-shadow: 0 5px 15px rgba(233, 218, 218, 0.3); */
-    border: 3px solid #5207EF;
-    box-shadow: 0 5px 15px rgba(233, 218, 218, 0.3);
+	border: 3px solid #5207ef;
 }
-
 
 .questionNumber {
-    font-weight: bold;
-    font-size: large;
+	font-weight: bold;
+	font-size: large;
 }
-
-
-a>.question {
-    color: white;
-    text-decoration: none !important;
-}
-
-
 
 .questionType {
-    height: 42px;
-    width: 142px;
-    border-radius: 5px;
-    background-color: #050505;
-    color: #fff;
+	height: 50px;
+	width: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-radius: 6.17255px;
+	border: 2px solid #2b2b2b;
+	background: transparent;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #fff;
+	font-family: GilroyMedium;
 }
 
 .questionType option {
-    text-align: center;
+	border: none;
+	width: auto;
 }
-
-
-
 
 /*  -----------Right Side Css---------------- */
 
 .all_options {
-    overflow: scroll;
-    display: flex;
-    flex-direction: column;
-    width: 700px;
-    height: 100%;
-    background-color: #1d1d1d;
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+	width: 45vw;
+	height: 100%;
+	background-color: #131313;
+	right: 0;
 }
 
 .options {
-    border-radius: 12px;
-    background-color: #2B2B2B;
-    width: 500px;
-    height: 60px;
-    margin-left: 70px;
-    padding: 15px;
-    margin-top: 15px;
-    border-radius: 6px;
-
+	background: #2b2b2b;
+	border: 3px solid #383838;
+	width: 90%;
+	height: auto;
+	padding: 2%;
+	margin-top: 2%;
+	border-radius: 6px;
 }
 
-a>.options {
-    color: white;
-    text-decoration: none !important;
+a > .options {
+	color: white;
+	text-decoration: none !important;
 
-    min-height: 10vh;
-
+	min-height: 10vh;
 }
 
-
-
-a>.optionSelect {
-    color: white;
-    text-decoration: none !important;
+a > .optionSelect {
+	color: white;
+	text-decoration: none !important;
 }
-
-
-
 
 .optionSelect {
-    font-weight: 100;
-    font-size: 1rem;
-    text-align: left;
-    word-wrap: break-word;
-
-
+	font-weight: 100;
+	font-size: 1rem;
+	text-align: left;
+	padding: 0.5%;
+	word-wrap: break-word;
 }
 
 .options:hover {
-    background-color: #5207EF;
-    box-shadow: 0 5px 15px rgba(233, 218, 218, 0.3);
+	background-color: #5207ef;
+	border: 3px solid #7747dc;
+	/* box-shadow: 0 5px 15px rgba(233, 218, 218, 0.3); */
 }
 
-
 .optionList {
-    margin-top: 20px;
-    margin-bottom: 5;
-    display: flex;
+	margin-top: 5%;
+	padding-left: 5%;
+	margin-bottom: 5%;
+	display: flex;
 
-    flex-direction: column;
-
+	flex-direction: column;
 }
 
 p.content {
-    flex: 1;
+	flex: 1;
 }
 
-
 .questionPic img {
-    width: 427px;
-    height: 400.14px;
-    margin-left: 80px;
-    top: 175px;
-    border-radius: 7.55752px;
+	width: 427px;
+	height: 400.14px;
+	padding-left: 5%;
+	top: 175px;
+	border-radius: 7.55752px;
 }
 
 .change {
-    color: white;
-    background-color: #4506C8;
-    border-radius: 7px;
-    width: 205px;
-    height: 58px;
-    margin-right: 100px;
-    cursor: pointer;
-
+	color: white;
+	background-color: #4506c8;
+	border-radius: 7px;
+	width: auto;
+	height: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	/* margin-right: 100px; */
+	cursor: pointer;
 }
 
 .qhead {
-    padding: 10px;
-    margin-left: 30px;
-}
+	padding: 2%;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 143%;
+	/* or 34px */
 
-.qhead h2 {
-    color: rgba(255, 255, 255, 0.7);
-    margin-top: -10px;
-    font-size: 24px;
-    font-weight: 100;
-}
+	letter-spacing: 1px;
 
-.qdesc {
-    margin-top: 9px;
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.7);
+	/* Text/Secondary */
+
+	color: rgba(255, 255, 255, 0.7);
 }
 
 .hidden {
-    display: none;
+	display: none;
 }
