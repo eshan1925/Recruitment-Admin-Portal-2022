@@ -121,6 +121,7 @@
 .questionType option {
 	border: none;
 	width: auto;
+	background-color: #2b2b2b;
 }
 
 /*  -----------Right Side Css---------------- */
