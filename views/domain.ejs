@@ -1,0 +1,66 @@
+<%- include("header") -%> 
+<link rel="stylesheet" href="css/domain.css" />
+</head>
+<body>
+    <%- include("navbar") -%>
+
+<div class="domainArea">
+      <div class="choose_domain">
+        <div class="uw-text1">Choose a Domain</div>
+        <div class="uw-text1" id="sub_heading">
+          Select a domain and Start Test for Round 1
+        </div>
+        <div class="radio_domain">
+          <form action="">
+            <div class="single_domain">
+				<img src="./assets/images/Tech.png" alt="technical" class="domain_icon">
+              <label for="Technical">
+                Technical <br />
+                <span>5 Questions,12 mins, Subjective Type</span>
+              </label>
+              <input
+                type="radio"
+                id="Technical"
+                name="selected_domain"
+                value="Technical"
+              />
+            </div>
+            <br />
+            <div class="single_domain">
+				<img src="./assets/images/design.png" alt="design" class="domain_icon">
+              <label for="Design"
+                >Design<br />
+                <span>5 Questions,12 mins, Subjective Type</span></label
+              ><input
+                type="radio"
+                id="Design"
+                name="selected_domain"
+                value="Design"
+              />
+            </div>
+
+            <br />
+            <div class="single_domain">
+				<img src="./assets/images/management.png" alt="management" class="domain_icon">
+              <label for="Management"
+                >Management<br />
+                <span>5 Questions,12 mins, Subjective Type</span></label
+              >
+              <input
+                type="radio"
+                id="Management"
+                name="selected_domain"
+                value="Management"
+              />
+            </div>
+            <br />
+          </form>
+        </div>
+        <div class="buttons">
+          <button class="upload">Upload Questions</button>
+          <button class="edit">Edit Questions</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<%- include("header") -%> 
+<link rel="stylesheet" href="css/review.css" />
+</head>
+<body>
+    <%- include("navbar") -%>
+    <link rel="stylesheet" href="./css/upload.css" />
+	</head>
+	<body>
+		<div class="uploadArea">
+			<div class="upload-window">
+				<div class="uw-text1">Technical Questions</div>
+					<form action="" enctype="multipart/form-data" class="upload-form">
+					<div class="drop-zone">
+					<div class="drop-zone__prompt">
+					<div class="us-text1">
+						Upload the CSV FIle Containing All Questions
+					</div>
+					<div class="us-text2">
+						Drag and Drop
+					</div>
+					<div class="us-text3">
+						or
+					</div>
+					<div class="us-text4">
+						Upload
+					</div>
+				</div>
+				<input type="file" name="myFile" class="drop-zone__input">
+				</div>
+				<input type="submit" class="file-submit" value="Upload Questions">
+			</form>
+			</div>
+		</div>
+		<script src="./assets/js/upload.js"></script>
+	</body>
+</html>

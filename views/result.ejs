@@ -1,0 +1,104 @@
+<%- include("header") -%> 
+<link rel="stylesheet" href="css/result.css" />
+</head>
+<body>
+    <%- include("navbar") -%>
+    <!-- Results page -->
+  <div class="results" id="results">
+    <div class="header">
+      <div class="result_selector">
+        <select class="questionType form-control" name="questionType" id="category" onchange="selectCategory()">
+          <option value="All">All</option>
+          <option value="Selected">Selected</option>
+          <option value="Not Selected">Not Selected</option>
+        </select>
+        <div class="cutoff_set">
+          Set Cutoff Score <span>(Total Score:20.00)</span> &nbsp;&nbsp;
+          <input placeholder="_ _" type="text" />
+        </div>
+        <button class="save">Save</button>
+      </div>
+      <div class="main_heading">
+        Technical Results <br />
+        <span>10 Questions . Objective Type</span>
+      </div>
+      <button class="publish">Publish</button>
+    </div>
+    <div class="student_list" id="all">
+      <table class="student_selection_status">
+        <tr class="table_headings">
+          <th class="S_no">S No.</th>
+          <th>Name</th>
+          <th>Reg. No.</th>
+          <th>Marks</th>
+          <th>Status</th>
+        </tr>
+        <% for(var i=0;i<50;i=i+2){ %> 
+        <tr class="table_data">
+          <td class="S_no"><%= i+1 %></td>
+          <td>Robin Hobin</td>
+          <td>21BEC0789</td>
+          <td>18/20</td>
+          <td>Selected</td>
+        </tr>
+        <tr class="table_data">
+          <td class="S_no"><%= i+2 %></td>
+          <td>Robin Hobin</td>
+          <td>21BEC0789</td>
+          <td>18/20</td>
+          <td>Not Selected</td>
+        </tr>
+        <% } %> 
+      </table>
+    </div>
+
+    <!-- Selected -->
+
+    <div class="student_list hidden" id="selected">
+      <table class="student_selection_status">
+        <tr class="table_headings">
+          <th class="S_no">S No.</th>
+          <th>Name</th>
+          <th>Reg. No.</th>
+          <th>Marks</th>
+          <th>Status</th>
+        </tr>
+        <% for(var i=0;i<25;i++){ %> 
+        <tr class="table_data">
+          <td class="S_no"><%= i+1 %></td>
+          <td>Robin Hobin</td>
+          <td>21BEC0789</td>
+          <td>18/20</td>
+          <td>Selected</td>
+        </tr>
+        <% } %> 
+      </table>
+    </div>
+
+    <!-- Not Selected -->
+
+    <div class="student_list hidden" id="notselected">
+      <table class="student_selection_status">
+        <tr class="table_headings">
+          <th class="S_no">S No.</th>
+          <th>Name</th>
+          <th>Reg. No.</th>
+          <th>Marks</th>
+          <th>Status</th>
+        </tr>
+        <% for(var i=0;i<25;i++){ %> 
+        <tr class="table_data">
+          <td class="S_no"><%= i+1 %></td>
+          <td>Robin Hobin</td>
+          <td>21BEC0789</td>
+          <td>18/20</td>
+          <td>Not Selected</td>
+        </tr>
+        <% } %> 
+      </table>
+    </div>
+  </div>
+  <script src="./assets/js/result.js"></script>
+</body>
+
+</html>
