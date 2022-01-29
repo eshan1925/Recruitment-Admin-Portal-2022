@@ -1,5 +1,17 @@
 # Recruitment-Admin-Portal-2022
 
+For running the project just clone the repo open terminal and give the following commands-:
+
+```
+npm install
+```
+
+After this -:
+```
+nodemon index.js
+```
+
+
 ## 1. Review.html
 
 ![image](https://user-images.githubusercontent.com/78701779/151344125-25e9d6ac-d5d1-48cf-8606-cb12632bff36.png)
