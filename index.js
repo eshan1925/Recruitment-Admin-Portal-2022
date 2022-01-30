@@ -28,6 +28,8 @@ app.get("/domain", function (req, res) {
 app.get("/result", function (req, res) {
     if(activeCookie!=""){
         res.render("result.ejs");
+    }else{
+        res.redirect("/");
     }
    
 });
@@ -35,6 +37,8 @@ app.get("/result", function (req, res) {
 app.get("/review", function (req, res) {
     if(activeCookie!=""){
         res.render("review.ejs");
+    }else{
+        res.redirect("/");
     }
     
 });
@@ -42,6 +46,8 @@ app.get("/review", function (req, res) {
 app.get("/upload", function (req, res) {
     if(activeCookie!=""){
         res.render("upload.ejs");
+    }else{
+        res.redirect("/");
     }
     
 });
@@ -49,6 +55,8 @@ app.get("/upload", function (req, res) {
 app.get("/edit", function (req, res) {
     if(activeCookie!=""){
         res.render("edit.ejs");
+    }else{
+        res.redirect("/");
     }
     
 });
