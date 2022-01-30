@@ -12,29 +12,45 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 
 //localhost:3000  www.xyz.com/domain
-
+var activeCookie = "";
 app.get("/", function (req, res) {
     res.render("login.ejs");
 });
 
 app.get("/domain", function (req, res) {
-    res.render("domain.ejs");
+    if(activeCookie!=""){
+        res.render("domain.ejs");
+    }else{
+        res.redirect("/");
+    }
 });
 
 app.get("/result", function (req, res) {
-    res.render("result.ejs");
+    if(activeCookie!=""){
+        res.render("result.ejs");
+    }
+   
 });
 
 app.get("/review", function (req, res) {
-    res.render("review.ejs");
+    if(activeCookie!=""){
+        res.render("review.ejs");
+    }
+    
 });
 
 app.get("/upload", function (req, res) {
-    res.render("upload.ejs");
+    if(activeCookie!=""){
+        res.render("upload.ejs");
+    }
+    
 });
 
 app.get("/edit", function (req, res) {
-    res.render("edit.ejs");
+    if(activeCookie!=""){
+        res.render("edit.ejs");
+    }
+    
 });
 
 app.listen(3000, function () {
@@ -59,7 +75,7 @@ app.post("/", function (req, res) {
 
         axios(config)
             .then(function (response) {
-                var activeCookie = response.data.Token;
+                activeCookie = response.data.Token;
                 console.log(activeCookie);
                 res.redirect("/domain");
             })
