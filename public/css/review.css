@@ -1,13 +1,13 @@
 #container_np {
     padding: 0%;
-    max-width: 740px;
+    max-width: 45vw;
 }
 
 .selection_area {
     overflow: scroll;
     display: flex;
     flex-direction: column;
-    width: 740px;
+    width: 50vw;
     height: 100%;
     background-color: #141313;
 }
@@ -27,21 +27,51 @@
 }
 
 .question_selector {
-    position: relative;
-    width: 740px;
+    position: absolute;
+    width: 50%;
+    height: 10vh;
+    padding-top: 5%;
+    /* margin-bottom: 15vh; */
+    overflow: hidden;
+    background-color: #131313;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 1.8rem;
 }
 
-.question_selector_right {
-    position: fixed;
+.question_selector_x {
+    position: absolute;
+    width: 45%;
+    height: 10vh;
+    padding-top: 5%;
+    /* margin-bottom: 15vh; */
+    overflow: hidden;
     background-color: #1d1d1d;
-    width: 700px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem;
+}
+
+.user_section,
+.question_section {
+    margin-top: 15vh;
+}
+
+.question_selector_right {
+    position: absolute;
+    width: 45%;
+    height: 10vh;
+    padding-top: 5%;
+    overflow: hidden;
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 1.8rem;
 }
 
@@ -118,7 +148,8 @@ a>.question {
     overflow: scroll;
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 45vw;
+    color: #fff;
     height: 100%;
     background-color: #1d1d1d;
 }
@@ -186,7 +217,8 @@ p.content {
     width: 427px;
     height: 400.14px;
     margin-left: 80px;
-    top: 175px;
+    /* top: 175px; */
+    margin-top: 15vh;
     border-radius: 7.55752px;
 }
 
@@ -195,9 +227,11 @@ p.content {
     color: white;
     background-color: #4506C8;
     border-radius: 7px;
-    width: 170px;
+    width: auto;
     height: 50px;
-    margin-right: 25px;
+    /* margin-right: 25px; */
+    padding-left: 10%;
+    padding-right: 10%;
     cursor: pointer;
 
 }
@@ -207,9 +241,11 @@ p.content {
     color: white;
     background-color: #4506C8;
     border-radius: 7px;
-    width: 170px;
+    width: auto;
     height: 50px;
-    margin-right: 65px;
+    /* margin-right: 25px; */
+    padding-left: 10%;
+    padding-right: 10%;
     cursor: pointer;
 
 }
@@ -222,13 +258,13 @@ p.content {
 .qhead h2 {
     color: rgba(255, 255, 255, 0.7);
     margin-top: -10px;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 100;
 }
 
 .qdesc {
     margin-top: 9px;
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
 }
 
