@@ -8,8 +8,12 @@ const mongoose = require("mongoose");
 var fs = require('fs');
 var path = require('path');
 var multer = require('multer');
-var fileModel = require('./model');
+var technicalFileModel = require('./models/technicalModel');
+var designFileModel = require('./models/designModel');
+var managementModel = require('./models/managementModel');
+
 var csv = require('csvtojson');
+const req = require('express/lib/request');
 
 var storage = multer.diskStorage({
     destination: (req, file, cb) => {
@@ -36,7 +40,7 @@ app.use(express.static(__dirname + "/public"));
 
 //localhost:3000  www.xyz.com/domain
 var activeCookie = "";
-
+var selectedDomain = "";
 
 
 
@@ -92,7 +96,6 @@ app.get("/edit", function (req, res) {
 
 
 app.post("/", function (req, res) {
-    console.log(req.body);
     if (req.body.email === process.env.ADMIN_EMAIL && req.body.password === process.env.ADMIN_PASSWORD) {
         var credentials = JSON.stringify({
             "email": process.env.ADMIN_EMAIL,
@@ -110,7 +113,6 @@ app.post("/", function (req, res) {
         axios(config)
             .then(function (response) {
                 activeCookie = response.data.Token;
-                console.log(activeCookie);
                 res.redirect("/domain");
             })
             .catch(function (error) {
@@ -129,14 +131,45 @@ app.post('/upload', uploads.single('csv'), (req, res) => {
             temp = parseInt(jsonObj[i].SNo);
             jsonObj[i].SNo = temp;
         };
-        fileModel.insertMany(jsonObj, (err,data) => {
-            if (err) {
-                console.log(err);
-            } else {
-                res.redirect("/upload");
-            }
-        });
+        if (selectedDomain === "Technical") {
+            technicalFileModel.insertMany(jsonObj, (err, data) => {
+                if (err) {
+                    console.log(err);
+                } else {
+                    res.redirect("/upload");
+                }
+            });
+        } else if (selectedDomain === "Design") {
+            designFileModel.insertMany(jsonObj, (err, data) => {
+                if (err) {
+                    console.log(err);
+                } else {
+                    res.redirect("/upload");
+                }
+            });
+        } else if(selectedDomain === "Management") {
+            managementModel.insertMany(jsonObj, (err, data) => {
+                if (err) {
+                    console.log(err);
+                } else {
+                    res.redirect("/upload");
+                }
+            });
+        } else{
+            console.log("No data added");
+            res.redirect("/upload");
+        }
     })
+});
+
+
+app.post("/domain", function (req, res) {
+    if (req.body.selected_domain != null) {
+        selectedDomain = req.body.selected_domain;
+        res.redirect("/upload");
+    } else {
+        res.redirect("/domain");
+    }
 });
 
 

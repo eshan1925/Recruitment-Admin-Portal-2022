@@ -9,7 +9,7 @@
 .choose_domain {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
     padding: 51px 54px;
     width: 480px;
