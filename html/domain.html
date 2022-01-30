@@ -1,93 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recruitments Admin | ADG VIT</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./assets/favicon.png" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/domain.css" />
-  </head>
-  <body>
-    <div class="navbar">
-      <div class="initial" id="initial">AB</div>
-      <div class="links">
-        <a href="./domain.html" title="Upload Questions">
-          <img src="./assets/navbar/upload.svg" class="active" />
-        </a>
-        <a href="./review.html" title="View Answers">
-          <img src="./assets/navbar/answers.svg" />
-        </a>
-        <a href="./result.html" title="Result">
-          <img src="./assets/navbar/result.svg" />
-        </a>
-        <a href="./upload.html" title="Upload Task">
-          <img src="./assets/navbar/task.svg" />
-        </a>
-      </div>
-      <div class="logout" title="Log Out">
-        <img src="./assets/navbar/logout.svg" />
-      </div>
-    </div>
-    <div class="domainArea">
-      <div class="choose_domain">
-        <div class="uw-text1">Choose a Domain</div>
-        <div class="uw-text1" id="sub_heading">
-          Select a domain and Start Test for Round 1
-        </div>
-        <div class="radio_domain">
-          <form action="">
-            <div class="single_domain">
-				<img src="./assets/images/Tech.png" alt="technical" class="domain_icon">
-              <label for="Technical">
-                Technical <br />
-                <span>5 Questions,12 mins, Subjective Type</span>
-              </label>
-              <input
-                type="radio"
-                id="Technical"
-                name="selected_domain"
-                value="Technical"
-              />
-            </div>
-            <br />
-            <div class="single_domain">
-				<img src="./assets/images/design.png" alt="design" class="domain_icon">
-              <label for="Design"
-                >Design<br />
-                <span>5 Questions,12 mins, Subjective Type</span></label
-              ><input
-                type="radio"
-                id="Design"
-                name="selected_domain"
-                value="Design"
-              />
-            </div>
 
-            <br />
-            <div class="single_domain">
-				<img src="./assets/images/management.png" alt="management" class="domain_icon">
-              <label for="Management"
-                >Management<br />
-                <span>5 Questions,12 mins, Subjective Type</span></label
-              >
-              <input
-                type="radio"
-                id="Management"
-                name="selected_domain"
-                value="Management"
-              />
-            </div>
-            <br />
-          </form>
-        </div>
-        <div class="buttons">
-          <button class="upload">Upload Questions</button>
-          <button class="edit">Edit Questions</button>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recruitments Admin | ADG VIT</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="../public/css/main.css" />
+  <link rel="stylesheet" href="../public/css/domain.css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="initial" id="initial">AB</div>
+    <div class="links">
+      <a href="./domain.html" title="Upload Questions">
+        <img src="../public/assets/navbar/upload.svg" class="active" />
+      </a>
+      <a href="./review.html" title="View Answers">
+        <img src="../public/assets/navbar/answers.svg" />
+      </a>
+      <a href="./result.html" title="Result">
+        <img src="../public/assets/navbar/result.svg" />
+      </a>
+      <a href="./upload.html" title="Upload Task">
+        <img src="../public/assets/navbar/task.svg" />
+      </a>
+    </div>
+    <div class="logout" title="Log Out">
+      <img src="../public/assets/navbar/logout.svg" />
+    </div>
+  </div>
+
+  
+  <div class="domainArea">
+    <div class="choose_domain">
+      <div class="uw-text1">Choose a Domain</div>
+      <div class="uw-text1" id="sub_heading">
+        Select a domain and Start Test for Round 1
+      </div>
+      <div class="radio_domain">
+        <form action="">
+          <div class="single_domain">
+            <img src="../public/assets/images/Tech.png" alt="technical" class="domain_icon">
+            <label for="Technical">
+              Technical <br />
+              <span>5 Questions,12 mins, Subjective Type</span>
+            </label>
+            <input type="radio" id="Technical" name="selected_domain" value="Technical" />
+          </div>
+          <br />
+          <div class="single_domain">
+            <img src="../public/assets/images/design.png" alt="design" class="domain_icon">
+            <label for="Design">Design<br />
+              <span>5 Questions,12 mins, Subjective Type</span></label><input type="radio" id="Design"
+              name="selected_domain" value="Design" />
+          </div>
+
+          <br />
+          <div class="single_domain">
+            <img src="../public/assets/images/management.png" alt="management" class="domain_icon">
+            <label for="Management">Management<br />
+              <span>5 Questions,12 mins, Subjective Type</span></label>
+            <input type="radio" id="Management" name="selected_domain" value="Management" />
+          </div>
+          <br />
+        </form>
+      </div>
+      <div class="buttons">
+        <button class="upload">Upload Questions</button>
+        <button class="edit">Edit Questions</button>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

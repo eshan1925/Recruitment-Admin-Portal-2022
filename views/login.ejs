@@ -1,29 +1,31 @@
-<%- include("header") -%> 
-<link rel="stylesheet" href="css/login.css" />
-</head>
-<body>
-    
-    <div class="log-body" style="color: aliceblue;">
-        <div class="pic">
-            <img src="../assets/images/New Logo 1.png" alt="" srcset="">
-        </div>
-        <div class="log-in">
+<%- include("header") -%>
+    <link rel="stylesheet" href="css/login.css" />
+    </head>
 
-            <div class="lines">
-                <h2 >Login</h2>
-                <h3>Log in with the admin Credentials</h3>
+    <body>
+
+        <div class="container">
+            <div class="logo">
+                <img src="../assets/images/New Logo 1.png" alt="" class="adg">
             </div>
-        
-        <form action="/" method="post">
-            <p>E Mail ID</p>
-            <input name="email" type="text" placeholder="Enter your E Mail ID">
-            <p>Password</p>
-            <input name="password" type="password" placeholder="Enter your Password">
-            <br>
-            <br>
-            <button id="btn" type="submit">Login</button>
-        </form>
-    </div>
-    </div>
-</body>
-</html>
+
+            <div class="login-area">
+                <div class="lines">
+                    <h2>Login</h2>
+                    <h3>Log in with the admin Credentials</h3>
+                </div>
+
+                <form class="form1" action="/" method="post">
+                    <p>E Mail ID</p>
+                    <input name="email" type="text" placeholder="Enter your E Mail ID">
+                    <p>Password</p>
+                    <input name="password" type="password" placeholder="Enter your Password">
+                    <br>
+                    <br>
+                    <button id="btn" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </body>
+
+    </html>
