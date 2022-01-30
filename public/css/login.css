@@ -97,3 +97,8 @@
   border: none;
   padding: 20px 16px;
 }
+
+input {
+  background-color: #2b2b2b;
+  color: #fff;
+}
