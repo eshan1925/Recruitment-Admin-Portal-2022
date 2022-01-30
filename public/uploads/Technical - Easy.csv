@@ -1,0 +1,2058 @@
+,Technical questions,,,,,,
+Sl no.,Question,Option A,Option B,Option C,Option D,Correct Ans,Name
+1,Accessing an element in a Python list is as quick as accessing an element in an array in C,TRUE,FALSE,,,FALSE,srinivas
+2,What is the default algorithm used by sort() method in Python?,Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Merge sort,srinivas
+3,What will be the value printed?,Error,"[2, 4, 6, 8, 10]","[4, 16, 36, 64, 100]","[2, 4, 36, 64, 10]","[4, 16, 36, 64, 100]",srinivas
+4, What does stdio stand for?,secure input output,Standard Input Output,streamed input output,String Input Output,Standard Input Output,Haneet
+5,What is the maximum length of a Python identifier?,128,32,16,No fixed length,D,saswata
+6,,633,632,8,error,A,saswata
+7,which of the following initialises each block value to 0 during dynamic allocation,malloc,realloc,calloc,none,calloc,Haneet
+8,C is a ______________,Assembly Language,Structured Programming Language,Object Oriented Language,None of these,Structured Porgramming Language,Haneet
+9,How will you convert the uppercase characters to lowercase  in python,lower(),toLower(),lowerCase(),toLow(),A,Adwaita
+10,Which of the following is an OOPS concept,Abstraction,Encapsulation,Polymorphism,All of the above,D,Adwaita
+11,"# predict output
+dict={26:26,20:'20','26':26,'20':30}
+dict['26']=20
+print(dict[dict[dict[str(dict[26])]]])",26,30,20,    '20',B,Adwaita
+12,What will be the datatype of the var in the below code snippet?,str and int,int and int,str and str,int and str,str and int,saswata
+13,Which of the following concepts is not a part of Python?,Dynamic type casting,Dictionary ,pointers ,All of the above,pointers,saswata
+14,What will be the output of the following code snippet?,0,1,2,error,B,saswata
+15,What is the output for the program?,4525,2525,4545,None,A,Haneet
+16,What will be the output of the following code snippet?,Global,Local,None,error,B,saswata
+17,"What is the output of this statement ""printf(""%d"", (a++))""?",The value of (a + 1),The current value of a,Error message,Garbage,B,Haneet
+18,Which of the following types of loops are not supported in Python?,for,do while,while,none,B,saswata
+19,"# predict output
+def calc_disp(x):
+    if(x == 0):
+        return 0
+
+    return calc_disp(x-1)+2*x-1
+print(calc_disp(12))",60,144,24,0,B,Adwaita
+20,"On applying format function on a string , it will return ",int,bool,str,null,C,Adwaita
+21,"If abcdefg is the input, the output will be
+
+int main()  
+{  
+   char x [10], *ptr = x;  
+  scanf (""%s"", x);  
+  change(&x[4]);  
+}  
+ change(char a[])  
+ {  
+   puts(a);  
+ }  ",abcd,abc,efg,garbage,C,Haneet
+22,Which of the following is an infinite LOOP,for(1):,while(1):,while(0):,None,B,Adwaita
+23,,,,,,,
+24,What is faster a loop or recursion?,Loop,Recursion ,Both have same speed,None,A,Harsh Rajpal
+25,What is the output of for(int x=5;x>1;x--) which pre decrements x by 1 in its body everytime it runs.,2345,42,5432,53,C,Harsh Rajpal
+26,"In Python,  print(APPLE == BANANA) will print ?",False ,TRUE,Name Error,Type error,C,Harsh Rajpal
+27,"""L[::-1]"" What happens to a list L in python?",Slice the list in half,Error,Make every element null,Reverse the list,D,Harsh Rajpal
+28,"In Python, result of print(11.21%10)",1.121,1.21,Error,112.1,B,Harsh Rajpal
+29,"Find the output:   r = lambda q: q * 5
+s = lambda q: q * 3
+x = 1
+x = s(x) 
+x = s(x) 
+x = r(x) 
+print (x)
+",14,45,15,20,B,Shubh Kapil
+30,Why did ALFRED VAINO AHO win the Turing award for 2020,"For fundamental algorithms and theory underlying programming language implementation and for synthesizing these results and those of others in their highly influential books, which educated generations of computer scientists.","For fundamental contributions to 3D computer graphics, and the impact of computer-generated imagery (CGI) in filmmaking and other applications.","In recognition of his fundamental contributions to the theory of computation, including the complexity-based theory of pseudorandom number generation, cryptography, and communication complexity.","for ideas fundamental to the emergence of object oriented programming, through their design of the programming languages Simula I and Simula 67.","a) For fundamental algorithms and theory underlying programming language implementation and for synthesizing these results and those of others in their highly influential books, which educated generations of computer scientists.",Garv Tandon
+31,"What does the following function return when called with a=5 and b=5:
+
+fun add(a,b):
+print(a+b)",10,None,a+b,Arbitrary Value,b,Garv Tandon
+32,"What does the following function return when called with a=1 and b=2:
+
+fun add(a,b):
+print(a+b)",3,None,a+b,Arbitrary Value,b,Garv Tandon
+33,"What does the following function return when called with a=10 and b=10:
+
+fun add(a,b):
+print(a+b)",10,None,20,Arbitrary Value,b,Garv Tandon
+34,"What does the following function return when called with a=5 and b=10:
+
+fun add(a,b):
+print(a+b)",15,None,10,Arbitrary Value,b,Garv Tandon
+35,"What does the following function return when called with a=5 and b=4:
+
+fun add(a,b):
+print(a+b)",9,None,a+b,Arbitrary Value,b,Garv Tandon
+36,What is passed to a function while calling it?,Keyword,Parameter,Argument,Statement,c,Garv Tandon
+37,Do we have null value in python,TRUE,FALSE,,,b,Garv Tandon
+38,Do we have None value in python,TRUE,FALSE,,,a,Garv Tandon
+39,"Find the output of the following:
+
+#include<iostream.h>
+using namespace std;
+
+int main()
+{
+int a = 3;
+
+if(a>0)
+{
+int a = 5;
+cout<<a<<endl;
+}
+
+cout<<a<<endl;
+}","3
+5
+","
+3
+3
+","5
+5","5
+3",D,Shubh Kapil
+40,Which of the following loops are not supported in python,For,While,Do While,None of these,Do While,Surbhit
+41,Which of the following is not a valid set operation in python,Difference,Union,Intersection,None of these,None of these,Surbhit
+42,What is #include<stdio.h>,Inclusion directive,Preprocessor directive,File inclusion directive,None of these,Preprocessor directive,Surbhit
+43,Which of the following is a fibonacci series-:,"0,1,1,2,3,5,8,13,21…..","0,1,1,2,4,8,32,256....","0,1,-1,0,-2,-4,-6…",NOTA,A,Eshan
+44, Which of these is Floyd’s Triangle-:,,,,,A,Eshan
+45,"In C++ which of these classes are not required for file handling?",OfStream,IfStream,Fstream,conio,D,Eshan
+46,"Find the output of the following:
+
+#include<iostream.h>
+using namespace std;
+
+int main()
+{
+int a = 15;
+
+if(a>20)
+{
+int a = 50;
+cout<<a<<endl;
+}
+
+cout<<a<<endl;
+}",15,50,"15
+50","50
+15",A,Shubh Kapil
+47,Is Python case sensitive when dealing with identifiers? ,yes,no,Machine dependent,NOTA,A,Eshan
+48,What is the maximum possible length of an identifier?,31 Characters,63 Characters,79 Characters,NOTA,D,Eshan
+49,What is the maximum possible length of an identifier?,37 Characters,103 Characters,89 Characters,NOTA,D,Eshan
+50,What is the maximum possible length of an identifier?,51 Characters,163 Characters,95 Characters,NOTA,D,Eshan
+51,What is the maximum possible length of an identifier?,0 Characters,infinite Characters,7 Billion Characters,NOTA,D,Eshan
+52,What is the maximum possible length of an identifier?,777 Characters,infinite Characters,Depends on OS,NOTA,D,Eshan
+53,Which of the following is invalid?, _a = 1,__a=1,___str___=2,NOTA,D,Eshan
+54,,,,,,,Shubh Kapil
+55,,,,,,,Shubh Kapil
+56,,,,,,,Shubh Kapil
+57,,,,,,,Shubh Kapil
+58,,,,,,,Shubh Kapil
+59,,,,,,,Shubh Kapil
+60,Which of the following is invalid?, _a = 1,__a=1,___str___=2,NOTA,D,Eshan
+61,Which of the following is invalid?, _z_ = 1,a=1,___str1__=2,NOTA,D,Eshan
+62,Which of the following is invalid?, _ahdbj = 1,_a_markZ=1,___stBot_=2,NOTA,D,Eshan
+63,Which of the following is invalid?, _aPubg = 1,__aFortnite=1,___strCODM=2,NOTA,D,Eshan
+64,Which of the following is invalid?, _IronMan = 1,_aNtman=1,___strange=2,NOTA,D,Eshan
+65,What is the output of print 0.1 + 0.2 == 0.3?,TRUE,FALSE,Machine Dependent,Error,b,Eshan
+66,"What is the result of cmp(3, 1)?",1,0,TRUE,FALSE,A,Eshan
+67,"What is the result of cmp(3, 10)?",1,0,TRUE,FALSE,b,Eshan
+68,"What is the result of cmp(30, 11)?",1,0,TRUE,FALSE,A,Eshan
+69,"What is the result of cmp(3, 55555777)?",1,0,TRUE,FALSE,B,Eshan
+70,"What is the result of cmp(696969, 969696)?",1,0,TRUE,FALSE,B,Eshan
+71,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'78'),float('12+34'),d,Eshan
+72,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'99'),float('1+34'),d,Eshan
+73,Which of the following is incorrect?,float('inf'),float('nan'),float('54'+'777'),float('1+3'),d,Eshan
+74,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'788'),float('2+3'),d,Eshan
+75,Which of the following is incorrect?,float('inf'),float('nan'),float('576'+'78'),float('12+3'),d,Eshan
+76,Which of the following statements create a dictionary?,d={},"d = {40:”john”, 45:”peter”}","d = {“john”:40, “peter”:45}",All of the Above,d,Eshan
+77,Which of the following is a Python tuple?,"[1,2,3]","(1,2,3)","{1,2,3}",{},B,Eshan
+78,What is the value of x if: x = int(33.55+2/2),34,35,34.55,None of these,a,Surbhit
+79,What is the value of x if: x = int(13.55+9/2),18.05,18,19,19.05,b,Surbhit
+80,What is the value of x if: x = int(42.17+8/2),47,46,46.17,none of these,b,Surbhit
+81,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[:9:2]","[1,2]","[1,3]",syntax error,"[1,3,5,7]",D,Ankit Sidana
+82,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::2]","[1,2]","[1,3]",syntax error,"[1,3,5,7,9]",D,Ankit Sidana
+83,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::3]","[1,4,7]","[2,5,8]",syntax error,"[1,5,9]",A,Ankit Sidana
+84,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::4]","[1,4,7]","[2,5,8]","[1,5,9]",syntax error,C,Ankit Sidana
+85,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[1::4]","[5,9]","[4,8]","[1,5,9]",syntax error,A,Ankit Sidana
+86,Evaluate and answer 3 + (2 * 5) + 4 + 3**2,26,24,25,27,a,Surbhit
+87,Evaluate and answer 1 + (2 * 5) + 4 * 3**3,120,118,119,117,b,Surbhit
+88,Evaluate and answer 3 - (2 ** 5) * 4 + 3**4,-44,45,44,46,b,Surbhit
+89,Evaluate and answer 3 * (2 - 3) * 4 + 3*4,0,-1,1,2,a,Surbhit
+90,Evaluate and answer 3 + (2 * 5) + 4 + 3**6,745,747,746,742,c,Surbhit
+91,"Suppose t = (1, 2, 4, 3), which of the following is incorrect?",print(t[3]),t[3]=45,print(max(t)),print(len(t)),b,Eshan
+92,"Suppose t = (1, 2, 7, 3), which of the following is incorrect?",print(t[1]),t[3]=48,print(max(t)),print(len(t)),b,Eshan
+93,"Suppose t = (1, 72, 44, 3), which of the following is incorrect?",print(t[1]),t[3]=78,print(max(t)),print(len(t)),b,Eshan
+94,"Suppose t = (1, 2, 14, 73), which of the following is incorrect?",print(t[3]),t[3]=55,print(max(t)),print(len(t)),b,Eshan
+95,"Suppose t = (1, 782, 4, 43), which of the following is incorrect?",print(t[3]),t[3]=777,print(max(t)),print(len(t)),b,Eshan
+96,"If a={5,6,7,8}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
+97,"If a={56,67,71,81}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
+98,"If a={57,65,77,84}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
+99,"If a={5,677,77,88}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
+100,"If a={44,6,7,87}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
+101,"If a={5,6,7}, what happens when a.add(5) is executed?"," a={5,5,6,7}","a={5,6,7}",Error as there is no add function for set data type,Error as 5 already exists in the set,b,Eshan
+102,"If a={8,9,10}, what happens when a.add(50) is executed?"," a={8,9,10,50}","a={8,9,10}",Error as there is no add function for set data type,Error as 50 already exists in the set,a,Eshan
+103,"Select the correct statements:
+
+I. We define classes and functions with the def keyword.
+II. A class can define an object
+III. sets are mutable.
+IV. List is imutable.
+
+
+",II and III,III and IV,II and IV,All of the above,a,Umesh
+104,which of the following is the output,Error,No output,Exception,empty line,d,Umesh
+105,"colors = 'Red,Green,Yellow' , 
+Harry wants to see a list of colors from the above string only.Help
+ Harry to chose the correct code","colors.remove("","")","colors.split("","")","colors.partition("","")",both b and c,b,Umesh
+106,"Animals = 'cow,dog,cat' , 
+You wants to see a list of animal from the above string including 
+the commas. chose the correct code","animals.remove("","")","animals.split("","")","animals.partition("","")",non of the above,b,Umesh
+107,"x = ( ) ,Find out the size of x ?",0 bytes,2 bytes,8 bytes,48 bytes,d,Umesh
+108,"Find the output ?
+l = [""a"", ""b"", ""c""]
+l += ""de""
+print(l)","[‘a’, ‘b’, ‘c’, ‘d’, ‘e’]","[‘a’, ‘b’, ‘c’, ‘de’]","[‘ade’, ‘bde’, ‘cde’]",non of the above,a,Umesh
+109,"x = {*()},  x is mutable .",TRUE,FALSE,Can not define,x is not of any data type,b,Umesh
+110,"I. Constructors can return values
+ II. The __bases__ attribute will give you the names of the direct parent classes.
+For above two state ments select correct options",Only 1 is true,Only 2 is true,Both are true,both are false,b,Umesh
+111,"s = ""ADG is the BeSt cluB .""
+s = s[0:10] + s[10:].swapcase()
+print(s)
+
+What is the output",ADG is the bEST CLUB .,ADG is the BEST CLUb .,ADG is the bEsT CLUb .,ADG is the BEST CLUB .,c,Umesh
+112,"What is the output for print(""abbbcabcabacc"".endswith(""abb"", 0, 2))",TRUE,FALSE,1,0,b,Umesh
+113,"what is the output for print('abbbcabcabacc'.replace('ab', '12', 100))",aa12c12c12acc,ccbbc12c12a12,12bbcabc12a12,12bbc12c12acc,d,Umesh
+114,What is the output for print('For'.isidentifier()),TRUE,FALSE,none,error,b,Umesh
+115,What is the output for print('__foo__'.isidentifier()),TRUE,FALSE,none,error,a,Umesh
+116,"def first(a_str):
+      c = 0
+      for char in a_str:
+          if char in 'abcdefghijklmnopqrstuvwxyz':
+              c += 1
+      return c
+what the first function does ?",find number of charcters,find thw number of upper case characters,find the number of lower case charcacters,find the number of numericals,c,Umesh
+117,"What is the output for print('abbbcabcabacc'.replace('ba', '12', 100))",abbbcabca12cc,abbbcab12cacc,abbb12cabccaa,abbbcabcc12aa,a,Umesh
+118,"X = (3e-08, True, False, 10, 6.003, True)
+Y = 0
+for x in X:
+    Y += int(x)
+print(Y)
+What is the output for the following program ?",10,12,14,18,d,Umesh
+119,"X = (3e-08, True, False, 8, 2.003, False)
+Y = 0
+for x in X:
+    Y += int(x)
+print(Y)
+
+What is the output for the following Program ?",11,12,13,14,a,Umesh
+120,"X = (2e-06, False, False, 3, 1.003, False)
+Y = 0
+for x in X:
+    Y += int(x)
+print(Y)
+
+What is the output for the following",2,4,6,8,b,Umesh
+121,"What is the output for print(""abbbcabcabacc"".endswith(""abb"", 0, 3))",TRUE,FALSE,abb,abc,a,Umesh
+122,"P={""car"":100,""bike"":50,""flight"":300}
+P=dict(zip(P.values(),P.keys()))
+print(P)
+After execution of above program, 
+what changes are happened in P",data type changed,key values are inter changed,no chnage occur,Exception,b,Umesh
+123,What is printed by? print(2+2%3),4,1,2,0,A,Jatin Dhall
+124,What is printed by? print(16 % 15 // 16),"""0.0""",0,"""1.0""",1,B,Jatin Dhall
+125,"What is printed by the following?  
+x = ['AB', 'CD']
+for i in x:
+    x.append(i.lower())
+print(x)",No Output(Infinite Loop),"['AB', 'CD', 'ab', 'cd']","['ab', 'cd']","['a', 'b', 'c', 'd']",A,Jatin Dhall
+126,"Analyze the following code:
+Given : number = 27
+#Code 1:
+if number % 2 != 0:
+    odd = True
+else:
+    odd = False
+#Code 2:
+odd = number % 2 != 0 ",Both Code 1 and Code 2 have errors,Both Code 1 and Code 2 are correct,Code 1 has errors.,Code 2 has errors.,B,Jatin Dhall
+127,"Given L = [], What is printed by:
+if L:
+    print('First')
+else:
+    print('Second')",None,First,Second,FirstSecond,C,Jatin Dhall
+128,"What is printed by this sequence of instructions?
+
+L = [(1, 2), (3, 4), (5, 6)]
+res = [list(x) for x in L]
+print(res)","[[1, 2], [3, 4], [5, 6]]","[(1, 2),(3, 4),(5, 6)]","[1, 2, 3, 4, 5, 6]","[[1, 2, 3, 4, 5, 6]]",A,Jatin Dhall
+129,"What is printed by
+D = dict()
+for i in range(4):
+    for j in range(2):
+        D[i] = j
+print(D)","{0: 0, 1: 0, 2: 0, 3: 0, 0: 1, 1: 1, 2: 1, 3: 1}","{0: 1, 1: 1, 2: 1, 3: 1}","{0: 0, 1: 0, 2: 0, 3: 0}",TypeError: Immutable object,B,Jatin Dhall
+130,"What is printed by
+   
+	T1 = (2) 
+	T2 = (1, 4) 
+	T1 += 6
+	print(T1, T1 + T2) ","(6, 1, 4)","(2, 6, 1, 4)","(8, 1, 4)",TypeError ,D,Jatin Dhall
+131,"What is printed by
+   
+	L = [1, 3, 5, 7, 9] 
+	print(L.pop(-2), L.remove(L[1]), L) ","None 1 [1, 5, 9]","7 None [1, 5, 9]","7 None [3, 5, 7, 9]","None 1 [1, 3, 7, 9]",B,Jatin Dhall
+132,"Given this sequence of instructions:
+
+    L1 = [1,2,3]
+    L2 = ['a',L1[:],'b',L1]
+    L1.append(4)
+    print(L2)
+
+    What is printed?","['a', [1, 2, 3, 4], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3,4], 'b', [1, 2, 3]]","['a',L1[:],'b',L1]",B,Jatin Dhall
+133,"# predict output
+def calc_disp(x):
+    if(x == 0):
+        return 0
+
+    return calc_disp(x-1)+2*x-1
+print(calc_disp(15))",15,0,406,225,D,Adwaita
+134,"# predict output
+def calc_disp(x):
+    if(x == 0):
+        return 0
+
+    return calc_disp(x-1)+2*x-1
+print(calc_disp(31))",62,961,1830,31,D,Adwaita
+135,"## predict output
+print(~~~40)",40,41,-41,-40,C,Adwaita
+136,"## predict output
+print(~~~~~~98)",98,-99,99,-98,A,Adwaita
+137,"## predict output
+
+def adg(adg1,adg2):
+    adg3=1
+    adg2[1]=100
+x=5
+adg3=[4,6,7,4,2]
+adg(x,adg3)
+print(x,adg3[1])",5 6,2   200,5   100,2 6,C,Adwaita
+138,"## predict output
+
+def adg(adg1,adg2):
+    adg3=4
+    adg2[3]=5
+x=2
+adg3=[4,6,7,4,2,4,5]
+adg(x,adg3)
+print(x,adg3[3])",2 5,4 5,4 4,2 3,A,Adwaita
+139,To run python in cmd what command is used??,py,python,run py,None of the above,B,Adwaita
+140,"## predict output
+txt=""Manchester united""
+for i in range(txt):
+    print(i)",Manchester united,Error,Manchesterunited,0 1 2 ....16,B,Adwaita
+141,"## predict output
+txt=""Apple developers Group""
+for i in range(txt):
+    print(i)",Apple developers Group,0 1 2 3 ... 22,Error,None of the above,C,Adwaita
+142,"## predict output
+txt=""Programming""
+for i in range(txt):
+    print(i)",0 1 2 ... 10,Error,Programming,None of the above,B,Adwaita
+143,"## predict output
+s1=""Cristiano Ronaldo""
+s2=""Kylian Mbappe""
+print(s1[:6],s2[3:9])",Cristiano Ky,Cristi ian Mb,Ronaldo Kyli,None of the above,B,Adwaita
+144,"# predict output
+def adg(x,y):
+    if(y==0):
+        return x
+    else:
+        return adg(x+y,y-1)
+print(adg(4,7))",28,32,11,3,B,Adwaita
+145,"#predict output
+t=[]
+def adg(v):
+    if(v==0):
+        return t
+    dig=v%2
+    t.append(dig)
+    adg(v//2)
+adg(50)
+t.reverse()
+for i in t:
+    print(i,end="""")",110010,1101,11001,110100,A,Adwaita
+146,"#predict output
+t=[]
+def adg(v):
+    if(v==0):
+        return t
+    dig=v%2
+    t.append(dig)
+    adg(v//2)
+adg(234)
+t.reverse()
+for i in t:
+    print(i,end="""")",10100010,11101010,11010101,11011111,B,Adwaita
+147,What is the output of the following code?,John  John,John Maria,Maria Maria,Maria John,Maria John,srinivas
+148,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[1, 4, 9, 16, 25]",None of the above,"[12, 22, 32, 42, 52]",srinivas
+149,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[3, 5, 8, 10, 13]",None of the above,"[3, 5, 8, 10, 13]",srinivas
+150,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[96, 176, 256, 336, 416]","[3, 5, 10, 13]","[96, 176, 256, 336, 416]",srinivas
+151,What will be the output of the following code?,Error,"[96, 176, 256, 336, 416]","[""96"", ""176"", ""256"", ""416""]",None of the above,"[""96"", ""176"", ""256"", ""336"", ""416""]",srinivas
+152,What will be the output of the following code?,Error,1,"{1,2,3,4}",0xFFFFCCC,1,srinivas
+153,What will be the output of the following code?,Error,1,2,"{1,2,3,4}",2,srinivas
+154,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,B,srinivas
+155,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas
+156,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas
+157,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas
+158,What will be the output of the following code?,Error,0,6,4,6,srinivas
+159,What will be the output of the following code?,Error,0,2,4,2,srinivas
+160,What will be the output of the following code?,Error,2,&2,&0,&2,srinivas
+161,What will be the output of the following code?,Error,4,2,5,4,srinivas
+162,What will be the output of the following code?,Error,4,2,5,Error,srinivas
+163,"Find the output
+
+a=10
+b=2
+
+if(++a>10 || b++>2)
+{
+print(a)
+print(b)
+}
+","10
+2","11
+3","11
+2","10
+3",c,Shubh Kapil
+164,"Find the output
+
+a=20
+b=8
+
+if(++a>20 || b++>8)
+{
+print(a)
+print(b)
+}","20
+8","
+21
+8","20
+9","21
+9",b,Shubh Kapil
+165,"
+Find the output
+
+a=50
+b=2
+
+if(++a>50 || b++>2)
+{
+print(a)
+print(b)
+}","20
+2","51
+2","
+50
+3","51
+3",b,Shubh Kapil
+166,"
+Find the output:
+
+a=5
+b=4
+
+if(++a>5 && b++>=4)
+{
+print(a)
+print(b)
+}
+","5
+4","5
+5","6
+5","6
+4",c,Shubh Kapil
+167,"Find the output:
+
+a=10
+b=20
+
+if(++a>10 && b++>=20)
+{
+print(a)
+print(b)
+}","10
+21","11
+21","11
+20","10
+20",b,Shubh Kapil
+168,"hi = ""i am iron man""
+print(hi.split())
+
+the above python code prints what data type?",tuple of strings,multiple individual strings,list of strings,dictionary of strings,c,harsh vardhan
+169,which character is used to escape special characters in python regex?,$,\,*,/,b,harsh vardhan
+170,"l = ['*']
+n = int(input())
+for i in reversed(range(1,n+1)):
+    print(''.join(l*i))
+
+Output when value of n is 5?","*****
+****
+***
+**
+* ","*
+**
+***
+****
+*****","*****
+*****
+*****
+*****
+*****","*****
+****
+***
+****
+*****",a,harsh vardhan
+171,"l = ['*']
+n = int(input())
+for i in (range(1,n+1)):
+    print(''.join(l*i))
+
+Output when value of n is 5?","*****
+****
+***
+**
+* ","*
+**
+***
+****
+*****","*****
+*****
+*****
+*****
+*****","*****
+****
+***
+****
+*****",b,harsh vardhan
+172,which of the following is NOT a built-in python function,enumerate(),slice(),property(),println(),d,harsh vardhan
+173,"lis = ""1,2,3,4,5,6""
+print(set(lis))
+
+output of the above snippet?","{',', '4', '3', '1', '2', '6', '5'}","['6', '5', '4', '2', '1', '3', ',']","('5', '4', '2', '6', ',', '3', '1')",None,a,harsh vardhan
+174,"lis = [1,2,3,4,5,6,6]
+print(set(lis))
+what does the above code do?",Sort the list in ascending order,Sort the list in descending order,Remove duplicate values,Prints the list in a random order,c,harsh vardhan
+175,"def adg(a, arr=[]):
+    for i in range(a):
+        arr.append(i * i)
+    print(arr)
+adg(3, [3, 2, 1])","[3, 2, 1, 0, 1, 4]","[3, 2, 1]","[0, 1, 4, 9]","[3, 2, 1, ,0 1, 4, 9]",A,Adwaita
+176,"def adg(a, arr=[]):
+    for i in range(a):
+        arr.append(i * i)
+    print(arr)
+adg(4, [3, 2])","[3, 2, 0, 1]","[3, 2, 0, 1, 4, 9]","[0, 1, 4, 9]","[3, 2, 0, 1, 4, 9, 16]",B,Adwaita
+177,"def adg(a, arr=[]):
+    for i in range(a):
+        arr.append(i * i)
+    print(arr)
+adg(5, [3, 5, 7])","[0, 1, 4, 9, 16]
+","[3, 5, 7, 0]",None ,"[3, 5, 7, 0, 1, 4, 9, 16] ",D,Adwaita
+178,"def adg(a, arr=[]):
+    for i in range(a):
+        arr.append(i * i)
+    print(arr)
+adg(4, [-1,-3,7])","[-1, -3, 7, 0, 1, 4, 9]","[0, 1, 4, 9]","[-1, -3, 7]",None,A,Adwaita
+179,"arr = {4:3,3:6,5:23,15:2}
+print(sum([v for v in arr.keys()]))",27,34,80,61,A,Adwaita
+180,"arr = {41:32,33:64,53:233,125:23, 63:89}
+print(sum([v for v in arr.keys()]))",441,756,537,315,D,Adwaita
+181,"arr = {41:52,43:63,53:343,25:223, 633:839}
+print(sum([v for v in arr.keys()]))",625,2315,1520,795,D,Adwaita
+182,"arr = {21:42,143:33,43:363,5:233,33:39}
+print(sum([v for v in arr.keys()]))",245,710,955,291,A,Adwaita
+183,"arr = {21:42,143:33,43:363,5:233,33:39}
+print(sum([v for v in arr.values()]))",955,710,245,113,B,Adwaita
+184,"arr = {23:422,43:333,453:63,55:273,323:329}
+print(sum([v for v in arr.values()]))",1420,897,2317,710,A,Adwaita
+185,"arr = {2:422,435:33,45:636,587:254}
+print(sum([v for v in arr.values()]))",1069,1345,2414,737,B,Adwaita
+186,,,,,,,
+187,"What is the output of the code shown below?
+print(not(5>4),not(2&3))",True True,True False,False True,False False,D,Surbhit
+188," 
+                 
+What is the output of the code shown below?
+print(not(5<4),not(2&-3))
+",True True,True False,False True,False False,A,Surbhit
+189," 
+                 
+What is the output of the code shown below?
+print(not(5|0),not(2&3))
+",True True,True False,False True,False False,D,Surbhit
+190," 
+                 
+What is the output of the code shown below?
+print(not(5&0),not(2|3))
+",True True,True False,False True,False False,B,Surbhit
+191,"print(++~12)
+",12,13,-12,-13,D,Adwaita
+192,print(++~12--~~34),21,46,-21,-46,A,Adwaita
+193,What is the output of the code shown below?,350,200,500,700,700,srinivas
+194,What is the output of the code shown below?,1100,350,200,500,1100,srinivas
+195,What is the output of the code shown below?,1100,7000,6500,5000,7000,srinivas
+196,What is the output of the code shown below?,3500,1100,4000,3520,3500,srinivas
+197,What is the output of the code shown below?,3500,110,3000,1400,1400,srinivas
+198,What is the output of the code shown below?,1500,1700,1400,1200,1500,srinivas
+199,What is the output of the code shown below?,300,400,500,600,300,srinivas
+200,What is the output of the code shown below?,1500,2000,2500,3000,2500,srinivas
+201,What is the output of the following code?,-19,-21,-17,None of the above,-19,srinivas
+202,What is the output of the following code?,200,256,230,None of the above,256,srinivas
+203,What is the output of the following code?,650,752,709,None of the above,709,srinivas
+204,What is the output of the following code?,130,175,151,None of the above,151,srinivas
+205,What is the output of the following code?,131,130,125,None of the above,131,srinivas
+206,,,,,,,
+207,,,,,,,
+208,,,,,,,
+209,,,,,,,
+210,"def hello():
+    a = 6
+    b = 9
+    for i in range(2,5):
+        a+=i
+        for j in range(2,5):
+            b+=j
+    print(a,b)
+
+hello()
+What are the final values of a and b respectively","10, 30","15, 36","36, 15","15, 15",b,harsh vardhan
+211,"def hello():
+    a = 6
+    b = 9
+    for i in range(2,7):
+        a+=i
+        for j in range(2,9):
+            b+=j
+    print(a,b)
+hello()
+
+What are the final values of a and b respectively","8, 44","11, 79","26, 184","20, 149",c,harsh vardhan
+212,"def hello():
+    a = 6
+    b = 9
+    while(a<=20):
+        a+=5
+        for j in range(2,9):
+            b+=j
+    print(a,b)
+hello()
+
+What are the final values of a and b respectively","11, 44","18, 44","16, 79","21, 144",d,harsh vardhan
+213,"def hello():
+    a = 6
+    b = 9
+    while(a<=20):
+        b+=5
+        for j in range(2,9):
+            b+=j
+    print(a,b)
+hello()
+
+What are the final values of a and b respectively","6, 49",Infinite loop,"16, 80","21, 145",b,harsh vardhan
+214,"def hello():
+    a = 6
+    b = 9
+    while(b<=20):
+        b+=5
+        for j in range(2,9):
+            b+=j
+    print(a,b)
+hello()
+
+What are the final values of a and b respectively","6, 49",Infinite loop,"16, 81","21, 146",a,harsh vardhan
+215,"l = [10, 11, 12, 18, 19]
+def hello():
+    for i in range(0, len(l)):
+        if(l[i]>15):
+            l[i]/=3
+    l2 = [int(x) for x in l]
+    print(l2)
+hello()
+
+what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[10, 3, 4, 6, 6]","[3, 3, 4, 6, 6]",b,harsh vardhan
+216,"l = [10, 11, 12, 18, 19]
+def hello():
+    for i in range(0, len(l)):
+        if(l[i]<13):
+            l[i]/=3
+    l2 = [int(x) for x in l]
+    print(l2)
+hello()
+
+what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[10, 3, 4, 6, 6]","[3, 3, 4, 6, 6]",a,harsh vardhan
+217,"l = [10, 11, 12, 18, 19]
+def hello():
+    for i in range(0, 2):
+        if(l[i]<13):
+            l[i]/=3
+    l2 = [int(x) for x in l]
+    print(l2)
+hello()
+
+what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[3, 3, 12, 18, 19]","[3, 3, 4, 6, 6]",c,harsh vardhan
+218,"l = [10, 11, 12, 18, 19]
+def hello():
+    i = 0
+    while(l[2]<20):
+        l[2] +=3
+        i = i+1
+        if i == 3:
+            break
+    print(l)
+hello()
+
+what is the ouput of the above code?","[10, 11, 21, 18, 19]","[10, 11, 20, 18, 19]","[10, 11, 26, 18, 19]",Infinite loop,a,harsh vardhan
+219,"def adg():
+    a = 1
+    b = 4
+    while(a<=b):
+         a+=5
+         b+=2
+    print(a,b)
+adg()
+
+what is the ouput of the above code?","11, 8","11, 9","6, 5",None,a,harsh vardhan
+220,"A = ""And now for something completely different.""
+ B = ""And not too expensive!""
+ C = ""An African or European swallow?""
+ D = A < B
+ E = B < C
+ print( D, E ) # Line 1
+ print( A[5], A[-4] ) # Line 2
+ print( B[-6:] ) # Line 3
+ print( C[:7] ) # Line 4
+
+What will be displayed by the Python code labeled ""Line 1"" ?",False False,False True,True False,None of the above.,A,Haneet
+221,"A = ""And now for something completely different.""
+ B = ""And not too expensive!""
+ C = ""An African or European swallow?""
+ D = A < B
+ E = B < C
+ print( D, E ) # Line 1
+ print( A[5], A[-4] ) # Line 2
+ print( B[-6:] ) # Line 3
+ print( C[:7] ) # Line 4
+
+What will be displayed by the Python code labeled ""Line 2"" ?
+",o e,n r,completely for,different. now,A,Haneet
+222,"A = ""And now for something completely different.""
+ B = ""And not too expensive!""
+ C = ""An African or European swallow?""
+ D = A < B
+ E = B < C
+ print( D, E ) # Line 1
+ print( A[5], A[-4] ) # Line 2
+ print( B[-6:] ) # Line 3
+ print( C[:7] ) # Line 4
+
+What will be displayed by the Python code labeled ""Line 3"" ?",sive!,nsive!,ot too expensive!,not too expensive!,B,Haneet
+223,"A = ""And now for something completely different."" 
+B = ""And not too expensive!"" 
+C = ""An African or European swallow?"" 
+D = A < B E = B < C print( D, E ) # Line 1 
+print( A[5], A[-4] ) # Line 2 
+print( B[-6:] ) # Line 3 
+print( C[:7] ) # Line 4
+
+What will be displayed by the Python code labeled ""Line 4"" ?",wallow?,swallow?,An Afr,An Afri,d,Haneet
+224,"def final( P1, P2, P3 ): 
+       P1[4] = ""shrubbery"" 
+       if len(P2) > 3: 
+            P2 = P2[:3] 
+        P3.append( ""King of the Britons"" ) 
+return "" "".join( P2 )
+
+ A = ""That is no ordinary rabbit"".split()
+ B = ""Four shalt thou not count"".split() 
+C = ""Arthur"".split() D = final( A, B, C ) 
+print( A ) # Line 1 
+print( B ) # Line 2 
+print( C ) # Line 3 
+print( D ) # Line 4
+
+What will be displayed by the Python code labeled ""Line 1"" ?",’That is no ordinary shrubbery’,’That is no ordinary rabbit’,"[’That’, ’is’, ’no’, ’ordinary’, ’shrubbery’]","[’That’, ’is’, ’no’, ’ordinary’, ’rabbit’]",c,Haneet
+225,"def final( P1, P2, P3 ): 
+       P1[4] = ""shrubbery"" 
+       if len(P2) > 3: 
+            P2 = P2[:3] 
+        P3.append( ""King of the Britons"" ) 
+return "" "".join( P2 )
+
+ A = ""That is no ordinary rabbit"".split()
+ B = ""Four shalt thou not count"".split() 
+C = ""Arthur"".split() D = final( A, B, C ) 
+print( A ) # Line 1 
+print( B ) # Line 2 
+print( C ) # Line 3 
+print( D ) # Line 4
+
+ What will be displayed by the Python code labeled ""Line 2""","""Four shalt thou""","""Four shalt thou not count""","[’Four’, ’shalt’, ’thou’]","[’Four’, ’shalt’, ’thou’, ’not’, ’count’]",c,Haneet
+226,"Which of the following gives an error?
+Assume A and B are 2 strings",A+B,A-B,A*8,All of the above,b,harsh vardhan
+227,"What is the output of the following code?
+for i in [1,2,3,4,5][::-1]:
+    print(i)","5
+4
+3
+2
+1",5 4 3 2 1 ,1 2 3 4 5,Error,a,harsh vardhan
+228,"What is the output of the following code?
+print(len([""WElcOme tO AdG"".lower(),2, 4, 6, 9]))",14,5,4,Error,c,harsh vardhan
+229,"What is the output of the following code?
+print(""%.3f""%99.4567)",99.4,99.45,99.456,99,c,harsh vardhan
+230,Which of the following is a built-in function in python?,print(),printf(),randint(),sqrt(),a,harsh vardhan
+231,"print(7**(2/2%4))
+What is the output of the above code?",7,2,0,0.5,a,harsh vardhan
+232,"print(3<<2)
+What is the output of the above code?",4,12,9,10,b,harsh vardhan
+233,What keyword is used to create anonymous functions during runtime?,def,lambda,anon,Anonymous functions cannot be made,b,harsh vardhan
+234,"print(9//4*6)
+What is the output of the above code?",12,0,13.5,0,a,harsh vardhan
+235,"print(start=""hi "", ""hello"", end=""&&&"")
+What is the output of the above code?",hihello&&&,hello&&&,Error,hihello,c,harsh vardhan
+236,"def adg2():
+    a = 8
+    b = 12
+    flag = True
+    while(flag):
+        counter += 1
+        if(a<b):
+            a+=1
+        else:
+            flag = False
+adg2()
+
+How many times does the loop execute?",4,5,6,Infinte,b,harsh vardhan
+237,"print(7*4%8)
+What is the output of the above code?",3,4,28,None,b,harsh vardhan
+238,"print(7**2/2%4)
+What is the output of the above code?",2,0,0.5,24.5,c,harsh vardhan
+239,What is printed by: print(2**3),6,8,5,9,B,Jatin Dhall
+240,"Given: x = 7
+    what is printed by: print(0 <= x <= 7)",0,7,TRUE,FALSE,C,Jatin Dhall
+241,"Given s = ""To be, or not to be, that is the question:""
+    which code produces the following?
+   ['To be', 'or not to be', 'that is the question']",L = s.split().strip(),"L = s.split(',').strip()      #no space after comma","L = s.strip(',:').split(',')  #no space after comma","L = s.strip(',:').split(', ') #space after comma",D,Jatin Dhall
+242,"What is the output when the following for loop is executed?
+
+    for i in range(3,9,3):
+	    print(i, end = ' ')",3 4 5 6 7 8 9 ,3 4 5 6 7 8,None of the above,3 6,D,Jatin Dhall
+243,"What does this expression return?
+{a*b for a in range(3) for b in range(3)}","{0, 1, 2, 3, 4, 6, 9}","{0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 4, 6, 0, 3, 6, 9}","{0, 1, 2, 4}","{0, 0, 0, 0, 1, 2, 0, 2, 4}",C,Jatin Dhall
+244,"Given the list L = [('a', 1), ('b', 7), ('c', 5), ('d', 2)]
+    what code generates D = {'a': 1, 'b': 7, 'c': 5, 'd': 2}?",D = dict(L),"D = { x:y for x,y in L }"," D = dict([(x,y) for x,y in L])",All of the above,D,Jatin Dhall
+245,"Given: S1 = {1,2,3} and S2 = {2,3,4}
+    what is the value of S after this operation: S = S1 ^ S2",{1},"{2, 3}","{1, 4}","{1, 2, 3, 4}",C,Jatin Dhall
+246,"Given: 
+    def f():
+       return 5,6
+    
+    x = f()
+    
+    What is the type of x?",set,tuple,list,int,B,Jatin Dhall
+247,"What is the output of the code shown below?
+
+    D = {'mouse':{},'human':{}}   # all curly braces in this line
+    D['mouse']['2'] = 3
+    D['human']['1'] = 4
+    D['mouse']['2'] += 5
+    print(D)","{'mouse': {'2': 3}, 'human': {'1': 9}}","{'mouse': {'2': 3}, 'human': {'1': 5}}","{'mouse': {'2': 5}, 'human': {'1': 4}}","{'mouse': {'2': 8}, 'human': {'1': 4}}",D,Jatin Dhall
+248,"Given D = {'a': 10}
+    What code changes D to be {'a': 1}?",D['a'] -= 9,"D['a'] = D.get('a',0) - 9","try:
+            D['a'] += 1
+        except KeyError:
+            D['a'] = 1",All of the above,AB,Jatin Dhall
+249,"Given s = {1,2,3}
+    what is printed by print(s.remove(3))",None,{},"{1, 2}","{1, 2, 3}",A,Jatin Dhall
+250,"What is printed by?
+    print(3**2+1)",7,28,10,16,C,Jatin Dhall
+251,"What is printed by?
+
+      val1 = 2                  
+      val2 = 3                  
+      val1, val2 = val2, val1   
+      print(val1, val2)  ",3 2,2 3,2,3,A,Jatin Dhall
+252,"What is printed by this sequence of instructions?
+
+       x = 0
+       y = 1
+       z = 1
+       print(x or (y and not z))",1,0,TRUE,FALSE,BD,Jatin Dhall
+253,"What is printed by?
+       a = 30
+       if a == 3 or not(a < 20):
+          print(""Yes"")
+       else:
+          print(""No"")",Yes,No,a is 3,None,A,Jatin Dhall
+254,"What is printed by?
+   
+      for i in range(10,2,-2):
+         print(i, end = ' ')   # the string is a single space",10 8 6 4 2,2 4 6 8 10,10 8 6 4,2 4 6 8,C,Jatin Dhall
+255,"Given pi = 3.141592653589793
+    What is printed by
+        print(""{:>10.3f}"".format(pi))
+    (The sting of digits 0123456789012345 is to help you determine alignment.)","3.141
+        0123456789012345","3.142
+        0123456789012345 "," 3.141
+        0123456789012345","3.142
+        0123456789012345 ",B,Jatin Dhall
+256,"What is printed by
+   
+      nums=list()
+      for n in range(4):
+          nums.insert(0,n**2)
+      print(nums)"," [9,4,1,0] ","[1,4,9,25]","[0,1,4,9]","[25,9,4,1]",A,Jatin Dhall
+257,,,,,,,
+258,"print(""Hello. BOys"".title())
+What is the output of the above code?",Hello. Boys,Hello. boys,HELLO. Boys,Hello. BOYS,a,harsh vardhan
+259,"print(""Hello. BOys"".capitalize())
+What is the output of the above code?",Hello. Boys,Hello. boys,HELLO. Boys,Hello. BOYS,b,harsh vardhan
+260,"What is printed by?
+        s = ""Clifford""
+        for c in s:
+           print(c, end = ' ')    # the string is a single space",Clifford,C l i f f o r d,c c c c c c c c,1234567,B,Jatin Dhall
+261,"What is printed by?
+
+    count = 0
+
+    while count < 4:
+        print('count',end = ' ')   # the string is a single space
+        count += 1",0 1 2 3 4,0 1 2 3,count count count count,count 0 1 2 3,C,Jatin Dhall
+262,"What is printed by this sequence of instructions?
+
+       L1 = [2,4]
+       L2 = [3,5]
+       print(L1 + L2)","[2, 4, 3, 5]","[2, 3, 4, 5]","[[2, 4], [3, 5]]","[2, 4, [3, 5]]",A,Jatin Dhall
+263,Which of the following prints the first three multiples of three: 3 6 9,"for i in range(3,12,3):
+           print(i, end=' ')","for i in range(1,5):
+           print(3*i, end = ' ')","for i in range(3):
+           print(3*i, end=' ')",All of the above.,A,Jatin Dhall
+264,"def final( P1, P2, P3 ): 
+       P1[4] = ""shrubbery"" 
+       if len(P2) > 3: 
+            P2 = P2[:3] 
+        P3.append( ""King of the Britons"" ) 
+return "" "".join( P2 )
+
+ A = ""That is no ordinary rabbit"".split()
+ B = ""Four shalt thou not count"".split() 
+C = ""Arthur"".split() D = final( A, B, C ) 
+print( A ) # Line 1 
+print( B ) # Line 2 
+print( C ) # Line 3 
+print( D ) # Line 4
+
+What will be displayed by the Python code labeled ""Line 3""","""ArthurKing of the Britons""","""Arthur King of the Britons""",[’ArthurKing of the Britons’],None of the Above,d,Haneet
+265,"Given s = ""Head, Shoulders, Knees and Toes""
+    which code produces the following?
+    ['Head', 'Shoulders', 'Knees and Toes']","s.split(',') #Note no space","s.split(', ')    # Note one space after comma", s.split().strip(),list(s),B,Jatin Dhall
+266,"Consider this code
+  L1 = [1,2]
+  L2 = [3, L1, 4]
+  L1.append(5)
+  print(L2)   # Line 1
+
+  What is printed by Line 1?"," [3, 'L1', 4]","[3, [1, 2], 4]","[3, [5], 4]","[3, [1, 2, 5], 4]",D,Jatin Dhall
+267,"Given this sequence of instructions:
+
+    L1 = [1,2,3]
+    L2 = ['a',L1[:],'b',L1]
+    L1.append(4)
+    print(L2)
+
+    What is printed?","['a',L1[:],'b',L1]","['a', [1, 2, 3, 4], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3,4], 'b', [1, 2, 3]]",C,Jatin Dhall
+268,"What is printed by
+   
+    T1 = (7,8)
+    T1 += (2,1)
+    print(T1)","((7, 8), (2, 1))","(7, 8, 2, 1)","(9, 9)","(1, 2)",B,Jatin Dhall
+269,"Given M = {'Bob': 75, 'Alice': 27}
+    What is printed by 
+        print(M['Alice'])",75,27,Alice',Alice' : 27,B,Jatin Dhall
+270,The key of a dictionary must be:,"an int, float, or string",an int or string,Mutable,Immutable,D,Jatin Dhall
+271,"Given: x = -1
+    which expression returns True?",0 <= x <= 15,x <= -12,x < 110,All of the above.,C,Jatin Dhall
+272,"def final( P1, P2, P3 ): 
+       P1[4] = ""shrubbery"" 
+       if len(P2) > 3: 
+            P2 = P2[:3] 
+        P3.append( ""King of the Britons"" ) 
+return "" "".join( P2 )
+
+ A = ""That is no ordinary rabbit"".split()
+ B = ""Four shalt thou not count"".split() 
+C = ""Arthur"".split() D = final( A, B, C ) 
+print( A ) # Line 1 
+print( B ) # Line 2 
+print( C ) # Line 3 
+print( D ) # Line 4
+What will be displayed by the Python code labeled ""Line 4""
+","""Four shalt thou""","""Four shalt thou not count""","[’Four’, ’shalt’, ’thou’]","[’Four’, ’shalt’, ’thou’, ’not’, ’count’]",a,Haneet
+273,"Given: S1 = {1,2,3} and S2 = {2,3,4}
+    what is the value of S after this operation: S = S1 & S","A) {1, 2, 3, 4}
+","B) {2, 3}","    C) {1, 4}","
+ D) {}",B,Jatin Dhall
+274,What is printed by: print(2**2*2),15,8,16,6,B,Jatin Dhall
+275,"Given: s = 'spam'
+    what is printed by: print(s.index('s'))",0, '',None,-1,A,Jatin Dhall
+276,1) What is the 16-bit compiler allowable range for integer constants?,-3.4e38 to 3.4e38,-32767 to 32768,-32668 to 32667,-32768 to 32767,-32768 to 32767,Raehat Singh Nanda
+277,What is printed by: print(2 and 3),2,-1,3,FALSE,C,Jatin Dhall
+278,"Given: x = 0
+    what is printed by: 
+    if x:
+        print(""Here"")
+    else:
+        print(""There"")",Here,There,None of the above,,B,Jatin Dhall
+279,"main()  
+{printf(""javatpoint"");  
+main();}  ",Wrong statement,It will keep on printing javatpoint,It will Print javatpoint once,None of the these,It will keep on printing javatpoint,Raehat Singh Nanda
+280,,,,,,,
+281,"What does this expression return?
+        {a*b for a in range(3) for b in range(3)}","{0, 0, 0, 1}","{0, 1}","{0, 1, 2, 4}","{0, 0, 0, 0, 1, 2, 0, 2, 4}",C,Jatin Dhall
+282,"Consider this code
+  L1 = ['a','b']
+  L2 = [1, L1, 2]
+  L1.append('c')
+  print(L2)   # Line 1
+
+  What is printed by Line 1?","A) [1, ['a', 'b'], 2]","
+    B) [1, ['a', 'b', 'c'], 2]","
+    C) [1, ['c'], 2]","
+    D) [1, [['a', 'b'],['c']], 2]",B,Jatin Dhall
+283,"Given
+       value = input(""Input a number: "")
+    What is the type of value if 7 is input at the prompt?",int,str,float,long,B,Jatin Dhall
+284,"Given: x = 12
+    what is printed by: print(0 <= x <= 12)
+ ","A) False
+     ",B) True,"
+      C) 12
+     ",D) 0,B,Jatin Dhall
+285,What is printed by: print(5**2),10,25,5,TRUE,B,Jatin Dhall
+286,"Given
+        b = input(""Input a bool (True/False): "")
+     What is the type of b if True is input at the prompt?",float,str,int,bool,B,Jatin Dhall
+287,"Given: s = 'Hello'
+    what is printed by: print(s.find('h'))",None, ' ',0,-1,D,Jatin Dhall
+288,What is required in each C program?,The program must have at least one function.,The program does not require any function.,Input data,Output data,The program must have at least one function.,Raehat Singh Nanda
+289,What is printed by: print(2 and 0),FALSE,TRUE,0,2,C,Jatin Dhall
+290,"Given D = {'a': 11}
+    What code changes D to be {'a': 1}?",D['a'] -= 10,"D['a'] = D.get('a',0) - 10","try:
+            D['a'] += 1
+        except KeyError:
+            D['a'] = 1", All of the above,AC,Jatin Dhall
+291,"Given s = {1,2,3}
+    what is printed by print(s.add(4))","{1, 2, 3, 4}","{1, 2, 3}",{},None,D,Jatin Dhall
+292,"Given: L1 = [4,5] and L2 = [1,2,3]
+    what is the value of L after this operation: L = L1 + L2","[4,5,[1,2,3]]","[[4,5],[1,2,3]]","[1,2,3,4,5]","[4,5,1,2,3]",D,Jatin Dhall
+293,"Given s = ""To be, or not to be, that is the question:""
+    which code produces the following?
+   ['To be', 'or not to be', 'that is the question']","s.strip(',:').split(',')","s.strip(',:').split(', ')",s.split().strip(),"s.split(',').strip()",B,Jatin Dhall
+294,"What is the output when the following for loop is executed?
+
+    for i in range(3,9,3):
+	    print(i, end = ' ')",3 6,"""3 6 9""(Without the quotes)",3 4 5 6 7 8 ,3 4 5 6 7 8 9 ,A ,Jatin Dhall
+295,"Given: x = []
+    what is printed by: 
+    if x:
+        print(""Here"")
+    else:
+        print(""There"")",There,Here,None of the above,,A,Jatin Dhall
+296,"Consider this code
+
+  L1 = [1,2,3]
+  L2 = [1,L1[:],2,3]
+  L1.append(4)
+  print(L2)   # Line 1
+
+  What is printed by Line 1?","[1, [1, 2, 3, 4], 2, 3]","[1, [1, 2, 3], 2, 3]","[1,L1[:],2,3]","[1, 2, 3, 4] ",B,Jatin Dhall
+297,"Given the list L = [('a', 1), ('b', 7), ('c', 5), ('d', 2)]
+    what code generates D = {'a': 1, 'b': 7, 'c': 5, 'd': 2}?","D = dict([(x,y) for x,y in L])",D = dict(L),"D = { x:y for x,y in L }",All of the above,D,Jatin Dhall
+298," A = 0
+ B = 0
+ C = 0
+ D = 0
+ for A in range(1,10,3):
+ if A//2*2 == A:
+ B += 1
+ if A//4*4 == A:
+ C +=1
+ else:
+ D += 1
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+ print( D ) # Line 4
+
+Which of the following statements about the Python code labeled ""Line 1"" is correct?",It will display 1 when the program is executed.,It will display 4 when the program is executed.,It will display 7 when the program is executed,It will display 10 when the program is executed.,c,Haneet
+299,"What does this expression return?
+        {a*b for a in range(3) for b in range(3)}","{0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 4, 6, 0, 3, 6, 9}","{0, 0, 0, 0, 1, 2, 0, 2, 4}","{0, 1, 2, 3, 4, 6, 9}","{0, 1, 2, 4}",D,Jatin Dhall
+300,"Given: S1 = {1,2,3} and S2 = {1,3,5}
+    what is the value of S after this operation: S = S1 ^ S2",{},"{1, 3}","{2, 5}","{1, 2, 3, 5}",D,Jatin Dhall
+301,"What is printed by?
+    print(5 + 2 % 5)",4,7,2,0,B,Jatin Dhall
+302,"What is printed by?
+    print(5 + 2 % 5)",1,"""1.0""",0,"""0.0""",C,Jatin Dhall
+303,"What is printed by?
+   
+  i = 0
+  while i < 5:
+      print(i, end = ' ') #space between the single quotes
+      i += 2
+  else:
+      print('0')","""0 2 4""","""0 2 4 6""","""0 2 4 6 0""","""0 2 4 0""",D,Jatin Dhall
+304,"What is printed by?
+	
+	#""Love Me Do"" lyrics Lennon & McCartney
+        Line1 = ""love, love me do""
+        Line2 = ""you know I love you""
+        Line3 = ""I'll always be true""
+	Line4 = Line1 + Line2 + Line3   
+	print(Line2.find('know'), Line4.count('love')) ","(4, 3)",4 3,True 3,True 2,B,Jatin Dhall
+305," A = 0
+ B = 0
+ C = 0
+ D = 0
+ for A in range(1,10,3):
+ if A//2*2 == A:
+ B += 1
+ if A//4*4 == A:
+ C +=1
+ else:
+ D += 1
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+ print( D ) # Line 4
+
+Which of the following statements about the Python code labeled ""Line 2""",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,b,Haneet
+306,"Given L = [], What is printed by:
+       if L:
+           print('first')
+       else:
+           print('second')",first,second,firstsecond,None,B,Jatin Dhall
+307,"Given
+       value = input(""Input a number: "")
+    What is the type of value if 7 is input at the prompt?",str,int,float,long,A,Jatin Dhall
+308,"Analyze the following code:
+    Given: number = 27
+
+	#Code 1:
+	if number % 2 == 0: 
+    	    even = True
+	else: 
+    	    even = False
+
+	#Code 2:
+	even = number % 2 == 0",Code 1 has errors,Code 2 has errors,Both Code 1 and Code 2 are correct.,Both Code 1 and Code 2 have errors.,C,Jatin Dhall
+309,"What is printed by this sequence of instructions?
+
+	L = [(1, 2), (3, 4), (5, 6)]
+	res = [list(x) for x in L]
+	print(res)  ","[1, 2, 3, 4, 5, 6]","[[1, 2, 3, 4, 5, 6]]","[[1, 2], [3, 4], [5, 6]]","[(1, 2), (3, 4), (5, 6)]",C,Jatin Dhall
+310,"print('#^', ""adg says hi"".center(3), '^#', sep='')
+What is the output of the above code?",#^adg says hi^#,adg says hi^#^,#^#adg says hi,Error,a,harsh vardhan
+311,"Given this sequence of instructions:
+
+      L1 = ['a','b','c']
+      L2 = [1,L1[:],2,L1]
+      L1.append(4)
+      print(L2)
+
+    What is printed?","[1, L1[:], 2, L1]","[1, ['a', 'b', 'c'], 2, ['a', 'b', 'c', 4]]","[1, ['a', 'b', 'c', 4], 2, ['a', 'b', 'c']]","[1, ['a', 'b', 'c', 4], 2, ['a', 'b', 'c', 4]]",B,Jatin Dhall
+312,"What is printed by 
+        D = dict() 
+	for i in range (2): 
+    	    for j in range(3): 
+        	D[i] = j 
+	print(D)","{0: 2, 1: 2}","{0: 1, 1: 1, 2: 1}","{0: 2, 1: 2, 2: 2}","{0: 0, 0: 1, 0: 2, 1: 0, 1: 1, 1: 2 }",A,Jatin Dhall
+313,"What is printed by
+   
+      L = [2, 4, 6, 8, 10]
+      print(L.pop(-2), L.remove(L[0]), L)
+","8 None [4, 6, 10]","None 2 [4, 6, 10]","8 None [4, 6, 8, 10]","None 2 [4, 6, 8, 10]",A,Jatin Dhall
+314,"What is printed by
+   
+	T1 = (1) 
+	T2 = (3, 4) 
+	T1 += 5
+	print(T1, T1 + T2) ","(1, 5, 3, 4)","(5, 3, 4)","(6, 3, 4)",TypeError,D,Jatin Dhall
+315,"What is printed by the following?
+    Hint: careful, you are iterating through x and appending to x.
+
+      x = ['KL', 'MN']
+      for i in x:
+          x.append(i.lower())
+      print(x)","['k','l','m','n'] "," ['kl', 'mn']  ","['KL', 'MN', 'kl', 'mn']",No Output (Infinite loop),D,Jatin Dhall
+316," A = 0
+ B = 0
+ C = 0
+ D = 0
+ for A in range(1,10,3):
+ if A//2*2 == A:
+ B += 1
+ if A//4*4 == A:
+ C +=1
+ else:
+ D += 1
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+ print( D ) # Line 4
+
+Which of the following statements about the Python code labeled ""Line 4"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,c,Haneet
+317," A = 0
+ B = 0
+ C = 0
+ D = 15
+ while D >= 2:
+ A += 1
+ if D%2 == 0:
+ B += 1
+ else:
+ C += 1
+ D -= 3
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+ print( D ) # Line 4
+
+Which of the following statements about the Python code labeled ""Line 1"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,None of the above,d,Haneet
+318," A = 0
+ B = 0
+ C = 0
+ D = 15
+ while D >= 2:
+ A += 1
+ if D%2 == 0:
+ B += 1
+ else:
+ C += 1
+ D -= 3
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+ print( D ) # Line 4
+
+Which of the following statements about the Python code labeled ""Line 2"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed,It will display 3 when the program is executed.,c,Haneet
+319," A = 0
+ B = 0
+ C = 0
+ D = 15
+ while D >= 2:
+ A += 1
+ if D%2 == 0:
+ B += 1
+ else:
+ C += 1
+ D -= 3
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+ print( D ) # Line 4
+
+Which of the following statements about the Python code labeled ""Line 3"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,d,Haneet
+320," A = 0
+ B = 0
+ C = 0
+ D = 15
+ while D >= 2:
+ A += 1
+ if D%2 == 0:
+ B += 1
+ else:
+ C += 1
+ D -= 3
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+ print( D ) # Line 4
+
+Which of the following statements about the Python code labeled ""Line 3"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,a,Haneet
+321,"print(round(4.576, 4))
+What is the output of the above code?",4.57,4.6,4.576,4.5,c,harsh vardhan
+322,"a = (""welcome {0[0]}, to {0[1]}"".format(('freshers', 'vit')))
+b = (""welcome {0[0]}, to {0[1]}"".format(['freshers', 'vit']))
+if(a==b):
+    print(""Yolo"")
+else:
+    print(""bye"")
+
+What is the output of the above code?",Yolo,bye,Error,None ,a,harsh vardhan
+323,"inp = ""Tim Cook""
+out = set([i for i in inp if i in ""aeiou""])
+print(out)
+
+What is the output of the above code?","['i', 'o']","{'i', 'o'}","{'T', 'm', ' ', 'k', 'C'}","['T', 'm', ' ', 'k', 'C']",b,harsh vardhan
+324,,,,,,,
+325,"x = [i**+3 for i in range(0,5)]
+print(x)
+What is the output of the above code?","[1, 4, 7, 10, 13]","[0, 1, 2, 3, 4]","[0, 1, 8, 27, 64]",Error,c,harsh vardhan
+326,"a = [i for i in ""iPhone 13""]
+print(""!"".join(a))
+What is the output of the above code?",i!P!h!o!n!e! !1!3,iPhone 13,"['i', 'p', 'h', 'o', 'n', 'e', ' ', '1', '3']",None ,a,harsh vardhan
+327,"print([if j%3==0: j; else: j+2; for j in range(12)])
+What is the output of the above code?","[0,3,6,9]","[0, 2,4,6,8,10]",error,None ,c,harsh vardhan
+328,"x = (""hello "")*4
+print(set(x))
+What is the output of the above code?","{'o', 'h', 'l', ' ', 'e'}",hello hello hello hello ,"['h', ' ', 'l', 'o', 'e']",None ,a,harsh vardhan
+329,"x = (""a"", 'b', 'd')
+x[1] = 'y'
+print(x)
+What is the output of the above code?",Error,"('a', 'y', 'd)","('a', 'b', 'c')","['a', 'y', 'd]",a,harsh vardhan
+330,"x = list((""a"", 'b', 'd'))
+x[1] = 'y'
+print(x)
+What is the output of the above code?",Error,"('a', 'y', 'd)","('a', 'b', 'd')","['a', 'y', 'd]",d,harsh vardhan
+331,"x = (""a"", 'b', 'd')
+del(x[0])
+print(x)
+What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",a,harsh vardhan
+332,"x = list((""a"", 'b', 'd'))
+del(x[0])
+print(x)
+What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",b,harsh vardhan
+333,"x = dict((""a"", 'b', 'd'))
+del(x[0])
+print(x)
+What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",a,harsh vardhan
+334,"x = {""a"":0, 'b':0, 'd':0}
+del(x[0])
+print(x)
+What is the output of the above code?",Error,"{'b',:0 'd':0}","{'b', 'd'}","{'a', 'b', 'd'}",a,harsh vardhan
+335,"x = {""a"":0, 'b':0, 'd':0}
+del(x[""a""])
+print(x)
+What is the output of the above code?",Error,"{'b',:0 'd':0}","{'b', 'd'}","{'a', 'b', 'd'}",b,harsh vardhan
+336," Among the given statements, which statement defines closures in JavaScript?",JavaScript is a function that is enclosed with references to its inner function scope,JavaScript is a function that is enclosed with references to its lexical environment,JavaScript is a function that is enclosed with the object to its inner function scope,None of the above,b,Eshan
+337,What will be the output of the following JavaScript code snippet?,Error,10,50,5,c,Eshan
+338,Arrays in JavaScript are defined by which of the following statements?,It is an ordered list of values,It is an ordered list of objects,"It is an ordered list of string
+",It is an ordered list of functions,a,Eshan
+339,,TRUE,FALSE,Compilation error,runtime error,b,Eshan
+340,,Exception will be thrown,Memory leak,Error,"yes, perfectly",d,Eshan
+341,Which of the following is not javascript data types?,Null,Undefined ,Number,All of the above,d,Eshan
+342, Where is Client-side JavaScript code is embedded within HTML documents?,A URL that uses the special javascript:code, A URL that uses the special javascript:protocol,A URL that uses the special javascript:encoding,A URL that uses the special javascript:stack,b,Eshan
+343,What is the output?,short,123.56,tall,190,a,Eshan
+344,Which of the following can be used to call a JavaScript Code Snippet?,Function/Method, Preprocessor,Triggering Event,RMI,a,Eshan
+345,What is the output?,"Prints ""Empty Array""",Prints 0 to the length of arrray,Prints the numbers in the array in order,Prints the numbers in the array in the reverse order.,c,Eshan
+346,"what is the value of a++ + --b + a++ - --b when a=10 , b=5",22,21,20,25,B, Shubh Kapil
+347,"what is the value of a++ + --b + a++ - --b when a=3 , b=7",18,12,9,7,D, Shubh Kapil
+348,"what is the value of a++ + --b + a++ - --b when a=5 , b=10",14,11,20,12,B, Shubh Kapil
+349,"what is the value of a++ + --b + a++ - --b when a=12 , b=10",22,21,30,25,D, Shubh Kapil
+350,Which of the following languages only contains 0's and 1's?,High Levl,Assembly Language,C++,Machine,D, Shubh Kapil
+351,Size of the interger in python is,64 bits,2 bytes,32 bits,4 bytes,C, Shubh Kapil
+352,Full form of IDE is,Internal Duo Environment,Integrated Devlopment Environment,Interconnected Development Environment,Internal Distinct Environment,B, Shubh Kapil
+353,which of the following is not an example of IDE?,code:blocks,Aptana Studio 3,Komodo,CODE RUNNER,D, Shubh Kapil
+354,Monitor is also called,VDU,DUV,UDV,UVD,A, Shubh Kapil
+355,Which of the following python program gives the output as 6.87 ,"x=round(6.86792,[2])","x=round(6.86492,(2))","x=round(6.86792,'2')","x=round(6.86792,2)",D,Shubh Kapil
+356,The index of starting element of an array of n length,n,n-1,1,0,D, Shubh Kapil
+357,The slowest memory in a computer system,Register,Main Memory,Magnetic tapes,Optical Disk,C,Shubh Kapil
+358,Which of the following is not an OS,Windows,Linux,Catalina,None of these,D, Shubh Kapil
+359,Which of the following is not a network device,Hub,Address Bus,Bridge,Switch,B, Shubh Kapil
+360,Which of the following is not an arithmetic operator,Add(+),Mod(%),AND(&&),Floor Value(/),c, Shubh Kapil
+361,An example of logical operator is,Equal to (=),Double Equal to (==),Add(+),OR(||),D, Shubh Kapil
+362,An example of relational operator is,Equal to (=),Double Equal to (==),AND(&&),none of these,B, Shubh Kapil
+363,,,,,,,
+364,,,,,,,
+365,,,,,,,
+366,,,,,,,
+367,Which of these definitions correctly describes a module?,Denoted by triple quotes for providing the specification of certain program elements,Design and implementation of specific functionality to be incorporated into a program,Defines the specification of how it is to be used,Any program that reuses code,B,Ankit Sidana
+368,Program code making use of a given module is called a ______ of the module.,Client,Interface,Modularity,Docstring,A,Ankit Sidana
+369,______ is a string literal denoted by triple quotes for providing the specifications of certain program elements.,Client,Interface,Modularity,Docstring,D,Ankit Sidana
+370,_____ is a mechanism to achieve abstraction.,Client,Interface,Modularity,Docstring,B,Ankit Sidana
+371,"________ can be visualized as a way of mapping encapsulated abstractions into real, physical modules having high cohesion within the modules and their inter–module interaction or coupling is low.",Client,Interface,Modularity,Docstring,C,Ankit Sidana
+372,In top-down design every module is broken into same number of submodules.,TRUE,FALSE,,,B,Ankit Sidana
+373,All modular designs are because of a top-down design process.,TRUE,FALSE,,,B,Ankit Sidana
+374,Which of the following is not a valid namespace?,Global namespace,Public namespace,Built-in namespace,Local namespace,B,Ankit Sidana
+375,Which of the following is an acceptable variable name in python,int 7de,int d-e,int de,int d e,C,Harsh Rajpal
+376,Which of the following is a Python tuple?,"[7,8,9]","(7,8,9)","{7,8,9}",{},B,Harsh Rajpal
+377,The variables in a function definition are called,Parameters,Arguments,Function,Definition,A,Harsh Rajpal
+378,HTML is used to:,Plot complicated graphs,Translate one language into another,Author Web Pages,Solve equations,C,Harsh Rajpal
+379,The index of middle element of an array of n length,0,n/2 -1,n-1,n/2,B,Harsh Rajpal
+380,The index of last element of an array of n length,0,n-2,n,n-1,D,Harsh Rajpal
+381,Which of the following is not an image format,JPEG,PNG,PHP,SVG,a) and b),Harsh Rajpal
+382,Which of the following is the fastest Memory,HDD,SSD,CACHE,RAM,C,Harsh Rajpal
+383,Which of the following is not a peripheral device,Mouse,Hard Disk,cache,Monitor,C,Harsh Rajpal
+384,The fastest sorting Algorithm is:,Merge,Bubble,Quick,Selection,C,Harsh Rajpal
+385,"  def f(a,b):
+      if b:
+          b.append('w')
+      a += b
+      return b
+  
+  w = 3
+  x = 0
+  y = [4,3]
+  z = [5,4]
+  print(f(w,x))    # Line 1
+  print(f(y,z))    # Line 2
+  print(w)         # Line 3
+  print(y)         # Line 4
+
+What is printed by Line 1?",30,3,0,None,c,Haneet
+386,"  def f(a,b):
+      if b:
+          b.append('w')
+      a += b
+      return b
+  
+  w = 3
+  x = 0
+  y = [4,3]
+  z = [5,4]
+  print(f(w,x))    # Line 1
+  print(f(y,z))    # Line 2
+  print(w)         # Line 3
+  print(y)         # Line 4
+
+What is printed by Line 3?",30,,0,None,b,Haneet
+387,"  def f(a,b):
+      if b:
+          b.append('w')
+      a += b
+      return b
+  
+  w = 3
+  x = 0
+  y = [4,3]
+  z = [5,4]
+  print(f(w,x))    # Line 1
+  print(f(y,z))    # Line 2
+  print(w)         # Line 3
+  print(y)         # Line 4
+
+What is printed by Line 2?"," [5, 4, 'w']","[5, 4]","[4, 3, 5, 4, 'w']","[4, 3, 5, 4]",A,Haneet
+388,"  def f(a,b):
+      if b:
+          b.append('w')
+      a += b
+      return b
+  
+  w = 3
+  x = 0
+  y = [4,3]
+  z = [5,4]
+  print(f(w,x))    # Line 1
+  print(f(y,z))    # Line 2
+  print(w)         # Line 3
+  print(y)         # Line 4
+
+What is printed by Line 2?"," [5, 4, 'w']","[5, 4]","[4, 3, 5, 4, 'w']","[4, 3, 5, 4]",c,Haneet
+389,,,,,,,
+390,,,,,,,
+391,,,,,,,
+392,,,,,,,
+393,,,,,,,
+394,,,,,,,
+395,,,,,,,
+396,,,,,,,
+397,,,,,,,
+398,,,,,,,
+399,,,,,,,
+400,,,,,,,
+401,,,,,,,
+402,,,,,,,
+403,,,,,,,
+404,,,,,,,
+405,,,,,,,
+406,,,,,,,
+407,,,,,,,
+408,,,,,,,
+409,,,,,,,
+410,,,,,,,
+411,,,,,,,
+412,,,,,,,
+413,,,,,,,
+414,,,,,,,
+415,,,,,,,
+416,,,,,,,
+417,,,,,,,
+418,,,,,,,
+419,,,,,,,
+420,,,,,,,
+421,,,,,,,
+422,,,,,,,
+423,,,,,,,
+424,,,,,,,
+425,,,,,,,
+426,,,,,,,
+427,,,,,,,
+428,,,,,,,
+429,,,,,,,
+430,,,,,,,
+431,,,,,,,
+432,,,,,,,
+433,,,,,,,
+434,,,,,,,
+435,,,,,,,
+436,,,,,,,
+437,,,,,,,
+438,,,,,,,
+439,,,,,,,
+440,,,,,,,
+441,,,,,,,
+442,,,,,,,
+443,,,,,,,
+444,,,,,,,
+445,,,,,,,
+446,,,,,,,
+447,,,,,,,
+448,,,,,,,
+449,,,,,,,
+450,,,,,,,
+451,,,,,,,
+452,,,,,,,
+453,,,,,,,
+454,,,,,,,
+455,,,,,,,
+456,,,,,,,
+457,,,,,,,
+458,,,,,,,
+459,,,,,,,
+460,,,,,,,
+461,,,,,,,
+462,,,,,,,
+463,,,,,,,
+464,,,,,,,
+465,,,,,,,
+466,,,,,,,
+467,,,,,,,
+468,,,,,,,
+469,,,,,,,
+470,,,,,,,
+471,,,,,,,
+472,,,,,,,
+473,,,,,,,
+474,,,,,,,
+475,,,,,,,
+476,,,,,,,
+477,,,,,,,
+478,,,,,,,
+479,,,,,,,
+480,,,,,,,
+481,,,,,,,
+482,,,,,,,
+483,,,,,,,
+484,,,,,,,
+485,,,,,,,
+486,,,,,,,
+487,,,,,,,
+488,,,,,,,
+489,,,,,,,
+490,,,,,,,
+491,,,,,,,
+492,,,,,,,
+493,,,,,,,
+494,,,,,,,
+495,,,,,,,
+496,,,,,,,
+497,,,,,,,
+498,,,,,,,
+499,,,,,,,
+500,,,,,,,
+501,,,,,,,
+502,,,,,,,
+503,,,,,,,
+504,,,,,,,
+505,,,,,,,
+506,,,,,,,
+507,,,,,,,
+508,,,,,,,
+509,,,,,,,
+510,,,,,,,
+511,,,,,,,
+512,,,,,,,
+513,,,,,,,
+514,,,,,,,
+515,,,,,,,
+516,,,,,,,
+517,,,,,,,
+518,,,,,,,
+519,,,,,,,
+520,,,,,,,
+521,,,,,,,
+522,,,,,,,
+523,,,,,,,
+524,,,,,,,
+525,,,,,,,
+526,,,,,,,
+527,,,,,,,
+528,,,,,,,
+529,,,,,,,
+530,,,,,,,
+531,,,,,,,
+532,,,,,,,
+533,,,,,,,
+534,,,,,,,
+535,,,,,,,
+536,,,,,,,
+537,,,,,,,
+538,,,,,,,
+539,,,,,,,
+540,,,,,,,
+541,,,,,,,
+542,,,,,,,
+543,,,,,,,
+544,,,,,,,
+545,,,,,,,
+546,,,,,,,
+547,,,,,,,
+548,,,,,,,
+549,,,,,,,
+550,,,,,,,
+551,,,,,,,
+552,,,,,,,
+553,,,,,,,
+554,,,,,,,
+555,,,,,,,
+556,,,,,,,
+557,,,,,,,
+558,,,,,,,
+559,,,,,,,
+560,,,,,,,
+561,,,,,,,
+562,,,,,,,
+563,,,,,,,
+564,,,,,,,
+565,,,,,,,
+566,,,,,,,
+567,,,,,,,
+568,,,,,,,
+569,,,,,,,
+570,,,,,,,
+571,,,,,,,
+572,,,,,,,
+573,,,,,,,
+574,,,,,,,
+575,,,,,,,
+576,,,,,,,
+577,,,,,,,
+578,,,,,,,
+579,,,,,,,
+580,,,,,,,
+581,,,,,,,
+582,,,,,,,
+583,,,,,,,
+584,,,,,,,
+585,,,,,,,
+586,,,,,,,
+587,,,,,,,
+588,,,,,,,
+589,,,,,,,
+590,,,,,,,
+591,,,,,,,
+592,,,,,,,
+593,,,,,,,
+594,,,,,,,
+595,,,,,,,
+596,,,,,,,
+597,,,,,,,
+598,,,,,,,
+599,,,,,,,
+600,,,,,,,
+601,,,,,,,
+602,,,,,,,
+603,,,,,,,
+604,,,,,,,
+605,,,,,,,
+606,,,,,,,
+607,,,,,,,
+608,,,,,,,
+609,,,,,,,
+610,,,,,,,
+611,,,,,,,
+612,,,,,,,
+613,,,,,,,
+614,,,,,,,
+615,,,,,,,
+616,,,,,,,
+617,,,,,,,
+618,,,,,,,
+619,,,,,,,
+620,,,,,,,
+621,,,,,,,
+622,,,,,,,
+623,,,,,,,
+624,,,,,,,
+625,,,,,,,
+626,,,,,,,
+627,,,,,,,
+628,,,,,,,
+629,,,,,,,
+630,,,,,,,
+631,,,,,,,
+632,,,,,,,
+633,,,,,,,
+634,,,,,,,
+635,,,,,,,
+636,,,,,,,
+637,,,,,,,
+638,,,,,,,
+639,,,,,,,
+640,,,,,,,
+641,,,,,,,
+642,,,,,,,
+643,,,,,,,
+644,,,,,,,
+645,,,,,,,
+646,,,,,,,
+647,,,,,,,
+648,,,,,,,
+649,,,,,,,
+650,,,,,,,
+651,,,,,,,
+652,,,,,,,
+653,,,,,,,
+654,,,,,,,
+655,,,,,,,
+656,,,,,,,
+657,,,,,,,
+658,,,,,,,
+659,,,,,,,
+660,,,,,,,
+661,,,,,,,
+662,,,,,,,
+663,,,,,,,
+664,,,,,,,
+665,,,,,,,
+666,,,,,,,
+667,,,,,,,
+668,,,,,,,
+669,,,,,,,
+670,,,,,,,
+671,,,,,,,
+672,,,,,,,
+673,,,,,,,
+674,,,,,,,
+675,,,,,,,
+676,,,,,,,
+677,,,,,,,
+678,,,,,,,
+679,,,,,,,
+680,,,,,,,
+681,,,,,,,
+682,,,,,,,
+683,,,,,,,
+684,,,,,,,
+685,,,,,,,
+686,,,,,,,
+687,,,,,,,
+688,,,,,,,
+689,,,,,,,
+690,,,,,,,
+691,,,,,,,
+692,,,,,,,
+693,,,,,,,
+694,,,,,,,
+695,,,,,,,
+696,,,,,,,
+697,,,,,,,
+698,,,,,,,
+699,,,,,,,
+700,,,,,,,
+701,,,,,,,
+702,,,,,,,
+703,,,,,,,
+704,,,,,,,
+705,,,,,,,
+706,,,,,,,
+707,,,,,,,
+708,,,,,,,
+709,,,,,,,
+710,,,,,,,
+711,,,,,,,
+712,,,,,,,
+713,,,,,,,
+714,,,,,,,
+715,,,,,,,
+716,,,,,,,
+717,,,,,,,
+718,,,,,,,
+719,,,,,,,
+720,,,,,,,
+721,,,,,,,
+722,,,,,,,
+723,,,,,,,
+724,,,,,,,
+725,,,,,,,
+726,,,,,,,
+727,,,,,,,
+728,,,,,,,
+729,,,,,,,
+730,,,,,,,
+731,,,,,,,
+732,,,,,,,
+733,,,,,,,
+734,,,,,,,
+735,,,,,,,
+736,,,,,,,
+737,,,,,,,
+738,,,,,,,
+739,,,,,,,
+740,,,,,,,
+741,,,,,,,
+742,,,,,,,
+743,,,,,,,
+744,,,,,,,
+745,,,,,,,
+746,,,,,,,
+747,,,,,,,
+748,,,,,,,
+749,,,,,,,
+750,,,,,,,
+751,,,,,,,
+752,,,,,,,
+753,,,,,,,
+754,,,,,,,
+755,,,,,,,
+756,,,,,,,
+757,,,,,,,
+758,,,,,,,
+759,,,,,,,
+760,,,,,,,
+761,,,,,,,
+762,,,,,,,
+763,,,,,,,
+764,,,,,,,
+765,,,,,,,
+766,,,,,,,
+767,,,,,,,
+768,,,,,,,
+769,,,,,,,
+770,,,,,,,
+771,,,,,,,
+772,,,,,,,
+773,,,,,,,
+774,,,,,,,
+775,,,,,,,
+776,,,,,,,
+777,,,,,,,
+778,,,,,,,
+779,,,,,,,
+780,,,,,,,
+781,,,,,,,
+782,,,,,,,
+783,,,,,,,
+784,,,,,,,
+785,,,,,,,
+786,,,,,,,
+787,,,,,,,
+788,,,,,,,
+789,,,,,,,
+790,,,,,,,
+791,,,,,,,
+792,,,,,,,
+793,,,,,,,
+794,,,,,,,
+795,,,,,,,
+796,,,,,,,
+797,,,,,,,
+798,,,,,,,
+799,,,,,,,
+800,,,,,,,
+801,,,,,,,
+802,,,,,,,
+803,,,,,,,
+804,,,,,,,
+805,,,,,,,
+806,,,,,,,
+807,,,,,,,
+808,,,,,,,
+809,,,,,,,
+810,,,,,,,
+811,,,,,,,
+812,,,,,,,
+813,,,,,,,
+814,,,,,,,
+815,,,,,,,
+816,,,,,,,
+817,,,,,,,
+818,,,,,,,
+819,,,,,,,
+820,,,,,,,
+821,,,,,,,
+822,,,,,,,
+823,,,,,,,
+824,,,,,,,
+825,,,,,,,
+826,,,,,,,
+827,,,,,,,
+828,,,,,,,
+829,,,,,,,
+830,,,,,,,
+831,,,,,,,
+832,,,,,,,
+833,,,,,,,
+834,,,,,,,
+835,,,,,,,
+836,,,,,,,
+837,,,,,,,
+838,,,,,,,
+839,,,,,,,
+840,,,,,,,
+841,,,,,,,
+842,,,,,,,
+843,,,,,,,
+844,,,,,,,
+845,,,,,,,
+846,,,,,,,
+847,,,,,,,
+848,,,,,,,
+849,,,,,,,
+850,,,,,,,
+851,,,,,,,
+852,,,,,,,
+853,,,,,,,
+854,,,,,,,
+855,,,,,,,
+856,,,,,,,
+857,,,,,,,
+858,,,,,,,
+859,,,,,,,
+860,,,,,,,
+861,,,,,,,
+862,,,,,,,
+863,,,,,,,
+864,,,,,,,
+865,,,,,,,
+866,,,,,,,
+867,,,,,,,
+868,,,,,,,
+869,,,,,,,
+870,,,,,,,
+871,,,,,,,
+872,,,,,,,
+873,,,,,,,
+874,,,,,,,
+875,,,,,,,
+876,,,,,,,
+877,,,,,,,
+878,,,,,,,
+879,,,,,,,
+880,,,,,,,
+881,,,,,,,
+882,,,,,,,
+883,,,,,,,
+884,,,,,,,
+885,,,,,,,
+886,,,,,,,
+887,,,,,,,
+888,,,,,,,
+889,,,,,,,
+890,,,,,,,
+891,,,,,,,
+892,,,,,,,
+893,,,,,,,
+894,,,,,,,
+895,,,,,,,
+896,,,,,,,
+897,,,,,,,
+898,,,,,,,
+899,,,,,,,
+900,,,,,,,
+901,,,,,,,
+902,,,,,,,
+903,,,,,,,
+904,,,,,,,
+905,,,,,,,
+906,,,,,,,
+907,,,,,,,
+908,,,,,,,
+909,,,,,,,
+910,,,,,,,
+911,,,,,,,
+912,,,,,,,
+913,,,,,,,
+914,,,,,,,
+915,,,,,,,
+916,,,,,,,
+917,,,,,,,
+918,,,,,,,
+919,,,,,,,
+920,,,,,,,
+921,,,,,,,
+922,,,,,,,
+923,,,,,,,
+924,,,,,,,
+925,,,,,,,
+926,,,,,,,
+927,,,,,,,
+928,,,,,,,
+929,,,,,,,
+930,,,,,,,
+931,,,,,,,
+932,,,,,,,
+933,,,,,,,
+934,,,,,,,
+935,,,,,,,
+936,,,,,,,
+937,,,,,,,
+938,,,,,,,
+939,,,,,,,
+940,,,,,,,
+941,,,,,,,
+942,,,,,,,
+943,,,,,,,
+944,,,,,,,
+945,,,,,,,
+946,,,,,,,
+947,,,,,,,
+948,,,,,,,
+949,,,,,,,
+950,,,,,,,
+951,,,,,,,
+952,,,,,,,
+953,,,,,,,
+954,,,,,,,
+955,,,,,,,
+956,,,,,,,
+957,,,,,,,
+958,,,,,,,
+959,,,,,,,
+960,,,,,,,
+961,,,,,,,
+962,,,,,,,
+963,,,,,,,
+964,,,,,,,
+965,,,,,,,
+966,,,,,,,
+967,,,,,,,
+968,,,,,,,
+969,,,,,,,
+970,,,,,,,
+971,,,,,,,
+972,,,,,,,
+973,,,,,,,
+974,,,,,,,
+975,,,,,,,
+976,,,,,,,
+977,,,,,,,
+978,,,,,,,
+979,,,,,,,
+980,,,,,,,
+981,,,,,,,
+982,,,,,,,
+983,,,,,,,
+984,,,,,,,
+985,,,,,,,
+986,,,,,,,
+987,,,,,,,
+988,,,,,,,
+989,,,,,,,
+990,,,,,,,
+991,,,,,,,
+992,,,,,,,
+993,,,,,,,
+994,,,,,,,
+995,,,,,,,
+996,,,,,,,
+997,,,,,,,
+998,,,,,,,
+999,,,,,,,
+1000,,,,,,,
+1001,,,,,,,
+1002,,,,,,,
