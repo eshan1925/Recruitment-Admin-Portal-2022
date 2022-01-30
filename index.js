@@ -125,22 +125,11 @@ app.post("/", function (req, res) {
 
 app.post('/upload', uploads.single('csv'), (req, res) => {
     csv().fromFile(req.file.path).then((jsonObj) => {
-        var dataQuestion = [];
         for (var i = 1; i < jsonObj.length; i++) {
-            var dic = {
-                SNo:parseInt(jsonObj[i].field1),
-                Question:jsonObj[i]["Technical questions"],
-                OptionA:jsonObj[i].field3,
-                OptionB:jsonObj[i].field4,
-                OptionC:jsonObj[i].field5,
-                OptionD:jsonObj[i].field6,
-                Answer:jsonObj[i].field7,
-                Name:jsonObj[i].field8
-            };
-            dataQuestion.push(dic);
+            temp = parseInt(jsonObj[i].SNo);
+            jsonObj[i].SNo = temp;
         };
-        console.log(dataQuestion);
-        fileModel.insertMany(dataQuestion, (err,data) => {
+        fileModel.insertMany(jsonObj, (err,data) => {
             if (err) {
                 console.log(err);
             } else {
@@ -148,8 +137,6 @@ app.post('/upload', uploads.single('csv'), (req, res) => {
             }
         });
     })
-
-
 });
 
 

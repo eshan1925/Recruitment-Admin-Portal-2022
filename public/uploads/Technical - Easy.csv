@@ -1,5 +1,4 @@
-,Technical questions,,,,,,
-Sl no.,Question,Option A,Option B,Option C,Option D,Correct Ans,Name
+SNo,Question,OptionA,OptionB,OptionC,OptionD,Answer,Name
 1,Accessing an element in a Python list is as quick as accessing an element in an array in C,TRUE,FALSE,,,FALSE,srinivas
 2,What is the default algorithm used by sort() method in Python?,Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Merge sort,srinivas
 3,What will be the value printed?,Error,"[2, 4, 6, 8, 10]","[4, 16, 36, 64, 100]","[2, 4, 36, 64, 10]","[4, 16, 36, 64, 100]",srinivas

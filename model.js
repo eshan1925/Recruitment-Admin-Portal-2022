@@ -28,4 +28,4 @@ var csvSchema = new mongoose.Schema({
 });
 
 
-module.exports = new mongoose.model('Question', csvSchema);
+module.exports = new mongoose.model('technicalQuestion', csvSchema);
