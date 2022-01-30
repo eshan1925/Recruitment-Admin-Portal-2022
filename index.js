@@ -9,7 +9,7 @@ var fs = require('fs');
 var path = require('path');
 var multer = require('multer');
 var fileModel = require('./model');
-var csv = require('csvtojson'); 
+var csv = require('csvtojson');
 
 var storage = multer.diskStorage({
     destination: (req, file, cb) => {
@@ -19,13 +19,13 @@ var storage = multer.diskStorage({
         cb(null, file.originalname);
     }
 });
-  
+
 var uploads = multer({ storage: storage });
 
 const app = express();
 
 mongoose.connect(process.env.MONGO_URL,
-    { useNewUrlParser: true}, err => {
+    { useNewUrlParser: true }, err => {
         console.log('connected to Database');
     });
 
@@ -47,47 +47,47 @@ app.get("/", function (req, res) {
 });
 
 app.get("/domain", function (req, res) {
-    if(activeCookie!=""){
+    if (activeCookie != "") {
         res.render("domain.ejs");
-    }else{
+    } else {
         res.redirect("/");
     }
 });
 
 app.get("/result", function (req, res) {
-    if(activeCookie!=""){
+    if (activeCookie != "") {
         res.render("result.ejs");
-    }else{
+    } else {
         res.redirect("/");
     }
-   
+
 });
 
 app.get("/review", function (req, res) {
-    if(activeCookie!=""){
+    if (activeCookie != "") {
         res.render("review.ejs");
-    }else{
+    } else {
         res.redirect("/");
     }
-    
+
 });
 
 app.get("/upload", function (req, res) {
-    if(activeCookie!=""){
+    if (activeCookie != "") {
         res.render("upload.ejs");
-    }else{
+    } else {
         res.redirect("/");
     }
-    
+
 });
 
 app.get("/edit", function (req, res) {
-    if(activeCookie!=""){
+    if (activeCookie != "") {
         res.render("edit.ejs");
-    }else{
+    } else {
         res.redirect("/");
     }
-    
+
 });
 
 
@@ -115,7 +115,7 @@ app.post("/", function (req, res) {
             })
             .catch(function (error) {
                 console.log(error);
-            });        
+            });
     } else {
         console.log("Unauthorised User!!!");
         res.redirect("/");
@@ -124,17 +124,32 @@ app.post("/", function (req, res) {
 
 
 app.post('/upload', uploads.single('csv'), (req, res) => {
-    csv().fromFile(req.file.path).then((jsonObj)=>{
-        data.concat(jsonObj);
+    csv().fromFile(req.file.path).then((jsonObj) => {
+        var dataQuestion = [];
+        for (var i = 1; i < jsonObj.length; i++) {
+            var dic = {
+                SNo:parseInt(jsonObj[i].field1),
+                Question:jsonObj[i]["Technical questions"],
+                OptionA:jsonObj[i].field3,
+                OptionB:jsonObj[i].field4,
+                OptionC:jsonObj[i].field5,
+                OptionD:jsonObj[i].field6,
+                Answer:jsonObj[i].field7,
+                Name:jsonObj[i].field8
+            };
+            dataQuestion.push(dic);
+        };
+        console.log(dataQuestion);
+        fileModel.insertMany(dataQuestion, (err,data) => {
+            if (err) {
+                console.log(err);
+            } else {
+                res.redirect("/upload");
+            }
+        });
     })
 
-    // fileModel.inserMany(jsonObj,(err,data)=>{
-    //     if(err){
-    //         console.log(err);
-    //     }else{
-    //         res.redirect("/upload");
-    //     }
-    // });
+
 });
 
 
