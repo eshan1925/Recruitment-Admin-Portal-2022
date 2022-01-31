@@ -3,6 +3,7 @@
 </head>
     <body>
         <%- include("navbar") -%> 
+        <% var editableQuestion = 0; %> 
         <div class="all_questions">
             <div class="question_selector">
                 <select
@@ -23,7 +24,7 @@
                     <% for(var i=0;i<number_of_questions;i++){ %> 
                         <% if(Questions[i]["LOD"]==="Easy"){ %>
                             <a href="#">
-                                <div class="question">
+                                <div onclick="getId(this)" class="question" id="<%= Questions[i]['SNo'] %>">
                                     <div class="questionNumber">Q<%= Questions[i]["SNo"] %>.</div>
                                     <%= Questions[i]["Question"] %> 
                                 </div>
@@ -64,12 +65,10 @@
     <div class="all_options">
         <div class="question_selector1">
             <div class="qhead">
-                <p class="qnum">Question <span>1</span> :</p>
-                <p class="qdesc"><span>Find the Output</span></p>
+                <p class="qnum">Question <span><%= editableQuestion+1 %> </span> :</p>
+                <textarea class="content" id="content" disabled><%= Questions[editableQuestion]['Question'] %> </textarea>
             </div>
-            <button onclick="btnSave()" id="change" class="change">
-                Edit
-            </button>
+            <button onclick="btnSave()" id="change" class="change">Edit</button>
         </div>
   <div class="questionView">
     <div class="questionPic">
@@ -79,36 +78,29 @@
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <p class="content">
-                            A. Lorem ipsum dolor sit amet.
-                        </p>
+                        <input class="content" id="content" value="<%= Questions[editableQuestion]['OptionA'] %>" disabled>
+                    </input>
                     </div>
                 </div>
             </a>
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <p class="content">
-                            B. Lorem ipsum dolor sit amet.
-                        </p>
+                        <input class="content" id="content" value="<%= Questions[editableQuestion]['OptionB'] %>" disabled>
                     </div>
                 </div>
             </a>
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <p class="content">
-                            C. Lorem ipsum dolor sit amet.
-                        </p>
+                        <input class="content" id="content" value="<%= Questions[editableQuestion]['OptionC'] %>" disabled>
                     </div>
                 </div>
             </a>
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <p class="content">
-                            D. Lorem ipsum dolor sit amet.
-                        </p>
+                        <input class="content" id="content" value="<%= Questions[editableQuestion]['OptionD'] %>" disabled>
                     </div>
                 </div>
             </a>

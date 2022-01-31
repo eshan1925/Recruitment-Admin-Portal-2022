@@ -43,8 +43,7 @@
 .question_selector1 {
 	position: absolute;
 	width: 45%;
-	height: 10vh;
-	padding-top: 5%;
+	height: 15vh;
 	overflow: hidden;
 	background-color: #131313;
 	display: flex;
@@ -52,6 +51,8 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.8rem;
+	padding-bottom:0rem;
+	padding-top: 0rem;
 }
 
 .publish {
@@ -181,10 +182,13 @@ a > .optionSelect {
 	flex-direction: column;
 }
 
-p.content {
+input.content {
 	flex: 1;
 }
 
+p.content {
+	flex: 1;
+}
 .questionPic img {
 	width: 427px;
 	height: 400.14px;
@@ -206,6 +210,7 @@ p.content {
 }
 
 .qhead {
+	width: 450px;
 	padding: 2%;
 	font-weight: 500;
 	font-size: 16px;
@@ -221,4 +226,20 @@ p.content {
 
 .hidden {
 	display: none;
+}
+
+
+textarea,textarea:disabled,input:disabled{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	background-color: transparent;
+	color: white;
+	border-color: transparent;
+	font-family: Gilroy;
+	font-weight: 100;
+	font-size: 1.2rem;
+	text-align: left;
+	padding: 0.5%;
+	word-wrap: break-word;
 }

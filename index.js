@@ -117,7 +117,7 @@ app.get("/edit", function (req, res) {
                         console.log("No data found");
                         res.redirect("/upload");
                     }else{
-                        res.render("edit",{Questions:foundQuestions});
+                        res.render("edit",{Questions:foundQuestions,Domain:selectedDomain});
                     }
                 }
             });

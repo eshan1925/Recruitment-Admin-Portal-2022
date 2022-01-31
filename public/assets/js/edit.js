@@ -1,14 +1,21 @@
 function btnSave() {
     var but = document.getElementById("change").innerHTML;
-    if (but == "Save Changes") {
+    if (but === "Save Changes") {
         document.getElementById("change").innerHTML = "Edit";
+        document.getElementById("content").disabled = true;
     }
-    else if (but == "Edit") {
+    if (but === "Edit") {
         document.getElementById("change").innerHTML = "Save Changes";
+        document.getElementById("content").disabled = false;
     }
 }
 
+var editableQuestion = 0;
 
+function getId(btn) {
+    editableQuestion = btn.id;
+    console.log(editableQuestion);
+}
 
 function selectCategory() {
     var category = document.getElementById("category");
