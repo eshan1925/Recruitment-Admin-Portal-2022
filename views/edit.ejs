@@ -19,21 +19,18 @@
                 <button class="publish">Publish</button>
             </div>
             <div class="question_section" id="all">
-                <% for(var i=0;i<25;i++){ %> 
+                <% var number_of_questions = Questions.length %> 
+                <% for(var i=0;i<number_of_questions;i++){ %> 
                     <a href="#">
                         <div class="question">
-                            <div class="questionNumber">Q1.</div>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Illo numquam earum inventore eveniet deserunt
-                            aperiam quos deleniti tenetur ea blanditiis
-                            dignissimos repudiandae corporis atque, maxime
-                            fugiat officiis aliquid. Amet, doloremque!
+                            <div class="questionNumber">Q<%= Questions[i]["SNo"] %>.</div>
+                            <%= Questions[i]["Question"] %> 
                         </div>
                     </a>
                 <% } %>
             </div>
 
-            <!-- Easy -->
+            Easy
             <div class="question_section hidden" id="easy">
                 <% for(var i=0;i<25;i++){ %> 
                     <a href="#">

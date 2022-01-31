@@ -87,7 +87,49 @@ app.get("/upload", function (req, res) {
 
 app.get("/edit", function (req, res) {
     if (activeCookie != "") {
-        res.render("edit.ejs");
+        if(selectedDomain===null){
+            res.redirect("/domain");
+        }else if(selectedDomain==="Technical"){
+            technicalFileModel.find({},function(err,foundQuestions){
+                if(err){
+                    console.log(err);
+                }else{
+                    if(foundQuestions.length===0){
+                        console.log("No data found");
+                    }else{
+                        res.render("edit",{Questions:foundQuestions});
+                    }
+                }
+            });
+        }else if(selectedDomain==="Design"){
+            designFileModel.find({},function(err,foundQuestions){
+                if(err){
+                    console.log(err);
+                }else{
+                    if(foundQuestions.length===0){
+                        console.log("No data found");
+                    }else{
+                        res.render("edit",{Questions:foundQuestions});
+                    }
+                }
+            });
+        }
+        else if(selectedDomain==="Management"){
+            managementModel.find({},function(err,foundQuestions){
+                if(err){
+                    console.log(err);
+                }else{
+                    if(foundQuestions.length===0){
+                        console.log("No data found");
+                    }else{
+                        res.render("edit",{Questions:foundQuestions});
+                    }
+                }
+            });
+        }
+        else{
+            res.render("edit.ejs");
+        }
     } else {
         res.redirect("/");
     }
@@ -136,7 +178,7 @@ app.post('/upload', uploads.single('csv'), (req, res) => {
                 if (err) {
                     console.log(err);
                 } else {
-                    res.redirect("/upload");
+                    res.redirect("/domain");
                 }
             });
         } else if (selectedDomain === "Design") {
@@ -144,7 +186,7 @@ app.post('/upload', uploads.single('csv'), (req, res) => {
                 if (err) {
                     console.log(err);
                 } else {
-                    res.redirect("/upload");
+                    res.redirect("/domain");
                 }
             });
         } else if(selectedDomain === "Management") {
@@ -152,12 +194,12 @@ app.post('/upload', uploads.single('csv'), (req, res) => {
                 if (err) {
                     console.log(err);
                 } else {
-                    res.redirect("/upload");
+                    res.redirect("/domain");
                 }
             });
         } else{
             console.log("No data added");
-            res.redirect("/upload");
+            res.redirect("/domain");
         }
     })
 });
