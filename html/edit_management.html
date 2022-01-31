@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruitments Admin | ADG VIT</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../public/assets/favicon.png" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../public/css/main.css" />
+    <link rel="stylesheet" href="../public/css/edit.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="initial" id="initial">AB</div>
+        <div class="links">
+            <a href="./domain.html" title="Upload Questions">
+                <img src="../public/assets/navbar/upload.svg" class="active" />
+            </a>
+            <a href="./review.html" title="View Answers">
+                <img src="../public/assets/navbar/answers.svg" />
+            </a>
+            <a href="./result.html" title="Result">
+                <img src="../public/assets/navbar/result.svg" />
+            </a>
+            <a href="./upload.html" title="Upload Task">
+                <img src="../public/assets/navbar/task.svg" />
+            </a>
+        </div>
+        <div class="logout" title="Log Out">
+            <img src="../public/assets/navbar/logout.svg" />
+        </div>
+    </div>
+    <div class="all_questions">
+        <div class="question_selector">
+            <select class="questionType form-control" name="questionType" id="category" onchange="selectCategory()">
+                <option value="All">All</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button class="publish">Publish</button>
+        </div>
+        <!-- <div class="question_section hidden" id="all">
+            <a href="#">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+        </div> -->
+
+        <!-- Easy -->
+        <div class="question_section " id="easy">
+            <a href="#">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    EASY QUESTIONS Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    EASY QUESTIONSLorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    EASY QUESTIONSLorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    EASY QUESTIONSLorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    EASY QUESTIONSLorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+        </div>
+        <!-- Medium -->
+
+        <div class="question_section" id="medium">
+            <a href="#">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Medium Questions, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Medium Questions ipsum dolor, sit amet consectetur
+                    adipisicing elit. Illo numquam earum inventore
+                    eveniet deserunt aperiam quos deleniti tenetur ea
+                    blanditiis dignissimos repudiandae corporis atque,
+                    maxime fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Medium Questions ipsum dolor, sit amet consectetur
+                    adipisicing elit. Illo numquam earum inventore
+                    eveniet deserunt aperiam quos deleniti tenetur ea
+                    blanditiis dignissimos repudiandae corporis atque,
+                    maxime fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Medium Questions ipsum dolor, sit amet consectetur
+                    adipisicing elit. Illo numquam earum inventore
+                    eveniet deserunt aperiam quos deleniti tenetur ea
+                    blanditiis dignissimos repudiandae corporis atque,
+                    maxime fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+        </div>
+
+        <!-- Hard -->
+
+        <div class="question_section class" id="hard">
+            <a href="#">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Hard Questions Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Hard QuestionsLorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Hard QuestionsLorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Hard QuestionsLorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Hard QuestionsLorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Illo numquam earum
+                    inventore eveniet deserunt aperiam quos deleniti
+                    tenetur ea blanditiis dignissimos repudiandae
+                    corporis atque, maxime fugiat officiis aliquid.
+                    Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+            <a href="">
+                <div class="question">
+                    <div class="questionNumber">Q1.</div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Illo numquam earum inventore eveniet deserunt
+                    aperiam quos deleniti tenetur ea blanditiis
+                    dignissimos repudiandae corporis atque, maxime
+                    fugiat officiis aliquid. Amet, doloremque!
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="selected_question"></div>
+    </div>
+
+    <div class="all_options">
+        <div class="question_selector1">
+            <div class="qhead">
+                <p class="qnum">Question <span>1</span> :</p>
+                <p class="qdesc"><span>Find the Solution</span></p>
+            </div>
+            <button onclick="btnSave()" id="change" class="change">
+                Edit
+            </button>
+        </div>
+        <div class="questionView">
+            <div class="questionPic">
+                <img src="../public/assets/images/SampleQuestion.png" alt="" />
+            </div>
+            <div class="optionList">
+
+                <div class="answer">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laboriosam saepe, corrupti
+                    laudantium
+                    placeat
+                    quam culpa necessitatibus voluptatem, aliquid sint expedita dolorum minima labore. Nobis omnis
+                    debitis
+                    ratione
+                    at deserunt.
+                    Iusto quas maiores, quaerat eligendi porro mollitia exercitationem placeat beatae culpa voluptatibus
+                    quidem.
+                    Soluta illum incidunt blanditiis molestias? Suscipit maxime earum dolorem obcaecati, vel dolores
+                    perferendis
+                    rem
+                    eius ipsum dolore.
+                    Voluptatum provident dicta facere, doloribus adipisci accusamus numquam voluptatibus possimus dolor,
+                    quaerat
+                    ipsam eius quisquam, rem consequatur nemo sequi suscipit! Maxime quo nihil laudantium accusantium
+                    adipisci,
+                    quisquam doloremque.
+
+                </div>
+            </div>
+
+
+            <script src="../public/assets/js/edit.js"></script>
+</body>
+
+</html>
