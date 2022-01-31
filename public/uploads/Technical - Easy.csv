@@ -1,33 +1,33 @@
-SNo,Question,OptionA,OptionB,OptionC,OptionD,Answer,Name
-1,Accessing an element in a Python list is as quick as accessing an element in an array in C,TRUE,FALSE,,,FALSE,srinivas
-2,What is the default algorithm used by sort() method in Python?,Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Merge sort,srinivas
-3,What will be the value printed?,Error,"[2, 4, 6, 8, 10]","[4, 16, 36, 64, 100]","[2, 4, 36, 64, 10]","[4, 16, 36, 64, 100]",srinivas
-4, What does stdio stand for?,secure input output,Standard Input Output,streamed input output,String Input Output,Standard Input Output,Haneet
-5,What is the maximum length of a Python identifier?,128,32,16,No fixed length,D,saswata
-6,,633,632,8,error,A,saswata
-7,which of the following initialises each block value to 0 during dynamic allocation,malloc,realloc,calloc,none,calloc,Haneet
-8,C is a ______________,Assembly Language,Structured Programming Language,Object Oriented Language,None of these,Structured Porgramming Language,Haneet
-9,How will you convert the uppercase characters to lowercase  in python,lower(),toLower(),lowerCase(),toLow(),A,Adwaita
-10,Which of the following is an OOPS concept,Abstraction,Encapsulation,Polymorphism,All of the above,D,Adwaita
+SNo,Question,OptionA,OptionB,OptionC,OptionD,Answer,Name,LOD
+1,Accessing an element in a Python list is as quick as accessing an element in an array in C,TRUE,FALSE,,,FALSE,srinivas,Easy
+2,What is the default algorithm used by sort() method in Python?,Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Merge sort,srinivas,Easy
+3,What will be the value printed?,Error,"[2, 4, 6, 8, 10]","[4, 16, 36, 64, 100]","[2, 4, 36, 64, 10]","[4, 16, 36, 64, 100]",srinivas,Easy
+4, What does stdio stand for?,secure input output,Standard Input Output,streamed input output,String Input Output,Standard Input Output,Haneet,Easy
+5,What is the maximum length of a Python identifier?,128,32,16,No fixed length,D,saswata,Easy
+6,,633,632,8,error,A,saswata,Easy
+7,which of the following initialises each block value to 0 during dynamic allocation,malloc,realloc,calloc,none,calloc,Haneet,Easy
+8,C is a ______________,Assembly Language,Structured Programming Language,Object Oriented Language,None of these,Structured Porgramming Language,Haneet,Easy
+9,How will you convert the uppercase characters to lowercase  in python,lower(),toLower(),lowerCase(),toLow(),A,Adwaita,Easy
+10,Which of the following is an OOPS concept,Abstraction,Encapsulation,Polymorphism,All of the above,D,Adwaita,Easy
 11,"# predict output
 dict={26:26,20:'20','26':26,'20':30}
 dict['26']=20
-print(dict[dict[dict[str(dict[26])]]])",26,30,20,    '20',B,Adwaita
-12,What will be the datatype of the var in the below code snippet?,str and int,int and int,str and str,int and str,str and int,saswata
-13,Which of the following concepts is not a part of Python?,Dynamic type casting,Dictionary ,pointers ,All of the above,pointers,saswata
-14,What will be the output of the following code snippet?,0,1,2,error,B,saswata
-15,What is the output for the program?,4525,2525,4545,None,A,Haneet
-16,What will be the output of the following code snippet?,Global,Local,None,error,B,saswata
-17,"What is the output of this statement ""printf(""%d"", (a++))""?",The value of (a + 1),The current value of a,Error message,Garbage,B,Haneet
-18,Which of the following types of loops are not supported in Python?,for,do while,while,none,B,saswata
+print(dict[dict[dict[str(dict[26])]]])",26,30,20,    '20',B,Adwaita,Easy
+12,What will be the datatype of the var in the below code snippet?,str and int,int and int,str and str,int and str,str and int,saswata,Easy
+13,Which of the following concepts is not a part of Python?,Dynamic type casting,Dictionary ,pointers ,All of the above,pointers,saswata,Easy
+14,What will be the output of the following code snippet?,0,1,2,error,B,saswata,Easy
+15,What is the output for the program?,4525,2525,4545,None,A,Haneet,Easy
+16,What will be the output of the following code snippet?,Global,Local,None,error,B,saswata,Easy
+17,"What is the output of this statement ""printf(""%d"", (a++))""?",The value of (a + 1),The current value of a,Error message,Garbage,B,Haneet,Easy
+18,Which of the following types of loops are not supported in Python?,for,do while,while,none,B,saswata,Easy
 19,"# predict output
 def calc_disp(x):
     if(x == 0):
         return 0
 
     return calc_disp(x-1)+2*x-1
-print(calc_disp(12))",60,144,24,0,B,Adwaita
-20,"On applying format function on a string , it will return ",int,bool,str,null,C,Adwaita
+print(calc_disp(12))",60,144,24,0,B,Adwaita,Easy
+20,"On applying format function on a string , it will return ",int,bool,str,null,C,Adwaita,Easy
 21,"If abcdefg is the input, the output will be
 
 int main()  
@@ -39,14 +39,14 @@ int main()
  change(char a[])  
  {  
    puts(a);  
- }  ",abcd,abc,efg,garbage,C,Haneet
-22,Which of the following is an infinite LOOP,for(1):,while(1):,while(0):,None,B,Adwaita
-23,,,,,,,
-24,What is faster a loop or recursion?,Loop,Recursion ,Both have same speed,None,A,Harsh Rajpal
-25,What is the output of for(int x=5;x>1;x--) which pre decrements x by 1 in its body everytime it runs.,2345,42,5432,53,C,Harsh Rajpal
-26,"In Python,  print(APPLE == BANANA) will print ?",False ,TRUE,Name Error,Type error,C,Harsh Rajpal
-27,"""L[::-1]"" What happens to a list L in python?",Slice the list in half,Error,Make every element null,Reverse the list,D,Harsh Rajpal
-28,"In Python, result of print(11.21%10)",1.121,1.21,Error,112.1,B,Harsh Rajpal
+ }  ",abcd,abc,efg,garbage,C,Haneet,Easy
+22,Which of the following is an infinite LOOP,for(1):,while(1):,while(0):,None,B,Adwaita,Easy
+23,,,,,,,,Easy
+24,What is faster a loop or recursion?,Loop,Recursion ,Both have same speed,None,A,Harsh Rajpal,Easy
+25,What is the output of for(int x=5;x>1;x--) which pre decrements x by 1 in its body everytime it runs.,2345,42,5432,53,C,Harsh Rajpal,Easy
+26,"In Python,  print(APPLE == BANANA) will print ?",False ,TRUE,Name Error,Type error,C,Harsh Rajpal,Easy
+27,"""L[::-1]"" What happens to a list L in python?",Slice the list in half,Error,Make every element null,Reverse the list,D,Harsh Rajpal,Easy
+28,"In Python, result of print(11.21%10)",1.121,1.21,Error,112.1,B,Harsh Rajpal,Easy
 29,"Find the output:   r = lambda q: q * 5
 s = lambda q: q * 3
 x = 1
@@ -54,31 +54,31 @@ x = s(x)
 x = s(x) 
 x = r(x) 
 print (x)
-",14,45,15,20,B,Shubh Kapil
-30,Why did ALFRED VAINO AHO win the Turing award for 2020,"For fundamental algorithms and theory underlying programming language implementation and for synthesizing these results and those of others in their highly influential books, which educated generations of computer scientists.","For fundamental contributions to 3D computer graphics, and the impact of computer-generated imagery (CGI) in filmmaking and other applications.","In recognition of his fundamental contributions to the theory of computation, including the complexity-based theory of pseudorandom number generation, cryptography, and communication complexity.","for ideas fundamental to the emergence of object oriented programming, through their design of the programming languages Simula I and Simula 67.","a) For fundamental algorithms and theory underlying programming language implementation and for synthesizing these results and those of others in their highly influential books, which educated generations of computer scientists.",Garv Tandon
+",14,45,15,20,B,Shubh Kapil,Easy
+30,Why did ALFRED VAINO AHO win the Turing award for 2020,"For fundamental algorithms and theory underlying programming language implementation and for synthesizing these results and those of others in their highly influential books, which educated generations of computer scientists.","For fundamental contributions to 3D computer graphics, and the impact of computer-generated imagery (CGI) in filmmaking and other applications.","In recognition of his fundamental contributions to the theory of computation, including the complexity-based theory of pseudorandom number generation, cryptography, and communication complexity.","for ideas fundamental to the emergence of object oriented programming, through their design of the programming languages Simula I and Simula 67.","a) For fundamental algorithms and theory underlying programming language implementation and for synthesizing these results and those of others in their highly influential books, which educated generations of computer scientists.",Garv Tandon,Easy
 31,"What does the following function return when called with a=5 and b=5:
 
 fun add(a,b):
-print(a+b)",10,None,a+b,Arbitrary Value,b,Garv Tandon
+print(a+b)",10,None,a+b,Arbitrary Value,b,Garv Tandon,Easy
 32,"What does the following function return when called with a=1 and b=2:
 
 fun add(a,b):
-print(a+b)",3,None,a+b,Arbitrary Value,b,Garv Tandon
+print(a+b)",3,None,a+b,Arbitrary Value,b,Garv Tandon,Easy
 33,"What does the following function return when called with a=10 and b=10:
 
 fun add(a,b):
-print(a+b)",10,None,20,Arbitrary Value,b,Garv Tandon
+print(a+b)",10,None,20,Arbitrary Value,b,Garv Tandon,Easy
 34,"What does the following function return when called with a=5 and b=10:
 
 fun add(a,b):
-print(a+b)",15,None,10,Arbitrary Value,b,Garv Tandon
+print(a+b)",15,None,10,Arbitrary Value,b,Garv Tandon,Easy
 35,"What does the following function return when called with a=5 and b=4:
 
 fun add(a,b):
-print(a+b)",9,None,a+b,Arbitrary Value,b,Garv Tandon
-36,What is passed to a function while calling it?,Keyword,Parameter,Argument,Statement,c,Garv Tandon
-37,Do we have null value in python,TRUE,FALSE,,,b,Garv Tandon
-38,Do we have None value in python,TRUE,FALSE,,,a,Garv Tandon
+print(a+b)",9,None,a+b,Arbitrary Value,b,Garv Tandon,Easy
+36,What is passed to a function while calling it?,Keyword,Parameter,Argument,Statement,c,Garv Tandon,Easy
+37,Do we have null value in python,TRUE,FALSE,,,b,Garv Tandon,Easy
+38,Do we have None value in python,TRUE,FALSE,,,a,Garv Tandon,Easy
 39,"Find the output of the following:
 
 #include<iostream.h>
@@ -102,13 +102,13 @@ cout<<a<<endl;
 3
 ","5
 5","5
-3",D,Shubh Kapil
-40,Which of the following loops are not supported in python,For,While,Do While,None of these,Do While,Surbhit
-41,Which of the following is not a valid set operation in python,Difference,Union,Intersection,None of these,None of these,Surbhit
-42,What is #include<stdio.h>,Inclusion directive,Preprocessor directive,File inclusion directive,None of these,Preprocessor directive,Surbhit
-43,Which of the following is a fibonacci series-:,"0,1,1,2,3,5,8,13,21…..","0,1,1,2,4,8,32,256....","0,1,-1,0,-2,-4,-6…",NOTA,A,Eshan
-44, Which of these is Floyd’s Triangle-:,,,,,A,Eshan
-45,"In C++ which of these classes are not required for file handling?",OfStream,IfStream,Fstream,conio,D,Eshan
+3",D,Shubh Kapil,Easy
+40,Which of the following loops are not supported in python,For,While,Do While,None of these,Do While,Surbhit,Easy
+41,Which of the following is not a valid set operation in python,Difference,Union,Intersection,None of these,None of these,Surbhit,Easy
+42,What is #include<stdio.h>,Inclusion directive,Preprocessor directive,File inclusion directive,None of these,Preprocessor directive,Surbhit,Easy
+43,Which of the following is a fibonacci series-:,"0,1,1,2,3,5,8,13,21…..","0,1,1,2,4,8,32,256....","0,1,-1,0,-2,-4,-6…",NOTA,A,Eshan,Easy
+44, Which of these is Floyd’s Triangle-:,,,,,A,Eshan,Easy
+45,"In C++ which of these classes are not required for file handling?",OfStream,IfStream,Fstream,conio,D,Eshan,Easy
 46,"Find the output of the following:
 
 #include<iostream.h>
@@ -127,63 +127,63 @@ cout<<a<<endl;
 cout<<a<<endl;
 }",15,50,"15
 50","50
-15",A,Shubh Kapil
-47,Is Python case sensitive when dealing with identifiers? ,yes,no,Machine dependent,NOTA,A,Eshan
-48,What is the maximum possible length of an identifier?,31 Characters,63 Characters,79 Characters,NOTA,D,Eshan
-49,What is the maximum possible length of an identifier?,37 Characters,103 Characters,89 Characters,NOTA,D,Eshan
-50,What is the maximum possible length of an identifier?,51 Characters,163 Characters,95 Characters,NOTA,D,Eshan
-51,What is the maximum possible length of an identifier?,0 Characters,infinite Characters,7 Billion Characters,NOTA,D,Eshan
-52,What is the maximum possible length of an identifier?,777 Characters,infinite Characters,Depends on OS,NOTA,D,Eshan
-53,Which of the following is invalid?, _a = 1,__a=1,___str___=2,NOTA,D,Eshan
-54,,,,,,,Shubh Kapil
-55,,,,,,,Shubh Kapil
-56,,,,,,,Shubh Kapil
-57,,,,,,,Shubh Kapil
-58,,,,,,,Shubh Kapil
-59,,,,,,,Shubh Kapil
-60,Which of the following is invalid?, _a = 1,__a=1,___str___=2,NOTA,D,Eshan
-61,Which of the following is invalid?, _z_ = 1,a=1,___str1__=2,NOTA,D,Eshan
-62,Which of the following is invalid?, _ahdbj = 1,_a_markZ=1,___stBot_=2,NOTA,D,Eshan
-63,Which of the following is invalid?, _aPubg = 1,__aFortnite=1,___strCODM=2,NOTA,D,Eshan
-64,Which of the following is invalid?, _IronMan = 1,_aNtman=1,___strange=2,NOTA,D,Eshan
-65,What is the output of print 0.1 + 0.2 == 0.3?,TRUE,FALSE,Machine Dependent,Error,b,Eshan
-66,"What is the result of cmp(3, 1)?",1,0,TRUE,FALSE,A,Eshan
-67,"What is the result of cmp(3, 10)?",1,0,TRUE,FALSE,b,Eshan
-68,"What is the result of cmp(30, 11)?",1,0,TRUE,FALSE,A,Eshan
-69,"What is the result of cmp(3, 55555777)?",1,0,TRUE,FALSE,B,Eshan
-70,"What is the result of cmp(696969, 969696)?",1,0,TRUE,FALSE,B,Eshan
-71,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'78'),float('12+34'),d,Eshan
-72,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'99'),float('1+34'),d,Eshan
-73,Which of the following is incorrect?,float('inf'),float('nan'),float('54'+'777'),float('1+3'),d,Eshan
-74,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'788'),float('2+3'),d,Eshan
-75,Which of the following is incorrect?,float('inf'),float('nan'),float('576'+'78'),float('12+3'),d,Eshan
-76,Which of the following statements create a dictionary?,d={},"d = {40:”john”, 45:”peter”}","d = {“john”:40, “peter”:45}",All of the Above,d,Eshan
-77,Which of the following is a Python tuple?,"[1,2,3]","(1,2,3)","{1,2,3}",{},B,Eshan
-78,What is the value of x if: x = int(33.55+2/2),34,35,34.55,None of these,a,Surbhit
-79,What is the value of x if: x = int(13.55+9/2),18.05,18,19,19.05,b,Surbhit
-80,What is the value of x if: x = int(42.17+8/2),47,46,46.17,none of these,b,Surbhit
-81,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[:9:2]","[1,2]","[1,3]",syntax error,"[1,3,5,7]",D,Ankit Sidana
-82,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::2]","[1,2]","[1,3]",syntax error,"[1,3,5,7,9]",D,Ankit Sidana
-83,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::3]","[1,4,7]","[2,5,8]",syntax error,"[1,5,9]",A,Ankit Sidana
-84,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::4]","[1,4,7]","[2,5,8]","[1,5,9]",syntax error,C,Ankit Sidana
-85,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[1::4]","[5,9]","[4,8]","[1,5,9]",syntax error,A,Ankit Sidana
-86,Evaluate and answer 3 + (2 * 5) + 4 + 3**2,26,24,25,27,a,Surbhit
-87,Evaluate and answer 1 + (2 * 5) + 4 * 3**3,120,118,119,117,b,Surbhit
-88,Evaluate and answer 3 - (2 ** 5) * 4 + 3**4,-44,45,44,46,b,Surbhit
-89,Evaluate and answer 3 * (2 - 3) * 4 + 3*4,0,-1,1,2,a,Surbhit
-90,Evaluate and answer 3 + (2 * 5) + 4 + 3**6,745,747,746,742,c,Surbhit
-91,"Suppose t = (1, 2, 4, 3), which of the following is incorrect?",print(t[3]),t[3]=45,print(max(t)),print(len(t)),b,Eshan
-92,"Suppose t = (1, 2, 7, 3), which of the following is incorrect?",print(t[1]),t[3]=48,print(max(t)),print(len(t)),b,Eshan
-93,"Suppose t = (1, 72, 44, 3), which of the following is incorrect?",print(t[1]),t[3]=78,print(max(t)),print(len(t)),b,Eshan
-94,"Suppose t = (1, 2, 14, 73), which of the following is incorrect?",print(t[3]),t[3]=55,print(max(t)),print(len(t)),b,Eshan
-95,"Suppose t = (1, 782, 4, 43), which of the following is incorrect?",print(t[3]),t[3]=777,print(max(t)),print(len(t)),b,Eshan
-96,"If a={5,6,7,8}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
-97,"If a={56,67,71,81}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
-98,"If a={57,65,77,84}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
-99,"If a={5,677,77,88}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
-100,"If a={44,6,7,87}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan
-101,"If a={5,6,7}, what happens when a.add(5) is executed?"," a={5,5,6,7}","a={5,6,7}",Error as there is no add function for set data type,Error as 5 already exists in the set,b,Eshan
-102,"If a={8,9,10}, what happens when a.add(50) is executed?"," a={8,9,10,50}","a={8,9,10}",Error as there is no add function for set data type,Error as 50 already exists in the set,a,Eshan
+15",A,Shubh Kapil,Easy
+47,Is Python case sensitive when dealing with identifiers? ,yes,no,Machine dependent,NOTA,A,Eshan,Easy
+48,What is the maximum possible length of an identifier?,31 Characters,63 Characters,79 Characters,NOTA,D,Eshan,Easy
+49,What is the maximum possible length of an identifier?,37 Characters,103 Characters,89 Characters,NOTA,D,Eshan,Easy
+50,What is the maximum possible length of an identifier?,51 Characters,163 Characters,95 Characters,NOTA,D,Eshan,Easy
+51,What is the maximum possible length of an identifier?,0 Characters,infinite Characters,7 Billion Characters,NOTA,D,Eshan,Easy
+52,What is the maximum possible length of an identifier?,777 Characters,infinite Characters,Depends on OS,NOTA,D,Eshan,Easy
+53,Which of the following is invalid?, _a = 1,__a=1,___str___=2,NOTA,D,Eshan,Easy
+54,,,,,,,Shubh Kapil,Easy
+55,,,,,,,Shubh Kapil,Easy
+56,,,,,,,Shubh Kapil,Easy
+57,,,,,,,Shubh Kapil,Easy
+58,,,,,,,Shubh Kapil,Easy
+59,,,,,,,Shubh Kapil,Easy
+60,Which of the following is invalid?, _a = 1,__a=1,___str___=2,NOTA,D,Eshan,Easy
+61,Which of the following is invalid?, _z_ = 1,a=1,___str1__=2,NOTA,D,Eshan,Easy
+62,Which of the following is invalid?, _ahdbj = 1,_a_markZ=1,___stBot_=2,NOTA,D,Eshan,Easy
+63,Which of the following is invalid?, _aPubg = 1,__aFortnite=1,___strCODM=2,NOTA,D,Eshan,Easy
+64,Which of the following is invalid?, _IronMan = 1,_aNtman=1,___strange=2,NOTA,D,Eshan,Easy
+65,What is the output of print 0.1 + 0.2 == 0.3?,TRUE,FALSE,Machine Dependent,Error,b,Eshan,Easy
+66,"What is the result of cmp(3, 1)?",1,0,TRUE,FALSE,A,Eshan,Easy
+67,"What is the result of cmp(3, 10)?",1,0,TRUE,FALSE,b,Eshan,Easy
+68,"What is the result of cmp(30, 11)?",1,0,TRUE,FALSE,A,Eshan,Easy
+69,"What is the result of cmp(3, 55555777)?",1,0,TRUE,FALSE,B,Eshan,Easy
+70,"What is the result of cmp(696969, 969696)?",1,0,TRUE,FALSE,B,Eshan,Easy
+71,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'78'),float('12+34'),d,Eshan,Easy
+72,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'99'),float('1+34'),d,Eshan,Easy
+73,Which of the following is incorrect?,float('inf'),float('nan'),float('54'+'777'),float('1+3'),d,Eshan,Easy
+74,Which of the following is incorrect?,float('inf'),float('nan'),float('56'+'788'),float('2+3'),d,Eshan,Easy
+75,Which of the following is incorrect?,float('inf'),float('nan'),float('576'+'78'),float('12+3'),d,Eshan,Easy
+76,Which of the following statements create a dictionary?,d={},"d = {40:”john”, 45:”peter”}","d = {“john”:40, “peter”:45}",All of the Above,d,Eshan,Easy
+77,Which of the following is a Python tuple?,"[1,2,3]","(1,2,3)","{1,2,3}",{},B,Eshan,Easy
+78,What is the value of x if: x = int(33.55+2/2),34,35,34.55,None of these,a,Surbhit,Easy
+79,What is the value of x if: x = int(13.55+9/2),18.05,18,19,19.05,b,Surbhit,Easy
+80,What is the value of x if: x = int(42.17+8/2),47,46,46.17,none of these,b,Surbhit,Easy
+81,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[:9:2]","[1,2]","[1,3]",syntax error,"[1,3,5,7]",D,Ankit Sidana,Easy
+82,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::2]","[1,2]","[1,3]",syntax error,"[1,3,5,7,9]",D,Ankit Sidana,Easy
+83,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::3]","[1,4,7]","[2,5,8]",syntax error,"[1,5,9]",A,Ankit Sidana,Easy
+84,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[::4]","[1,4,7]","[2,5,8]","[1,5,9]",syntax error,C,Ankit Sidana,Easy
+85,"What is the result of this code? a=[1,2,3,4,5,6,7,8,9] a[1::4]","[5,9]","[4,8]","[1,5,9]",syntax error,A,Ankit Sidana,Easy
+86,Evaluate and answer 3 + (2 * 5) + 4 + 3**2,26,24,25,27,a,Surbhit,Easy
+87,Evaluate and answer 1 + (2 * 5) + 4 * 3**3,120,118,119,117,b,Surbhit,Easy
+88,Evaluate and answer 3 - (2 ** 5) * 4 + 3**4,-44,45,44,46,b,Surbhit,Easy
+89,Evaluate and answer 3 * (2 - 3) * 4 + 3*4,0,-1,1,2,a,Surbhit,Easy
+90,Evaluate and answer 3 + (2 * 5) + 4 + 3**6,745,747,746,742,c,Surbhit,Easy
+91,"Suppose t = (1, 2, 4, 3), which of the following is incorrect?",print(t[3]),t[3]=45,print(max(t)),print(len(t)),b,Eshan,Easy
+92,"Suppose t = (1, 2, 7, 3), which of the following is incorrect?",print(t[1]),t[3]=48,print(max(t)),print(len(t)),b,Eshan,Easy
+93,"Suppose t = (1, 72, 44, 3), which of the following is incorrect?",print(t[1]),t[3]=78,print(max(t)),print(len(t)),b,Eshan,Easy
+94,"Suppose t = (1, 2, 14, 73), which of the following is incorrect?",print(t[3]),t[3]=55,print(max(t)),print(len(t)),b,Eshan,Easy
+95,"Suppose t = (1, 782, 4, 43), which of the following is incorrect?",print(t[3]),t[3]=777,print(max(t)),print(len(t)),b,Eshan,Easy
+96,"If a={5,6,7,8}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan,Easy
+97,"If a={56,67,71,81}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan,Easy
+98,"If a={57,65,77,84}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan,Easy
+99,"If a={5,677,77,88}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan,Easy
+100,"If a={44,6,7,87}, which of the following statements is false?",print(len(a)),print(min(a)),a.remove(5),a[2] = 45,d,Eshan,Easy
+101,"If a={5,6,7}, what happens when a.add(5) is executed?"," a={5,5,6,7}","a={5,6,7}",Error as there is no add function for set data type,Error as 5 already exists in the set,b,Eshan,Easy
+102,"If a={8,9,10}, what happens when a.add(50) is executed?"," a={8,9,10,50}","a={8,9,10}",Error as there is no add function for set data type,Error as 50 already exists in the set,a,Eshan,Easy
 103,"Select the correct statements:
 
 I. We define classes and functions with the def keyword.
@@ -192,73 +192,73 @@ III. sets are mutable.
 IV. List is imutable.
 
 
-",II and III,III and IV,II and IV,All of the above,a,Umesh
-104,which of the following is the output,Error,No output,Exception,empty line,d,Umesh
+",II and III,III and IV,II and IV,All of the above,a,Umesh,Easy
+104,which of the following is the output,Error,No output,Exception,empty line,d,Umesh,Easy
 105,"colors = 'Red,Green,Yellow' , 
 Harry wants to see a list of colors from the above string only.Help
- Harry to chose the correct code","colors.remove("","")","colors.split("","")","colors.partition("","")",both b and c,b,Umesh
+ Harry to chose the correct code","colors.remove("","")","colors.split("","")","colors.partition("","")",both b and c,b,Umesh,Easy
 106,"Animals = 'cow,dog,cat' , 
 You wants to see a list of animal from the above string including 
-the commas. chose the correct code","animals.remove("","")","animals.split("","")","animals.partition("","")",non of the above,b,Umesh
-107,"x = ( ) ,Find out the size of x ?",0 bytes,2 bytes,8 bytes,48 bytes,d,Umesh
+the commas. chose the correct code","animals.remove("","")","animals.split("","")","animals.partition("","")",non of the above,b,Umesh,Easy
+107,"x = ( ) ,Find out the size of x ?",0 bytes,2 bytes,8 bytes,48 bytes,d,Umesh,Easy
 108,"Find the output ?
 l = [""a"", ""b"", ""c""]
 l += ""de""
-print(l)","[‘a’, ‘b’, ‘c’, ‘d’, ‘e’]","[‘a’, ‘b’, ‘c’, ‘de’]","[‘ade’, ‘bde’, ‘cde’]",non of the above,a,Umesh
-109,"x = {*()},  x is mutable .",TRUE,FALSE,Can not define,x is not of any data type,b,Umesh
+print(l)","[‘a’, ‘b’, ‘c’, ‘d’, ‘e’]","[‘a’, ‘b’, ‘c’, ‘de’]","[‘ade’, ‘bde’, ‘cde’]",non of the above,a,Umesh,Easy
+109,"x = {*()},  x is mutable .",TRUE,FALSE,Can not define,x is not of any data type,b,Umesh,Easy
 110,"I. Constructors can return values
  II. The __bases__ attribute will give you the names of the direct parent classes.
-For above two state ments select correct options",Only 1 is true,Only 2 is true,Both are true,both are false,b,Umesh
+For above two state ments select correct options",Only 1 is true,Only 2 is true,Both are true,both are false,b,Umesh,Easy
 111,"s = ""ADG is the BeSt cluB .""
 s = s[0:10] + s[10:].swapcase()
 print(s)
 
-What is the output",ADG is the bEST CLUB .,ADG is the BEST CLUb .,ADG is the bEsT CLUb .,ADG is the BEST CLUB .,c,Umesh
-112,"What is the output for print(""abbbcabcabacc"".endswith(""abb"", 0, 2))",TRUE,FALSE,1,0,b,Umesh
-113,"what is the output for print('abbbcabcabacc'.replace('ab', '12', 100))",aa12c12c12acc,ccbbc12c12a12,12bbcabc12a12,12bbc12c12acc,d,Umesh
-114,What is the output for print('For'.isidentifier()),TRUE,FALSE,none,error,b,Umesh
-115,What is the output for print('__foo__'.isidentifier()),TRUE,FALSE,none,error,a,Umesh
+What is the output",ADG is the bEST CLUB .,ADG is the BEST CLUb .,ADG is the bEsT CLUb .,ADG is the BEST CLUB .,c,Umesh,Easy
+112,"What is the output for print(""abbbcabcabacc"".endswith(""abb"", 0, 2))",TRUE,FALSE,1,0,b,Umesh,Easy
+113,"what is the output for print('abbbcabcabacc'.replace('ab', '12', 100))",aa12c12c12acc,ccbbc12c12a12,12bbcabc12a12,12bbc12c12acc,d,Umesh,Easy
+114,What is the output for print('For'.isidentifier()),TRUE,FALSE,none,error,b,Umesh,Easy
+115,What is the output for print('__foo__'.isidentifier()),TRUE,FALSE,none,error,a,Umesh,Easy
 116,"def first(a_str):
       c = 0
       for char in a_str:
           if char in 'abcdefghijklmnopqrstuvwxyz':
               c += 1
       return c
-what the first function does ?",find number of charcters,find thw number of upper case characters,find the number of lower case charcacters,find the number of numericals,c,Umesh
-117,"What is the output for print('abbbcabcabacc'.replace('ba', '12', 100))",abbbcabca12cc,abbbcab12cacc,abbb12cabccaa,abbbcabcc12aa,a,Umesh
+what the first function does ?",find number of charcters,find thw number of upper case characters,find the number of lower case charcacters,find the number of numericals,c,Umesh,Easy
+117,"What is the output for print('abbbcabcabacc'.replace('ba', '12', 100))",abbbcabca12cc,abbbcab12cacc,abbb12cabccaa,abbbcabcc12aa,a,Umesh,Easy
 118,"X = (3e-08, True, False, 10, 6.003, True)
 Y = 0
 for x in X:
     Y += int(x)
 print(Y)
-What is the output for the following program ?",10,12,14,18,d,Umesh
+What is the output for the following program ?",10,12,14,18,d,Umesh,Easy
 119,"X = (3e-08, True, False, 8, 2.003, False)
 Y = 0
 for x in X:
     Y += int(x)
 print(Y)
 
-What is the output for the following Program ?",11,12,13,14,a,Umesh
+What is the output for the following Program ?",11,12,13,14,a,Umesh,Easy
 120,"X = (2e-06, False, False, 3, 1.003, False)
 Y = 0
 for x in X:
     Y += int(x)
 print(Y)
 
-What is the output for the following",2,4,6,8,b,Umesh
-121,"What is the output for print(""abbbcabcabacc"".endswith(""abb"", 0, 3))",TRUE,FALSE,abb,abc,a,Umesh
+What is the output for the following",2,4,6,8,b,Umesh,Easy
+121,"What is the output for print(""abbbcabcabacc"".endswith(""abb"", 0, 3))",TRUE,FALSE,abb,abc,a,Umesh,Easy
 122,"P={""car"":100,""bike"":50,""flight"":300}
 P=dict(zip(P.values(),P.keys()))
 print(P)
 After execution of above program, 
-what changes are happened in P",data type changed,key values are inter changed,no chnage occur,Exception,b,Umesh
-123,What is printed by? print(2+2%3),4,1,2,0,A,Jatin Dhall
-124,What is printed by? print(16 % 15 // 16),"""0.0""",0,"""1.0""",1,B,Jatin Dhall
+what changes are happened in P",data type changed,key values are inter changed,no chnage occur,Exception,b,Umesh,Easy
+123,What is printed by? print(2+2%3),4,1,2,0,A,Jatin Dhall,Easy
+124,What is printed by? print(16 % 15 // 16),"""0.0""",0,"""1.0""",1,B,Jatin Dhall,Easy
 125,"What is printed by the following?  
 x = ['AB', 'CD']
 for i in x:
     x.append(i.lower())
-print(x)",No Output(Infinite Loop),"['AB', 'CD', 'ab', 'cd']","['ab', 'cd']","['a', 'b', 'c', 'd']",A,Jatin Dhall
+print(x)",No Output(Infinite Loop),"['AB', 'CD', 'ab', 'cd']","['ab', 'cd']","['a', 'b', 'c', 'd']",A,Jatin Dhall,Easy
 126,"Analyze the following code:
 Given : number = 27
 #Code 1:
@@ -267,33 +267,33 @@ if number % 2 != 0:
 else:
     odd = False
 #Code 2:
-odd = number % 2 != 0 ",Both Code 1 and Code 2 have errors,Both Code 1 and Code 2 are correct,Code 1 has errors.,Code 2 has errors.,B,Jatin Dhall
+odd = number % 2 != 0 ",Both Code 1 and Code 2 have errors,Both Code 1 and Code 2 are correct,Code 1 has errors.,Code 2 has errors.,B,Jatin Dhall,Easy
 127,"Given L = [], What is printed by:
 if L:
     print('First')
 else:
-    print('Second')",None,First,Second,FirstSecond,C,Jatin Dhall
+    print('Second')",None,First,Second,FirstSecond,C,Jatin Dhall,Easy
 128,"What is printed by this sequence of instructions?
 
 L = [(1, 2), (3, 4), (5, 6)]
 res = [list(x) for x in L]
-print(res)","[[1, 2], [3, 4], [5, 6]]","[(1, 2),(3, 4),(5, 6)]","[1, 2, 3, 4, 5, 6]","[[1, 2, 3, 4, 5, 6]]",A,Jatin Dhall
+print(res)","[[1, 2], [3, 4], [5, 6]]","[(1, 2),(3, 4),(5, 6)]","[1, 2, 3, 4, 5, 6]","[[1, 2, 3, 4, 5, 6]]",A,Jatin Dhall,Easy
 129,"What is printed by
 D = dict()
 for i in range(4):
     for j in range(2):
         D[i] = j
-print(D)","{0: 0, 1: 0, 2: 0, 3: 0, 0: 1, 1: 1, 2: 1, 3: 1}","{0: 1, 1: 1, 2: 1, 3: 1}","{0: 0, 1: 0, 2: 0, 3: 0}",TypeError: Immutable object,B,Jatin Dhall
+print(D)","{0: 0, 1: 0, 2: 0, 3: 0, 0: 1, 1: 1, 2: 1, 3: 1}","{0: 1, 1: 1, 2: 1, 3: 1}","{0: 0, 1: 0, 2: 0, 3: 0}",TypeError: Immutable object,B,Jatin Dhall,Easy
 130,"What is printed by
    
 	T1 = (2) 
 	T2 = (1, 4) 
 	T1 += 6
-	print(T1, T1 + T2) ","(6, 1, 4)","(2, 6, 1, 4)","(8, 1, 4)",TypeError ,D,Jatin Dhall
+	print(T1, T1 + T2) ","(6, 1, 4)","(2, 6, 1, 4)","(8, 1, 4)",TypeError ,D,Jatin Dhall,Easy
 131,"What is printed by
    
 	L = [1, 3, 5, 7, 9] 
-	print(L.pop(-2), L.remove(L[1]), L) ","None 1 [1, 5, 9]","7 None [1, 5, 9]","7 None [3, 5, 7, 9]","None 1 [1, 3, 7, 9]",B,Jatin Dhall
+	print(L.pop(-2), L.remove(L[1]), L) ","None 1 [1, 5, 9]","7 None [1, 5, 9]","7 None [3, 5, 7, 9]","None 1 [1, 3, 7, 9]",B,Jatin Dhall,Easy
 132,"Given this sequence of instructions:
 
     L1 = [1,2,3]
@@ -301,25 +301,25 @@ print(D)","{0: 0, 1: 0, 2: 0, 3: 0, 0: 1, 1: 1, 2: 1, 3: 1}","{0: 1, 1: 1, 2: 1,
     L1.append(4)
     print(L2)
 
-    What is printed?","['a', [1, 2, 3, 4], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3,4], 'b', [1, 2, 3]]","['a',L1[:],'b',L1]",B,Jatin Dhall
+    What is printed?","['a', [1, 2, 3, 4], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3,4], 'b', [1, 2, 3]]","['a',L1[:],'b',L1]",B,Jatin Dhall,Easy
 133,"# predict output
 def calc_disp(x):
     if(x == 0):
         return 0
 
     return calc_disp(x-1)+2*x-1
-print(calc_disp(15))",15,0,406,225,D,Adwaita
+print(calc_disp(15))",15,0,406,225,D,Adwaita,Easy
 134,"# predict output
 def calc_disp(x):
     if(x == 0):
         return 0
 
     return calc_disp(x-1)+2*x-1
-print(calc_disp(31))",62,961,1830,31,D,Adwaita
+print(calc_disp(31))",62,961,1830,31,D,Adwaita,Easy
 135,"## predict output
-print(~~~40)",40,41,-41,-40,C,Adwaita
+print(~~~40)",40,41,-41,-40,C,Adwaita,Easy
 136,"## predict output
-print(~~~~~~98)",98,-99,99,-98,A,Adwaita
+print(~~~~~~98)",98,-99,99,-98,A,Adwaita,Easy
 137,"## predict output
 
 def adg(adg1,adg2):
@@ -328,7 +328,7 @@ def adg(adg1,adg2):
 x=5
 adg3=[4,6,7,4,2]
 adg(x,adg3)
-print(x,adg3[1])",5 6,2   200,5   100,2 6,C,Adwaita
+print(x,adg3[1])",5 6,2   200,5   100,2 6,C,Adwaita,Easy
 138,"## predict output
 
 def adg(adg1,adg2):
@@ -337,31 +337,31 @@ def adg(adg1,adg2):
 x=2
 adg3=[4,6,7,4,2,4,5]
 adg(x,adg3)
-print(x,adg3[3])",2 5,4 5,4 4,2 3,A,Adwaita
-139,To run python in cmd what command is used??,py,python,run py,None of the above,B,Adwaita
+print(x,adg3[3])",2 5,4 5,4 4,2 3,A,Adwaita,Easy
+139,To run python in cmd what command is used??,py,python,run py,None of the above,B,Adwaita,Easy
 140,"## predict output
 txt=""Manchester united""
 for i in range(txt):
-    print(i)",Manchester united,Error,Manchesterunited,0 1 2 ....16,B,Adwaita
+    print(i)",Manchester united,Error,Manchesterunited,0 1 2 ....16,B,Adwaita,Easy
 141,"## predict output
 txt=""Apple developers Group""
 for i in range(txt):
-    print(i)",Apple developers Group,0 1 2 3 ... 22,Error,None of the above,C,Adwaita
+    print(i)",Apple developers Group,0 1 2 3 ... 22,Error,None of the above,C,Adwaita,Easy
 142,"## predict output
 txt=""Programming""
 for i in range(txt):
-    print(i)",0 1 2 ... 10,Error,Programming,None of the above,B,Adwaita
+    print(i)",0 1 2 ... 10,Error,Programming,None of the above,B,Adwaita,Easy
 143,"## predict output
 s1=""Cristiano Ronaldo""
 s2=""Kylian Mbappe""
-print(s1[:6],s2[3:9])",Cristiano Ky,Cristi ian Mb,Ronaldo Kyli,None of the above,B,Adwaita
+print(s1[:6],s2[3:9])",Cristiano Ky,Cristi ian Mb,Ronaldo Kyli,None of the above,B,Adwaita,Easy
 144,"# predict output
 def adg(x,y):
     if(y==0):
         return x
     else:
         return adg(x+y,y-1)
-print(adg(4,7))",28,32,11,3,B,Adwaita
+print(adg(4,7))",28,32,11,3,B,Adwaita,Easy
 145,"#predict output
 t=[]
 def adg(v):
@@ -373,7 +373,7 @@ def adg(v):
 adg(50)
 t.reverse()
 for i in t:
-    print(i,end="""")",110010,1101,11001,110100,A,Adwaita
+    print(i,end="""")",110010,1101,11001,110100,A,Adwaita,Easy
 146,"#predict output
 t=[]
 def adg(v):
@@ -385,23 +385,23 @@ def adg(v):
 adg(234)
 t.reverse()
 for i in t:
-    print(i,end="""")",10100010,11101010,11010101,11011111,B,Adwaita
-147,What is the output of the following code?,John  John,John Maria,Maria Maria,Maria John,Maria John,srinivas
-148,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[1, 4, 9, 16, 25]",None of the above,"[12, 22, 32, 42, 52]",srinivas
-149,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[3, 5, 8, 10, 13]",None of the above,"[3, 5, 8, 10, 13]",srinivas
-150,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[96, 176, 256, 336, 416]","[3, 5, 10, 13]","[96, 176, 256, 336, 416]",srinivas
-151,What will be the output of the following code?,Error,"[96, 176, 256, 336, 416]","[""96"", ""176"", ""256"", ""416""]",None of the above,"[""96"", ""176"", ""256"", ""336"", ""416""]",srinivas
-152,What will be the output of the following code?,Error,1,"{1,2,3,4}",0xFFFFCCC,1,srinivas
-153,What will be the output of the following code?,Error,1,2,"{1,2,3,4}",2,srinivas
-154,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,B,srinivas
-155,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas
-156,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas
-157,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas
-158,What will be the output of the following code?,Error,0,6,4,6,srinivas
-159,What will be the output of the following code?,Error,0,2,4,2,srinivas
-160,What will be the output of the following code?,Error,2,&2,&0,&2,srinivas
-161,What will be the output of the following code?,Error,4,2,5,4,srinivas
-162,What will be the output of the following code?,Error,4,2,5,Error,srinivas
+    print(i,end="""")",10100010,11101010,11010101,11011111,B,Adwaita,Easy
+147,What is the output of the following code?,John  John,John Maria,Maria Maria,Maria John,Maria John,srinivas,Easy
+148,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[1, 4, 9, 16, 25]",None of the above,"[12, 22, 32, 42, 52]",srinivas,Easy
+149,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[3, 5, 8, 10, 13]",None of the above,"[3, 5, 8, 10, 13]",srinivas,Easy
+150,What is the output of the following code?,Error,"[12, 22, 32, 42, 52]","[96, 176, 256, 336, 416]","[3, 5, 10, 13]","[96, 176, 256, 336, 416]",srinivas,Easy
+151,What will be the output of the following code?,Error,"[96, 176, 256, 336, 416]","[""96"", ""176"", ""256"", ""416""]",None of the above,"[""96"", ""176"", ""256"", ""336"", ""416""]",srinivas,Easy
+152,What will be the output of the following code?,Error,1,"{1,2,3,4}",0xFFFFCCC,1,srinivas,Easy
+153,What will be the output of the following code?,Error,1,2,"{1,2,3,4}",2,srinivas,Easy
+154,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,B,srinivas,Easy
+155,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas,Easy
+156,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas,Easy
+157,What will be the output of the following code?,Error,123 10000 234 12300,123 1000 123 1000,234 12300 234 12300,Error,srinivas,Easy
+158,What will be the output of the following code?,Error,0,6,4,6,srinivas,Easy
+159,What will be the output of the following code?,Error,0,2,4,2,srinivas,Easy
+160,What will be the output of the following code?,Error,2,&2,&0,&2,srinivas,Easy
+161,What will be the output of the following code?,Error,4,2,5,4,srinivas,Easy
+162,What will be the output of the following code?,Error,4,2,5,Error,srinivas,Easy
 163,"Find the output
 
 a=10
@@ -416,7 +416,7 @@ print(b)
 2","11
 3","11
 2","10
-3",c,Shubh Kapil
+3",c,Shubh Kapil,Easy
 164,"Find the output
 
 a=20
@@ -431,7 +431,7 @@ print(b)
 21
 8","20
 9","21
-9",b,Shubh Kapil
+9",b,Shubh Kapil,Easy
 165,"
 Find the output
 
@@ -447,7 +447,7 @@ print(b)
 2","
 50
 3","51
-3",b,Shubh Kapil
+3",b,Shubh Kapil,Easy
 166,"
 Find the output:
 
@@ -463,7 +463,7 @@ print(b)
 4","5
 5","6
 5","6
-4",c,Shubh Kapil
+4",c,Shubh Kapil,Easy
 167,"Find the output:
 
 a=10
@@ -477,12 +477,12 @@ print(b)
 21","11
 21","11
 20","10
-20",b,Shubh Kapil
+20",b,Shubh Kapil,Easy
 168,"hi = ""i am iron man""
 print(hi.split())
 
-the above python code prints what data type?",tuple of strings,multiple individual strings,list of strings,dictionary of strings,c,harsh vardhan
-169,which character is used to escape special characters in python regex?,$,\,*,/,b,harsh vardhan
+the above python code prints what data type?",tuple of strings,multiple individual strings,list of strings,dictionary of strings,c,harsh vardhan,Easy
+169,which character is used to escape special characters in python regex?,$,\,*,/,b,harsh vardhan,Easy
 170,"l = ['*']
 n = int(input())
 for i in reversed(range(1,n+1)):
@@ -504,7 +504,7 @@ Output when value of n is 5?","*****
 ****
 ***
 ****
-*****",a,harsh vardhan
+*****",a,harsh vardhan,Easy
 171,"l = ['*']
 n = int(input())
 for i in (range(1,n+1)):
@@ -526,88 +526,88 @@ Output when value of n is 5?","*****
 ****
 ***
 ****
-*****",b,harsh vardhan
-172,which of the following is NOT a built-in python function,enumerate(),slice(),property(),println(),d,harsh vardhan
+*****",b,harsh vardhan,Easy
+172,which of the following is NOT a built-in python function,enumerate(),slice(),property(),println(),d,harsh vardhan,Easy
 173,"lis = ""1,2,3,4,5,6""
 print(set(lis))
 
-output of the above snippet?","{',', '4', '3', '1', '2', '6', '5'}","['6', '5', '4', '2', '1', '3', ',']","('5', '4', '2', '6', ',', '3', '1')",None,a,harsh vardhan
+output of the above snippet?","{',', '4', '3', '1', '2', '6', '5'}","['6', '5', '4', '2', '1', '3', ',']","('5', '4', '2', '6', ',', '3', '1')",None,a,harsh vardhan,Easy
 174,"lis = [1,2,3,4,5,6,6]
 print(set(lis))
-what does the above code do?",Sort the list in ascending order,Sort the list in descending order,Remove duplicate values,Prints the list in a random order,c,harsh vardhan
+what does the above code do?",Sort the list in ascending order,Sort the list in descending order,Remove duplicate values,Prints the list in a random order,c,harsh vardhan,Easy
 175,"def adg(a, arr=[]):
     for i in range(a):
         arr.append(i * i)
     print(arr)
-adg(3, [3, 2, 1])","[3, 2, 1, 0, 1, 4]","[3, 2, 1]","[0, 1, 4, 9]","[3, 2, 1, ,0 1, 4, 9]",A,Adwaita
+adg(3, [3, 2, 1])","[3, 2, 1, 0, 1, 4]","[3, 2, 1]","[0, 1, 4, 9]","[3, 2, 1, ,0 1, 4, 9]",A,Adwaita,Easy
 176,"def adg(a, arr=[]):
     for i in range(a):
         arr.append(i * i)
     print(arr)
-adg(4, [3, 2])","[3, 2, 0, 1]","[3, 2, 0, 1, 4, 9]","[0, 1, 4, 9]","[3, 2, 0, 1, 4, 9, 16]",B,Adwaita
+adg(4, [3, 2])","[3, 2, 0, 1]","[3, 2, 0, 1, 4, 9]","[0, 1, 4, 9]","[3, 2, 0, 1, 4, 9, 16]",B,Adwaita,Easy
 177,"def adg(a, arr=[]):
     for i in range(a):
         arr.append(i * i)
     print(arr)
 adg(5, [3, 5, 7])","[0, 1, 4, 9, 16]
-","[3, 5, 7, 0]",None ,"[3, 5, 7, 0, 1, 4, 9, 16] ",D,Adwaita
+","[3, 5, 7, 0]",None ,"[3, 5, 7, 0, 1, 4, 9, 16] ",D,Adwaita,Easy
 178,"def adg(a, arr=[]):
     for i in range(a):
         arr.append(i * i)
     print(arr)
-adg(4, [-1,-3,7])","[-1, -3, 7, 0, 1, 4, 9]","[0, 1, 4, 9]","[-1, -3, 7]",None,A,Adwaita
+adg(4, [-1,-3,7])","[-1, -3, 7, 0, 1, 4, 9]","[0, 1, 4, 9]","[-1, -3, 7]",None,A,Adwaita,Easy
 179,"arr = {4:3,3:6,5:23,15:2}
-print(sum([v for v in arr.keys()]))",27,34,80,61,A,Adwaita
+print(sum([v for v in arr.keys()]))",27,34,80,61,A,Adwaita,Easy
 180,"arr = {41:32,33:64,53:233,125:23, 63:89}
-print(sum([v for v in arr.keys()]))",441,756,537,315,D,Adwaita
+print(sum([v for v in arr.keys()]))",441,756,537,315,D,Adwaita,Easy
 181,"arr = {41:52,43:63,53:343,25:223, 633:839}
-print(sum([v for v in arr.keys()]))",625,2315,1520,795,D,Adwaita
+print(sum([v for v in arr.keys()]))",625,2315,1520,795,D,Adwaita,Easy
 182,"arr = {21:42,143:33,43:363,5:233,33:39}
-print(sum([v for v in arr.keys()]))",245,710,955,291,A,Adwaita
+print(sum([v for v in arr.keys()]))",245,710,955,291,A,Adwaita,Easy
 183,"arr = {21:42,143:33,43:363,5:233,33:39}
-print(sum([v for v in arr.values()]))",955,710,245,113,B,Adwaita
+print(sum([v for v in arr.values()]))",955,710,245,113,B,Adwaita,Easy
 184,"arr = {23:422,43:333,453:63,55:273,323:329}
-print(sum([v for v in arr.values()]))",1420,897,2317,710,A,Adwaita
+print(sum([v for v in arr.values()]))",1420,897,2317,710,A,Adwaita,Easy
 185,"arr = {2:422,435:33,45:636,587:254}
-print(sum([v for v in arr.values()]))",1069,1345,2414,737,B,Adwaita
-186,,,,,,,
+print(sum([v for v in arr.values()]))",1069,1345,2414,737,B,Adwaita,Easy
+186,,,,,,,,Easy
 187,"What is the output of the code shown below?
-print(not(5>4),not(2&3))",True True,True False,False True,False False,D,Surbhit
+print(not(5>4),not(2&3))",True True,True False,False True,False False,D,Surbhit,Easy
 188," 
                  
 What is the output of the code shown below?
 print(not(5<4),not(2&-3))
-",True True,True False,False True,False False,A,Surbhit
+",True True,True False,False True,False False,A,Surbhit,Easy
 189," 
                  
 What is the output of the code shown below?
 print(not(5|0),not(2&3))
-",True True,True False,False True,False False,D,Surbhit
+",True True,True False,False True,False False,D,Surbhit,Easy
 190," 
                  
 What is the output of the code shown below?
 print(not(5&0),not(2|3))
-",True True,True False,False True,False False,B,Surbhit
+",True True,True False,False True,False False,B,Surbhit,Easy
 191,"print(++~12)
-",12,13,-12,-13,D,Adwaita
-192,print(++~12--~~34),21,46,-21,-46,A,Adwaita
-193,What is the output of the code shown below?,350,200,500,700,700,srinivas
-194,What is the output of the code shown below?,1100,350,200,500,1100,srinivas
-195,What is the output of the code shown below?,1100,7000,6500,5000,7000,srinivas
-196,What is the output of the code shown below?,3500,1100,4000,3520,3500,srinivas
-197,What is the output of the code shown below?,3500,110,3000,1400,1400,srinivas
-198,What is the output of the code shown below?,1500,1700,1400,1200,1500,srinivas
-199,What is the output of the code shown below?,300,400,500,600,300,srinivas
-200,What is the output of the code shown below?,1500,2000,2500,3000,2500,srinivas
-201,What is the output of the following code?,-19,-21,-17,None of the above,-19,srinivas
-202,What is the output of the following code?,200,256,230,None of the above,256,srinivas
-203,What is the output of the following code?,650,752,709,None of the above,709,srinivas
-204,What is the output of the following code?,130,175,151,None of the above,151,srinivas
-205,What is the output of the following code?,131,130,125,None of the above,131,srinivas
-206,,,,,,,
-207,,,,,,,
-208,,,,,,,
-209,,,,,,,
+",12,13,-12,-13,D,Adwaita,Easy
+192,print(++~12--~~34),21,46,-21,-46,A,Adwaita,Easy
+193,What is the output of the code shown below?,350,200,500,700,700,srinivas,Easy
+194,What is the output of the code shown below?,1100,350,200,500,1100,srinivas,Easy
+195,What is the output of the code shown below?,1100,7000,6500,5000,7000,srinivas,Easy
+196,What is the output of the code shown below?,3500,1100,4000,3520,3500,srinivas,Easy
+197,What is the output of the code shown below?,3500,110,3000,1400,1400,srinivas,Easy
+198,What is the output of the code shown below?,1500,1700,1400,1200,1500,srinivas,Easy
+199,What is the output of the code shown below?,300,400,500,600,300,srinivas,Easy
+200,What is the output of the code shown below?,1500,2000,2500,3000,2500,srinivas,Easy
+201,What is the output of the following code?,-19,-21,-17,None of the above,-19,srinivas,Easy
+202,What is the output of the following code?,200,256,230,None of the above,256,srinivas,Easy
+203,What is the output of the following code?,650,752,709,None of the above,709,srinivas,Easy
+204,What is the output of the following code?,130,175,151,None of the above,151,srinivas,Easy
+205,What is the output of the following code?,131,130,125,None of the above,131,srinivas,Easy
+206,,,,,,,,Easy
+207,,,,,,,,Easy
+208,,,,,,,,Easy
+209,,,,,,,,Easy
 210,"def hello():
     a = 6
     b = 9
@@ -618,7 +618,7 @@ print(not(5&0),not(2|3))
     print(a,b)
 
 hello()
-What are the final values of a and b respectively","10, 30","15, 36","36, 15","15, 15",b,harsh vardhan
+What are the final values of a and b respectively","10, 30","15, 36","36, 15","15, 15",b,harsh vardhan,Easy
 211,"def hello():
     a = 6
     b = 9
@@ -629,7 +629,7 @@ What are the final values of a and b respectively","10, 30","15, 36","36, 15","1
     print(a,b)
 hello()
 
-What are the final values of a and b respectively","8, 44","11, 79","26, 184","20, 149",c,harsh vardhan
+What are the final values of a and b respectively","8, 44","11, 79","26, 184","20, 149",c,harsh vardhan,Easy
 212,"def hello():
     a = 6
     b = 9
@@ -640,7 +640,7 @@ What are the final values of a and b respectively","8, 44","11, 79","26, 184","2
     print(a,b)
 hello()
 
-What are the final values of a and b respectively","11, 44","18, 44","16, 79","21, 144",d,harsh vardhan
+What are the final values of a and b respectively","11, 44","18, 44","16, 79","21, 144",d,harsh vardhan,Easy
 213,"def hello():
     a = 6
     b = 9
@@ -651,7 +651,7 @@ What are the final values of a and b respectively","11, 44","18, 44","16, 79","2
     print(a,b)
 hello()
 
-What are the final values of a and b respectively","6, 49",Infinite loop,"16, 80","21, 145",b,harsh vardhan
+What are the final values of a and b respectively","6, 49",Infinite loop,"16, 80","21, 145",b,harsh vardhan,Easy
 214,"def hello():
     a = 6
     b = 9
@@ -662,7 +662,7 @@ What are the final values of a and b respectively","6, 49",Infinite loop,"16, 80
     print(a,b)
 hello()
 
-What are the final values of a and b respectively","6, 49",Infinite loop,"16, 81","21, 146",a,harsh vardhan
+What are the final values of a and b respectively","6, 49",Infinite loop,"16, 81","21, 146",a,harsh vardhan,Easy
 215,"l = [10, 11, 12, 18, 19]
 def hello():
     for i in range(0, len(l)):
@@ -672,7 +672,7 @@ def hello():
     print(l2)
 hello()
 
-what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[10, 3, 4, 6, 6]","[3, 3, 4, 6, 6]",b,harsh vardhan
+what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[10, 3, 4, 6, 6]","[3, 3, 4, 6, 6]",b,harsh vardhan,Easy
 216,"l = [10, 11, 12, 18, 19]
 def hello():
     for i in range(0, len(l)):
@@ -682,7 +682,7 @@ def hello():
     print(l2)
 hello()
 
-what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[10, 3, 4, 6, 6]","[3, 3, 4, 6, 6]",a,harsh vardhan
+what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[10, 3, 4, 6, 6]","[3, 3, 4, 6, 6]",a,harsh vardhan,Easy
 217,"l = [10, 11, 12, 18, 19]
 def hello():
     for i in range(0, 2):
@@ -692,7 +692,7 @@ def hello():
     print(l2)
 hello()
 
-what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[3, 3, 12, 18, 19]","[3, 3, 4, 6, 6]",c,harsh vardhan
+what is the ouput of the above code?","[3, 3, 4, 18, 19]","[10, 11, 12, 6, 6]","[3, 3, 12, 18, 19]","[3, 3, 4, 6, 6]",c,harsh vardhan,Easy
 218,"l = [10, 11, 12, 18, 19]
 def hello():
     i = 0
@@ -704,7 +704,7 @@ def hello():
     print(l)
 hello()
 
-what is the ouput of the above code?","[10, 11, 21, 18, 19]","[10, 11, 20, 18, 19]","[10, 11, 26, 18, 19]",Infinite loop,a,harsh vardhan
+what is the ouput of the above code?","[10, 11, 21, 18, 19]","[10, 11, 20, 18, 19]","[10, 11, 26, 18, 19]",Infinite loop,a,harsh vardhan,Easy
 219,"def adg():
     a = 1
     b = 4
@@ -714,7 +714,7 @@ what is the ouput of the above code?","[10, 11, 21, 18, 19]","[10, 11, 20, 18, 1
     print(a,b)
 adg()
 
-what is the ouput of the above code?","11, 8","11, 9","6, 5",None,a,harsh vardhan
+what is the ouput of the above code?","11, 8","11, 9","6, 5",None,a,harsh vardhan,Easy
 220,"A = ""And now for something completely different.""
  B = ""And not too expensive!""
  C = ""An African or European swallow?""
@@ -725,7 +725,7 @@ what is the ouput of the above code?","11, 8","11, 9","6, 5",None,a,harsh vardha
  print( B[-6:] ) # Line 3
  print( C[:7] ) # Line 4
 
-What will be displayed by the Python code labeled ""Line 1"" ?",False False,False True,True False,None of the above.,A,Haneet
+What will be displayed by the Python code labeled ""Line 1"" ?",False False,False True,True False,None of the above.,A,Haneet,Easy
 221,"A = ""And now for something completely different.""
  B = ""And not too expensive!""
  C = ""An African or European swallow?""
@@ -737,7 +737,7 @@ What will be displayed by the Python code labeled ""Line 1"" ?",False False,Fals
  print( C[:7] ) # Line 4
 
 What will be displayed by the Python code labeled ""Line 2"" ?
-",o e,n r,completely for,different. now,A,Haneet
+",o e,n r,completely for,different. now,A,Haneet,Easy
 222,"A = ""And now for something completely different.""
  B = ""And not too expensive!""
  C = ""An African or European swallow?""
@@ -748,7 +748,7 @@ What will be displayed by the Python code labeled ""Line 2"" ?
  print( B[-6:] ) # Line 3
  print( C[:7] ) # Line 4
 
-What will be displayed by the Python code labeled ""Line 3"" ?",sive!,nsive!,ot too expensive!,not too expensive!,B,Haneet
+What will be displayed by the Python code labeled ""Line 3"" ?",sive!,nsive!,ot too expensive!,not too expensive!,B,Haneet,Easy
 223,"A = ""And now for something completely different."" 
 B = ""And not too expensive!"" 
 C = ""An African or European swallow?"" 
@@ -757,7 +757,7 @@ print( A[5], A[-4] ) # Line 2
 print( B[-6:] ) # Line 3 
 print( C[:7] ) # Line 4
 
-What will be displayed by the Python code labeled ""Line 4"" ?",wallow?,swallow?,An Afr,An Afri,d,Haneet
+What will be displayed by the Python code labeled ""Line 4"" ?",wallow?,swallow?,An Afr,An Afri,d,Haneet,Easy
 224,"def final( P1, P2, P3 ): 
        P1[4] = ""shrubbery"" 
        if len(P2) > 3: 
@@ -773,7 +773,7 @@ print( B ) # Line 2
 print( C ) # Line 3 
 print( D ) # Line 4
 
-What will be displayed by the Python code labeled ""Line 1"" ?",’That is no ordinary shrubbery’,’That is no ordinary rabbit’,"[’That’, ’is’, ’no’, ’ordinary’, ’shrubbery’]","[’That’, ’is’, ’no’, ’ordinary’, ’rabbit’]",c,Haneet
+What will be displayed by the Python code labeled ""Line 1"" ?",’That is no ordinary shrubbery’,’That is no ordinary rabbit’,"[’That’, ’is’, ’no’, ’ordinary’, ’shrubbery’]","[’That’, ’is’, ’no’, ’ordinary’, ’rabbit’]",c,Haneet,Easy
 225,"def final( P1, P2, P3 ): 
        P1[4] = ""shrubbery"" 
        if len(P2) > 3: 
@@ -789,30 +789,30 @@ print( B ) # Line 2
 print( C ) # Line 3 
 print( D ) # Line 4
 
- What will be displayed by the Python code labeled ""Line 2""","""Four shalt thou""","""Four shalt thou not count""","[’Four’, ’shalt’, ’thou’]","[’Four’, ’shalt’, ’thou’, ’not’, ’count’]",c,Haneet
+ What will be displayed by the Python code labeled ""Line 2""","""Four shalt thou""","""Four shalt thou not count""","[’Four’, ’shalt’, ’thou’]","[’Four’, ’shalt’, ’thou’, ’not’, ’count’]",c,Haneet,Easy
 226,"Which of the following gives an error?
-Assume A and B are 2 strings",A+B,A-B,A*8,All of the above,b,harsh vardhan
+Assume A and B are 2 strings",A+B,A-B,A*8,All of the above,b,harsh vardhan,Easy
 227,"What is the output of the following code?
 for i in [1,2,3,4,5][::-1]:
     print(i)","5
 4
 3
 2
-1",5 4 3 2 1 ,1 2 3 4 5,Error,a,harsh vardhan
+1",5 4 3 2 1 ,1 2 3 4 5,Error,a,harsh vardhan,Easy
 228,"What is the output of the following code?
-print(len([""WElcOme tO AdG"".lower(),2, 4, 6, 9]))",14,5,4,Error,c,harsh vardhan
+print(len([""WElcOme tO AdG"".lower(),2, 4, 6, 9]))",14,5,4,Error,c,harsh vardhan,Easy
 229,"What is the output of the following code?
-print(""%.3f""%99.4567)",99.4,99.45,99.456,99,c,harsh vardhan
-230,Which of the following is a built-in function in python?,print(),printf(),randint(),sqrt(),a,harsh vardhan
+print(""%.3f""%99.4567)",99.4,99.45,99.456,99,c,harsh vardhan,Easy
+230,Which of the following is a built-in function in python?,print(),printf(),randint(),sqrt(),a,harsh vardhan,Easy
 231,"print(7**(2/2%4))
-What is the output of the above code?",7,2,0,0.5,a,harsh vardhan
+What is the output of the above code?",7,2,0,0.5,a,harsh vardhan,Easy
 232,"print(3<<2)
-What is the output of the above code?",4,12,9,10,b,harsh vardhan
-233,What keyword is used to create anonymous functions during runtime?,def,lambda,anon,Anonymous functions cannot be made,b,harsh vardhan
+What is the output of the above code?",4,12,9,10,b,harsh vardhan,Easy
+233,What keyword is used to create anonymous functions during runtime?,def,lambda,anon,Anonymous functions cannot be made,b,harsh vardhan,Easy
 234,"print(9//4*6)
-What is the output of the above code?",12,0,13.5,0,a,harsh vardhan
+What is the output of the above code?",12,0,13.5,0,a,harsh vardhan,Easy
 235,"print(start=""hi "", ""hello"", end=""&&&"")
-What is the output of the above code?",hihello&&&,hello&&&,Error,hihello,c,harsh vardhan
+What is the output of the above code?",hihello&&&,hello&&&,Error,hihello,c,harsh vardhan,Easy
 236,"def adg2():
     a = 8
     b = 12
@@ -825,72 +825,72 @@ What is the output of the above code?",hihello&&&,hello&&&,Error,hihello,c,harsh
             flag = False
 adg2()
 
-How many times does the loop execute?",4,5,6,Infinte,b,harsh vardhan
+How many times does the loop execute?",4,5,6,Infinte,b,harsh vardhan,Easy
 237,"print(7*4%8)
-What is the output of the above code?",3,4,28,None,b,harsh vardhan
+What is the output of the above code?",3,4,28,None,b,harsh vardhan,Easy
 238,"print(7**2/2%4)
-What is the output of the above code?",2,0,0.5,24.5,c,harsh vardhan
-239,What is printed by: print(2**3),6,8,5,9,B,Jatin Dhall
+What is the output of the above code?",2,0,0.5,24.5,c,harsh vardhan,Easy
+239,What is printed by: print(2**3),6,8,5,9,B,Jatin Dhall,Easy
 240,"Given: x = 7
-    what is printed by: print(0 <= x <= 7)",0,7,TRUE,FALSE,C,Jatin Dhall
+    what is printed by: print(0 <= x <= 7)",0,7,TRUE,FALSE,C,Jatin Dhall,Easy
 241,"Given s = ""To be, or not to be, that is the question:""
     which code produces the following?
-   ['To be', 'or not to be', 'that is the question']",L = s.split().strip(),"L = s.split(',').strip()      #no space after comma","L = s.strip(',:').split(',')  #no space after comma","L = s.strip(',:').split(', ') #space after comma",D,Jatin Dhall
+   ['To be', 'or not to be', 'that is the question']",L = s.split().strip(),"L = s.split(',').strip()      #no space after comma","L = s.strip(',:').split(',')  #no space after comma","L = s.strip(',:').split(', ') #space after comma",D,Jatin Dhall,Easy
 242,"What is the output when the following for loop is executed?
 
     for i in range(3,9,3):
-	    print(i, end = ' ')",3 4 5 6 7 8 9 ,3 4 5 6 7 8,None of the above,3 6,D,Jatin Dhall
+	    print(i, end = ' ')",3 4 5 6 7 8 9 ,3 4 5 6 7 8,None of the above,3 6,D,Jatin Dhall,Easy
 243,"What does this expression return?
-{a*b for a in range(3) for b in range(3)}","{0, 1, 2, 3, 4, 6, 9}","{0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 4, 6, 0, 3, 6, 9}","{0, 1, 2, 4}","{0, 0, 0, 0, 1, 2, 0, 2, 4}",C,Jatin Dhall
+{a*b for a in range(3) for b in range(3)}","{0, 1, 2, 3, 4, 6, 9}","{0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 4, 6, 0, 3, 6, 9}","{0, 1, 2, 4}","{0, 0, 0, 0, 1, 2, 0, 2, 4}",C,Jatin Dhall,Easy
 244,"Given the list L = [('a', 1), ('b', 7), ('c', 5), ('d', 2)]
-    what code generates D = {'a': 1, 'b': 7, 'c': 5, 'd': 2}?",D = dict(L),"D = { x:y for x,y in L }"," D = dict([(x,y) for x,y in L])",All of the above,D,Jatin Dhall
+    what code generates D = {'a': 1, 'b': 7, 'c': 5, 'd': 2}?",D = dict(L),"D = { x:y for x,y in L }"," D = dict([(x,y) for x,y in L])",All of the above,D,Jatin Dhall,Easy
 245,"Given: S1 = {1,2,3} and S2 = {2,3,4}
-    what is the value of S after this operation: S = S1 ^ S2",{1},"{2, 3}","{1, 4}","{1, 2, 3, 4}",C,Jatin Dhall
+    what is the value of S after this operation: S = S1 ^ S2",{1},"{2, 3}","{1, 4}","{1, 2, 3, 4}",C,Jatin Dhall,Easy
 246,"Given: 
     def f():
        return 5,6
     
     x = f()
     
-    What is the type of x?",set,tuple,list,int,B,Jatin Dhall
+    What is the type of x?",set,tuple,list,int,B,Jatin Dhall,Easy
 247,"What is the output of the code shown below?
 
     D = {'mouse':{},'human':{}}   # all curly braces in this line
     D['mouse']['2'] = 3
     D['human']['1'] = 4
     D['mouse']['2'] += 5
-    print(D)","{'mouse': {'2': 3}, 'human': {'1': 9}}","{'mouse': {'2': 3}, 'human': {'1': 5}}","{'mouse': {'2': 5}, 'human': {'1': 4}}","{'mouse': {'2': 8}, 'human': {'1': 4}}",D,Jatin Dhall
+    print(D)","{'mouse': {'2': 3}, 'human': {'1': 9}}","{'mouse': {'2': 3}, 'human': {'1': 5}}","{'mouse': {'2': 5}, 'human': {'1': 4}}","{'mouse': {'2': 8}, 'human': {'1': 4}}",D,Jatin Dhall,Easy
 248,"Given D = {'a': 10}
     What code changes D to be {'a': 1}?",D['a'] -= 9,"D['a'] = D.get('a',0) - 9","try:
             D['a'] += 1
         except KeyError:
-            D['a'] = 1",All of the above,AB,Jatin Dhall
+            D['a'] = 1",All of the above,AB,Jatin Dhall,Easy
 249,"Given s = {1,2,3}
-    what is printed by print(s.remove(3))",None,{},"{1, 2}","{1, 2, 3}",A,Jatin Dhall
+    what is printed by print(s.remove(3))",None,{},"{1, 2}","{1, 2, 3}",A,Jatin Dhall,Easy
 250,"What is printed by?
-    print(3**2+1)",7,28,10,16,C,Jatin Dhall
+    print(3**2+1)",7,28,10,16,C,Jatin Dhall,Easy
 251,"What is printed by?
 
       val1 = 2                  
       val2 = 3                  
       val1, val2 = val2, val1   
-      print(val1, val2)  ",3 2,2 3,2,3,A,Jatin Dhall
+      print(val1, val2)  ",3 2,2 3,2,3,A,Jatin Dhall,Easy
 252,"What is printed by this sequence of instructions?
 
        x = 0
        y = 1
        z = 1
-       print(x or (y and not z))",1,0,TRUE,FALSE,BD,Jatin Dhall
+       print(x or (y and not z))",1,0,TRUE,FALSE,BD,Jatin Dhall,Easy
 253,"What is printed by?
        a = 30
        if a == 3 or not(a < 20):
           print(""Yes"")
        else:
-          print(""No"")",Yes,No,a is 3,None,A,Jatin Dhall
+          print(""No"")",Yes,No,a is 3,None,A,Jatin Dhall,Easy
 254,"What is printed by?
    
       for i in range(10,2,-2):
-         print(i, end = ' ')   # the string is a single space",10 8 6 4 2,2 4 6 8 10,10 8 6 4,2 4 6 8,C,Jatin Dhall
+         print(i, end = ' ')   # the string is a single space",10 8 6 4 2,2 4 6 8 10,10 8 6 4,2 4 6 8,C,Jatin Dhall,Easy
 255,"Given pi = 3.141592653589793
     What is printed by
         print(""{:>10.3f}"".format(pi))
@@ -898,38 +898,38 @@ What is the output of the above code?",2,0,0.5,24.5,c,harsh vardhan
         0123456789012345","3.142
         0123456789012345 "," 3.141
         0123456789012345","3.142
-        0123456789012345 ",B,Jatin Dhall
+        0123456789012345 ",B,Jatin Dhall,Easy
 256,"What is printed by
    
       nums=list()
       for n in range(4):
           nums.insert(0,n**2)
-      print(nums)"," [9,4,1,0] ","[1,4,9,25]","[0,1,4,9]","[25,9,4,1]",A,Jatin Dhall
-257,,,,,,,
+      print(nums)"," [9,4,1,0] ","[1,4,9,25]","[0,1,4,9]","[25,9,4,1]",A,Jatin Dhall,Easy
+257,,,,,,,,Easy
 258,"print(""Hello. BOys"".title())
-What is the output of the above code?",Hello. Boys,Hello. boys,HELLO. Boys,Hello. BOYS,a,harsh vardhan
+What is the output of the above code?",Hello. Boys,Hello. boys,HELLO. Boys,Hello. BOYS,a,harsh vardhan,Easy
 259,"print(""Hello. BOys"".capitalize())
-What is the output of the above code?",Hello. Boys,Hello. boys,HELLO. Boys,Hello. BOYS,b,harsh vardhan
+What is the output of the above code?",Hello. Boys,Hello. boys,HELLO. Boys,Hello. BOYS,b,harsh vardhan,Easy
 260,"What is printed by?
         s = ""Clifford""
         for c in s:
-           print(c, end = ' ')    # the string is a single space",Clifford,C l i f f o r d,c c c c c c c c,1234567,B,Jatin Dhall
+           print(c, end = ' ')    # the string is a single space",Clifford,C l i f f o r d,c c c c c c c c,1234567,B,Jatin Dhall,Easy
 261,"What is printed by?
 
     count = 0
 
     while count < 4:
         print('count',end = ' ')   # the string is a single space
-        count += 1",0 1 2 3 4,0 1 2 3,count count count count,count 0 1 2 3,C,Jatin Dhall
+        count += 1",0 1 2 3 4,0 1 2 3,count count count count,count 0 1 2 3,C,Jatin Dhall,Easy
 262,"What is printed by this sequence of instructions?
 
        L1 = [2,4]
        L2 = [3,5]
-       print(L1 + L2)","[2, 4, 3, 5]","[2, 3, 4, 5]","[[2, 4], [3, 5]]","[2, 4, [3, 5]]",A,Jatin Dhall
+       print(L1 + L2)","[2, 4, 3, 5]","[2, 3, 4, 5]","[[2, 4], [3, 5]]","[2, 4, [3, 5]]",A,Jatin Dhall,Easy
 263,Which of the following prints the first three multiples of three: 3 6 9,"for i in range(3,12,3):
            print(i, end=' ')","for i in range(1,5):
            print(3*i, end = ' ')","for i in range(3):
-           print(3*i, end=' ')",All of the above.,A,Jatin Dhall
+           print(3*i, end=' ')",All of the above.,A,Jatin Dhall,Easy
 264,"def final( P1, P2, P3 ): 
        P1[4] = ""shrubbery"" 
        if len(P2) > 3: 
@@ -945,17 +945,17 @@ print( B ) # Line 2
 print( C ) # Line 3 
 print( D ) # Line 4
 
-What will be displayed by the Python code labeled ""Line 3""","""ArthurKing of the Britons""","""Arthur King of the Britons""",[’ArthurKing of the Britons’],None of the Above,d,Haneet
+What will be displayed by the Python code labeled ""Line 3""","""ArthurKing of the Britons""","""Arthur King of the Britons""",[’ArthurKing of the Britons’],None of the Above,d,Haneet,Easy
 265,"Given s = ""Head, Shoulders, Knees and Toes""
     which code produces the following?
-    ['Head', 'Shoulders', 'Knees and Toes']","s.split(',') #Note no space","s.split(', ')    # Note one space after comma", s.split().strip(),list(s),B,Jatin Dhall
+    ['Head', 'Shoulders', 'Knees and Toes']","s.split(',') #Note no space","s.split(', ')    # Note one space after comma", s.split().strip(),list(s),B,Jatin Dhall,Easy
 266,"Consider this code
   L1 = [1,2]
   L2 = [3, L1, 4]
   L1.append(5)
   print(L2)   # Line 1
 
-  What is printed by Line 1?"," [3, 'L1', 4]","[3, [1, 2], 4]","[3, [5], 4]","[3, [1, 2, 5], 4]",D,Jatin Dhall
+  What is printed by Line 1?"," [3, 'L1', 4]","[3, [1, 2], 4]","[3, [5], 4]","[3, [1, 2, 5], 4]",D,Jatin Dhall,Easy
 267,"Given this sequence of instructions:
 
     L1 = [1,2,3]
@@ -963,18 +963,18 @@ What will be displayed by the Python code labeled ""Line 3""","""ArthurKing of t
     L1.append(4)
     print(L2)
 
-    What is printed?","['a',L1[:],'b',L1]","['a', [1, 2, 3, 4], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3,4], 'b', [1, 2, 3]]",C,Jatin Dhall
+    What is printed?","['a',L1[:],'b',L1]","['a', [1, 2, 3, 4], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3,4], 'b', [1, 2, 3]]",C,Jatin Dhall,Easy
 268,"What is printed by
    
     T1 = (7,8)
     T1 += (2,1)
-    print(T1)","((7, 8), (2, 1))","(7, 8, 2, 1)","(9, 9)","(1, 2)",B,Jatin Dhall
+    print(T1)","((7, 8), (2, 1))","(7, 8, 2, 1)","(9, 9)","(1, 2)",B,Jatin Dhall,Easy
 269,"Given M = {'Bob': 75, 'Alice': 27}
     What is printed by 
-        print(M['Alice'])",75,27,Alice',Alice' : 27,B,Jatin Dhall
-270,The key of a dictionary must be:,"an int, float, or string",an int or string,Mutable,Immutable,D,Jatin Dhall
+        print(M['Alice'])",75,27,Alice',Alice' : 27,B,Jatin Dhall,Easy
+270,The key of a dictionary must be:,"an int, float, or string",an int or string,Mutable,Immutable,D,Jatin Dhall,Easy
 271,"Given: x = -1
-    which expression returns True?",0 <= x <= 15,x <= -12,x < 110,All of the above.,C,Jatin Dhall
+    which expression returns True?",0 <= x <= 15,x <= -12,x < 110,All of the above.,C,Jatin Dhall,Easy
 272,"def final( P1, P2, P3 ): 
        P1[4] = ""shrubbery"" 
        if len(P2) > 3: 
@@ -990,28 +990,28 @@ print( B ) # Line 2
 print( C ) # Line 3 
 print( D ) # Line 4
 What will be displayed by the Python code labeled ""Line 4""
-","""Four shalt thou""","""Four shalt thou not count""","[’Four’, ’shalt’, ’thou’]","[’Four’, ’shalt’, ’thou’, ’not’, ’count’]",a,Haneet
+","""Four shalt thou""","""Four shalt thou not count""","[’Four’, ’shalt’, ’thou’]","[’Four’, ’shalt’, ’thou’, ’not’, ’count’]",a,Haneet,Easy
 273,"Given: S1 = {1,2,3} and S2 = {2,3,4}
     what is the value of S after this operation: S = S1 & S","A) {1, 2, 3, 4}
 ","B) {2, 3}","    C) {1, 4}","
- D) {}",B,Jatin Dhall
-274,What is printed by: print(2**2*2),15,8,16,6,B,Jatin Dhall
+ D) {}",B,Jatin Dhall,Easy
+274,What is printed by: print(2**2*2),15,8,16,6,B,Jatin Dhall,Easy
 275,"Given: s = 'spam'
-    what is printed by: print(s.index('s'))",0, '',None,-1,A,Jatin Dhall
-276,1) What is the 16-bit compiler allowable range for integer constants?,-3.4e38 to 3.4e38,-32767 to 32768,-32668 to 32667,-32768 to 32767,-32768 to 32767,Raehat Singh Nanda
-277,What is printed by: print(2 and 3),2,-1,3,FALSE,C,Jatin Dhall
+    what is printed by: print(s.index('s'))",0, '',None,-1,A,Jatin Dhall,Easy
+276,1) What is the 16-bit compiler allowable range for integer constants?,-3.4e38 to 3.4e38,-32767 to 32768,-32668 to 32667,-32768 to 32767,-32768 to 32767,Raehat Singh Nanda,Easy
+277,What is printed by: print(2 and 3),2,-1,3,FALSE,C,Jatin Dhall,Easy
 278,"Given: x = 0
     what is printed by: 
     if x:
         print(""Here"")
     else:
-        print(""There"")",Here,There,None of the above,,B,Jatin Dhall
+        print(""There"")",Here,There,None of the above,,B,Jatin Dhall,Easy
 279,"main()  
 {printf(""javatpoint"");  
-main();}  ",Wrong statement,It will keep on printing javatpoint,It will Print javatpoint once,None of the these,It will keep on printing javatpoint,Raehat Singh Nanda
-280,,,,,,,
+main();}  ",Wrong statement,It will keep on printing javatpoint,It will Print javatpoint once,None of the these,It will keep on printing javatpoint,Raehat Singh Nanda,Easy
+280,,,,,,,,Easy
 281,"What does this expression return?
-        {a*b for a in range(3) for b in range(3)}","{0, 0, 0, 1}","{0, 1}","{0, 1, 2, 4}","{0, 0, 0, 0, 1, 2, 0, 2, 4}",C,Jatin Dhall
+        {a*b for a in range(3) for b in range(3)}","{0, 0, 0, 1}","{0, 1}","{0, 1, 2, 4}","{0, 0, 0, 0, 1, 2, 0, 2, 4}",C,Jatin Dhall,Easy
 282,"Consider this code
   L1 = ['a','b']
   L2 = [1, L1, 2]
@@ -1021,46 +1021,46 @@ main();}  ",Wrong statement,It will keep on printing javatpoint,It will Print ja
   What is printed by Line 1?","A) [1, ['a', 'b'], 2]","
     B) [1, ['a', 'b', 'c'], 2]","
     C) [1, ['c'], 2]","
-    D) [1, [['a', 'b'],['c']], 2]",B,Jatin Dhall
+    D) [1, [['a', 'b'],['c']], 2]",B,Jatin Dhall,Easy
 283,"Given
        value = input(""Input a number: "")
-    What is the type of value if 7 is input at the prompt?",int,str,float,long,B,Jatin Dhall
+    What is the type of value if 7 is input at the prompt?",int,str,float,long,B,Jatin Dhall,Easy
 284,"Given: x = 12
     what is printed by: print(0 <= x <= 12)
  ","A) False
      ",B) True,"
       C) 12
-     ",D) 0,B,Jatin Dhall
-285,What is printed by: print(5**2),10,25,5,TRUE,B,Jatin Dhall
+     ",D) 0,B,Jatin Dhall,Easy
+285,What is printed by: print(5**2),10,25,5,TRUE,B,Jatin Dhall,Easy
 286,"Given
         b = input(""Input a bool (True/False): "")
-     What is the type of b if True is input at the prompt?",float,str,int,bool,B,Jatin Dhall
+     What is the type of b if True is input at the prompt?",float,str,int,bool,B,Jatin Dhall,Easy
 287,"Given: s = 'Hello'
-    what is printed by: print(s.find('h'))",None, ' ',0,-1,D,Jatin Dhall
-288,What is required in each C program?,The program must have at least one function.,The program does not require any function.,Input data,Output data,The program must have at least one function.,Raehat Singh Nanda
-289,What is printed by: print(2 and 0),FALSE,TRUE,0,2,C,Jatin Dhall
+    what is printed by: print(s.find('h'))",None, ' ',0,-1,D,Jatin Dhall,Easy
+288,What is required in each C program?,The program must have at least one function.,The program does not require any function.,Input data,Output data,The program must have at least one function.,Raehat Singh Nanda,Easy
+289,What is printed by: print(2 and 0),FALSE,TRUE,0,2,C,Jatin Dhall,Easy
 290,"Given D = {'a': 11}
     What code changes D to be {'a': 1}?",D['a'] -= 10,"D['a'] = D.get('a',0) - 10","try:
             D['a'] += 1
         except KeyError:
-            D['a'] = 1", All of the above,AC,Jatin Dhall
+            D['a'] = 1", All of the above,AC,Jatin Dhall,Easy
 291,"Given s = {1,2,3}
-    what is printed by print(s.add(4))","{1, 2, 3, 4}","{1, 2, 3}",{},None,D,Jatin Dhall
+    what is printed by print(s.add(4))","{1, 2, 3, 4}","{1, 2, 3}",{},None,D,Jatin Dhall,Easy
 292,"Given: L1 = [4,5] and L2 = [1,2,3]
-    what is the value of L after this operation: L = L1 + L2","[4,5,[1,2,3]]","[[4,5],[1,2,3]]","[1,2,3,4,5]","[4,5,1,2,3]",D,Jatin Dhall
+    what is the value of L after this operation: L = L1 + L2","[4,5,[1,2,3]]","[[4,5],[1,2,3]]","[1,2,3,4,5]","[4,5,1,2,3]",D,Jatin Dhall,Easy
 293,"Given s = ""To be, or not to be, that is the question:""
     which code produces the following?
-   ['To be', 'or not to be', 'that is the question']","s.strip(',:').split(',')","s.strip(',:').split(', ')",s.split().strip(),"s.split(',').strip()",B,Jatin Dhall
+   ['To be', 'or not to be', 'that is the question']","s.strip(',:').split(',')","s.strip(',:').split(', ')",s.split().strip(),"s.split(',').strip()",B,Jatin Dhall,Easy
 294,"What is the output when the following for loop is executed?
 
     for i in range(3,9,3):
-	    print(i, end = ' ')",3 6,"""3 6 9""(Without the quotes)",3 4 5 6 7 8 ,3 4 5 6 7 8 9 ,A ,Jatin Dhall
+	    print(i, end = ' ')",3 6,"""3 6 9""(Without the quotes)",3 4 5 6 7 8 ,3 4 5 6 7 8 9 ,A ,Jatin Dhall,Easy
 295,"Given: x = []
     what is printed by: 
     if x:
         print(""Here"")
     else:
-        print(""There"")",There,Here,None of the above,,A,Jatin Dhall
+        print(""There"")",There,Here,None of the above,,A,Jatin Dhall,Easy
 296,"Consider this code
 
   L1 = [1,2,3]
@@ -1068,9 +1068,9 @@ main();}  ",Wrong statement,It will keep on printing javatpoint,It will Print ja
   L1.append(4)
   print(L2)   # Line 1
 
-  What is printed by Line 1?","[1, [1, 2, 3, 4], 2, 3]","[1, [1, 2, 3], 2, 3]","[1,L1[:],2,3]","[1, 2, 3, 4] ",B,Jatin Dhall
+  What is printed by Line 1?","[1, [1, 2, 3, 4], 2, 3]","[1, [1, 2, 3], 2, 3]","[1,L1[:],2,3]","[1, 2, 3, 4] ",B,Jatin Dhall,Easy
 297,"Given the list L = [('a', 1), ('b', 7), ('c', 5), ('d', 2)]
-    what code generates D = {'a': 1, 'b': 7, 'c': 5, 'd': 2}?","D = dict([(x,y) for x,y in L])",D = dict(L),"D = { x:y for x,y in L }",All of the above,D,Jatin Dhall
+    what code generates D = {'a': 1, 'b': 7, 'c': 5, 'd': 2}?","D = dict([(x,y) for x,y in L])",D = dict(L),"D = { x:y for x,y in L }",All of the above,D,Jatin Dhall,Easy
 298," A = 0
  B = 0
  C = 0
@@ -1087,15 +1087,15 @@ main();}  ",Wrong statement,It will keep on printing javatpoint,It will Print ja
  print( C ) # Line 3
  print( D ) # Line 4
 
-Which of the following statements about the Python code labeled ""Line 1"" is correct?",It will display 1 when the program is executed.,It will display 4 when the program is executed.,It will display 7 when the program is executed,It will display 10 when the program is executed.,c,Haneet
+Which of the following statements about the Python code labeled ""Line 1"" is correct?",It will display 1 when the program is executed.,It will display 4 when the program is executed.,It will display 7 when the program is executed,It will display 10 when the program is executed.,c,Haneet,Easy
 299,"What does this expression return?
-        {a*b for a in range(3) for b in range(3)}","{0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 4, 6, 0, 3, 6, 9}","{0, 0, 0, 0, 1, 2, 0, 2, 4}","{0, 1, 2, 3, 4, 6, 9}","{0, 1, 2, 4}",D,Jatin Dhall
+        {a*b for a in range(3) for b in range(3)}","{0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 4, 6, 0, 3, 6, 9}","{0, 0, 0, 0, 1, 2, 0, 2, 4}","{0, 1, 2, 3, 4, 6, 9}","{0, 1, 2, 4}",D,Jatin Dhall,Easy
 300,"Given: S1 = {1,2,3} and S2 = {1,3,5}
-    what is the value of S after this operation: S = S1 ^ S2",{},"{1, 3}","{2, 5}","{1, 2, 3, 5}",D,Jatin Dhall
+    what is the value of S after this operation: S = S1 ^ S2",{},"{1, 3}","{2, 5}","{1, 2, 3, 5}",D,Jatin Dhall,Easy
 301,"What is printed by?
-    print(5 + 2 % 5)",4,7,2,0,B,Jatin Dhall
+    print(5 + 2 % 5)",4,7,2,0,B,Jatin Dhall,Easy
 302,"What is printed by?
-    print(5 + 2 % 5)",1,"""1.0""",0,"""0.0""",C,Jatin Dhall
+    print(5 + 2 % 5)",1,"""1.0""",0,"""0.0""",C,Jatin Dhall,Easy
 303,"What is printed by?
    
   i = 0
@@ -1103,7 +1103,7 @@ Which of the following statements about the Python code labeled ""Line 1"" is co
       print(i, end = ' ') #space between the single quotes
       i += 2
   else:
-      print('0')","""0 2 4""","""0 2 4 6""","""0 2 4 6 0""","""0 2 4 0""",D,Jatin Dhall
+      print('0')","""0 2 4""","""0 2 4 6""","""0 2 4 6 0""","""0 2 4 0""",D,Jatin Dhall,Easy
 304,"What is printed by?
 	
 	#""Love Me Do"" lyrics Lennon & McCartney
@@ -1111,7 +1111,7 @@ Which of the following statements about the Python code labeled ""Line 1"" is co
         Line2 = ""you know I love you""
         Line3 = ""I'll always be true""
 	Line4 = Line1 + Line2 + Line3   
-	print(Line2.find('know'), Line4.count('love')) ","(4, 3)",4 3,True 3,True 2,B,Jatin Dhall
+	print(Line2.find('know'), Line4.count('love')) ","(4, 3)",4 3,True 3,True 2,B,Jatin Dhall,Easy
 305," A = 0
  B = 0
  C = 0
@@ -1128,15 +1128,15 @@ Which of the following statements about the Python code labeled ""Line 1"" is co
  print( C ) # Line 3
  print( D ) # Line 4
 
-Which of the following statements about the Python code labeled ""Line 2""",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,b,Haneet
+Which of the following statements about the Python code labeled ""Line 2""",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,b,Haneet,Easy
 306,"Given L = [], What is printed by:
        if L:
            print('first')
        else:
-           print('second')",first,second,firstsecond,None,B,Jatin Dhall
+           print('second')",first,second,firstsecond,None,B,Jatin Dhall,Easy
 307,"Given
        value = input(""Input a number: "")
-    What is the type of value if 7 is input at the prompt?",str,int,float,long,A,Jatin Dhall
+    What is the type of value if 7 is input at the prompt?",str,int,float,long,A,Jatin Dhall,Easy
 308,"Analyze the following code:
     Given: number = 27
 
@@ -1147,14 +1147,14 @@ Which of the following statements about the Python code labeled ""Line 2""",It w
     	    even = False
 
 	#Code 2:
-	even = number % 2 == 0",Code 1 has errors,Code 2 has errors,Both Code 1 and Code 2 are correct.,Both Code 1 and Code 2 have errors.,C,Jatin Dhall
+	even = number % 2 == 0",Code 1 has errors,Code 2 has errors,Both Code 1 and Code 2 are correct.,Both Code 1 and Code 2 have errors.,C,Jatin Dhall,Easy
 309,"What is printed by this sequence of instructions?
 
 	L = [(1, 2), (3, 4), (5, 6)]
 	res = [list(x) for x in L]
-	print(res)  ","[1, 2, 3, 4, 5, 6]","[[1, 2, 3, 4, 5, 6]]","[[1, 2], [3, 4], [5, 6]]","[(1, 2), (3, 4), (5, 6)]",C,Jatin Dhall
+	print(res)  ","[1, 2, 3, 4, 5, 6]","[[1, 2, 3, 4, 5, 6]]","[[1, 2], [3, 4], [5, 6]]","[(1, 2), (3, 4), (5, 6)]",C,Jatin Dhall,Easy
 310,"print('#^', ""adg says hi"".center(3), '^#', sep='')
-What is the output of the above code?",#^adg says hi^#,adg says hi^#^,#^#adg says hi,Error,a,harsh vardhan
+What is the output of the above code?",#^adg says hi^#,adg says hi^#^,#^#adg says hi,Error,a,harsh vardhan,Easy
 311,"Given this sequence of instructions:
 
       L1 = ['a','b','c']
@@ -1162,31 +1162,31 @@ What is the output of the above code?",#^adg says hi^#,adg says hi^#^,#^#adg say
       L1.append(4)
       print(L2)
 
-    What is printed?","[1, L1[:], 2, L1]","[1, ['a', 'b', 'c'], 2, ['a', 'b', 'c', 4]]","[1, ['a', 'b', 'c', 4], 2, ['a', 'b', 'c']]","[1, ['a', 'b', 'c', 4], 2, ['a', 'b', 'c', 4]]",B,Jatin Dhall
+    What is printed?","[1, L1[:], 2, L1]","[1, ['a', 'b', 'c'], 2, ['a', 'b', 'c', 4]]","[1, ['a', 'b', 'c', 4], 2, ['a', 'b', 'c']]","[1, ['a', 'b', 'c', 4], 2, ['a', 'b', 'c', 4]]",B,Jatin Dhall,Easy
 312,"What is printed by 
         D = dict() 
 	for i in range (2): 
     	    for j in range(3): 
         	D[i] = j 
-	print(D)","{0: 2, 1: 2}","{0: 1, 1: 1, 2: 1}","{0: 2, 1: 2, 2: 2}","{0: 0, 0: 1, 0: 2, 1: 0, 1: 1, 1: 2 }",A,Jatin Dhall
+	print(D)","{0: 2, 1: 2}","{0: 1, 1: 1, 2: 1}","{0: 2, 1: 2, 2: 2}","{0: 0, 0: 1, 0: 2, 1: 0, 1: 1, 1: 2 }",A,Jatin Dhall,Easy
 313,"What is printed by
    
       L = [2, 4, 6, 8, 10]
       print(L.pop(-2), L.remove(L[0]), L)
-","8 None [4, 6, 10]","None 2 [4, 6, 10]","8 None [4, 6, 8, 10]","None 2 [4, 6, 8, 10]",A,Jatin Dhall
+","8 None [4, 6, 10]","None 2 [4, 6, 10]","8 None [4, 6, 8, 10]","None 2 [4, 6, 8, 10]",A,Jatin Dhall,Easy
 314,"What is printed by
    
 	T1 = (1) 
 	T2 = (3, 4) 
 	T1 += 5
-	print(T1, T1 + T2) ","(1, 5, 3, 4)","(5, 3, 4)","(6, 3, 4)",TypeError,D,Jatin Dhall
+	print(T1, T1 + T2) ","(1, 5, 3, 4)","(5, 3, 4)","(6, 3, 4)",TypeError,D,Jatin Dhall,Easy
 315,"What is printed by the following?
     Hint: careful, you are iterating through x and appending to x.
 
       x = ['KL', 'MN']
       for i in x:
           x.append(i.lower())
-      print(x)","['k','l','m','n'] "," ['kl', 'mn']  ","['KL', 'MN', 'kl', 'mn']",No Output (Infinite loop),D,Jatin Dhall
+      print(x)","['k','l','m','n'] "," ['kl', 'mn']  ","['KL', 'MN', 'kl', 'mn']",No Output (Infinite loop),D,Jatin Dhall,Easy
 316," A = 0
  B = 0
  C = 0
@@ -1203,7 +1203,7 @@ What is the output of the above code?",#^adg says hi^#,adg says hi^#^,#^#adg say
  print( C ) # Line 3
  print( D ) # Line 4
 
-Which of the following statements about the Python code labeled ""Line 4"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,c,Haneet
+Which of the following statements about the Python code labeled ""Line 4"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,c,Haneet,Easy
 317," A = 0
  B = 0
  C = 0
@@ -1220,7 +1220,7 @@ Which of the following statements about the Python code labeled ""Line 4"" is co
  print( C ) # Line 3
  print( D ) # Line 4
 
-Which of the following statements about the Python code labeled ""Line 1"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,None of the above,d,Haneet
+Which of the following statements about the Python code labeled ""Line 1"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,None of the above,d,Haneet,Easy
 318," A = 0
  B = 0
  C = 0
@@ -1237,7 +1237,7 @@ Which of the following statements about the Python code labeled ""Line 1"" is co
  print( C ) # Line 3
  print( D ) # Line 4
 
-Which of the following statements about the Python code labeled ""Line 2"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed,It will display 3 when the program is executed.,c,Haneet
+Which of the following statements about the Python code labeled ""Line 2"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed,It will display 3 when the program is executed.,c,Haneet,Easy
 319," A = 0
  B = 0
  C = 0
@@ -1254,7 +1254,7 @@ Which of the following statements about the Python code labeled ""Line 2"" is co
  print( C ) # Line 3
  print( D ) # Line 4
 
-Which of the following statements about the Python code labeled ""Line 3"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,d,Haneet
+Which of the following statements about the Python code labeled ""Line 3"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,d,Haneet,Easy
 320," A = 0
  B = 0
  C = 0
@@ -1271,9 +1271,9 @@ Which of the following statements about the Python code labeled ""Line 3"" is co
  print( C ) # Line 3
  print( D ) # Line 4
 
-Which of the following statements about the Python code labeled ""Line 3"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,a,Haneet
+Which of the following statements about the Python code labeled ""Line 3"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,It will display 3 when the program is executed.,a,Haneet,Easy
 321,"print(round(4.576, 4))
-What is the output of the above code?",4.57,4.6,4.576,4.5,c,harsh vardhan
+What is the output of the above code?",4.57,4.6,4.576,4.5,c,harsh vardhan,Easy
 322,"a = (""welcome {0[0]}, to {0[1]}"".format(('freshers', 'vit')))
 b = (""welcome {0[0]}, to {0[1]}"".format(['freshers', 'vit']))
 if(a==b):
@@ -1281,102 +1281,102 @@ if(a==b):
 else:
     print(""bye"")
 
-What is the output of the above code?",Yolo,bye,Error,None ,a,harsh vardhan
+What is the output of the above code?",Yolo,bye,Error,None ,a,harsh vardhan,Easy
 323,"inp = ""Tim Cook""
 out = set([i for i in inp if i in ""aeiou""])
 print(out)
 
-What is the output of the above code?","['i', 'o']","{'i', 'o'}","{'T', 'm', ' ', 'k', 'C'}","['T', 'm', ' ', 'k', 'C']",b,harsh vardhan
-324,,,,,,,
+What is the output of the above code?","['i', 'o']","{'i', 'o'}","{'T', 'm', ' ', 'k', 'C'}","['T', 'm', ' ', 'k', 'C']",b,harsh vardhan,Easy
+324,,,,,,,,Easy
 325,"x = [i**+3 for i in range(0,5)]
 print(x)
-What is the output of the above code?","[1, 4, 7, 10, 13]","[0, 1, 2, 3, 4]","[0, 1, 8, 27, 64]",Error,c,harsh vardhan
+What is the output of the above code?","[1, 4, 7, 10, 13]","[0, 1, 2, 3, 4]","[0, 1, 8, 27, 64]",Error,c,harsh vardhan,Easy
 326,"a = [i for i in ""iPhone 13""]
 print(""!"".join(a))
-What is the output of the above code?",i!P!h!o!n!e! !1!3,iPhone 13,"['i', 'p', 'h', 'o', 'n', 'e', ' ', '1', '3']",None ,a,harsh vardhan
+What is the output of the above code?",i!P!h!o!n!e! !1!3,iPhone 13,"['i', 'p', 'h', 'o', 'n', 'e', ' ', '1', '3']",None ,a,harsh vardhan,Easy
 327,"print([if j%3==0: j; else: j+2; for j in range(12)])
-What is the output of the above code?","[0,3,6,9]","[0, 2,4,6,8,10]",error,None ,c,harsh vardhan
+What is the output of the above code?","[0,3,6,9]","[0, 2,4,6,8,10]",error,None ,c,harsh vardhan,Easy
 328,"x = (""hello "")*4
 print(set(x))
-What is the output of the above code?","{'o', 'h', 'l', ' ', 'e'}",hello hello hello hello ,"['h', ' ', 'l', 'o', 'e']",None ,a,harsh vardhan
+What is the output of the above code?","{'o', 'h', 'l', ' ', 'e'}",hello hello hello hello ,"['h', ' ', 'l', 'o', 'e']",None ,a,harsh vardhan,Easy
 329,"x = (""a"", 'b', 'd')
 x[1] = 'y'
 print(x)
-What is the output of the above code?",Error,"('a', 'y', 'd)","('a', 'b', 'c')","['a', 'y', 'd]",a,harsh vardhan
+What is the output of the above code?",Error,"('a', 'y', 'd)","('a', 'b', 'c')","['a', 'y', 'd]",a,harsh vardhan,Easy
 330,"x = list((""a"", 'b', 'd'))
 x[1] = 'y'
 print(x)
-What is the output of the above code?",Error,"('a', 'y', 'd)","('a', 'b', 'd')","['a', 'y', 'd]",d,harsh vardhan
+What is the output of the above code?",Error,"('a', 'y', 'd)","('a', 'b', 'd')","['a', 'y', 'd]",d,harsh vardhan,Easy
 331,"x = (""a"", 'b', 'd')
 del(x[0])
 print(x)
-What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",a,harsh vardhan
+What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",a,harsh vardhan,Easy
 332,"x = list((""a"", 'b', 'd'))
 del(x[0])
 print(x)
-What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",b,harsh vardhan
+What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",b,harsh vardhan,Easy
 333,"x = dict((""a"", 'b', 'd'))
 del(x[0])
 print(x)
-What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",a,harsh vardhan
+What is the output of the above code?",Error,"['b', 'd']","('b', 'd')","('a', 'b', 'd')",a,harsh vardhan,Easy
 334,"x = {""a"":0, 'b':0, 'd':0}
 del(x[0])
 print(x)
-What is the output of the above code?",Error,"{'b',:0 'd':0}","{'b', 'd'}","{'a', 'b', 'd'}",a,harsh vardhan
+What is the output of the above code?",Error,"{'b',:0 'd':0}","{'b', 'd'}","{'a', 'b', 'd'}",a,harsh vardhan,Easy
 335,"x = {""a"":0, 'b':0, 'd':0}
 del(x[""a""])
 print(x)
-What is the output of the above code?",Error,"{'b',:0 'd':0}","{'b', 'd'}","{'a', 'b', 'd'}",b,harsh vardhan
-336," Among the given statements, which statement defines closures in JavaScript?",JavaScript is a function that is enclosed with references to its inner function scope,JavaScript is a function that is enclosed with references to its lexical environment,JavaScript is a function that is enclosed with the object to its inner function scope,None of the above,b,Eshan
-337,What will be the output of the following JavaScript code snippet?,Error,10,50,5,c,Eshan
+What is the output of the above code?",Error,"{'b',:0 'd':0}","{'b', 'd'}","{'a', 'b', 'd'}",b,harsh vardhan,Easy
+336," Among the given statements, which statement defines closures in JavaScript?",JavaScript is a function that is enclosed with references to its inner function scope,JavaScript is a function that is enclosed with references to its lexical environment,JavaScript is a function that is enclosed with the object to its inner function scope,None of the above,b,Eshan,Easy
+337,What will be the output of the following JavaScript code snippet?,Error,10,50,5,c,Eshan,Easy
 338,Arrays in JavaScript are defined by which of the following statements?,It is an ordered list of values,It is an ordered list of objects,"It is an ordered list of string
-",It is an ordered list of functions,a,Eshan
-339,,TRUE,FALSE,Compilation error,runtime error,b,Eshan
-340,,Exception will be thrown,Memory leak,Error,"yes, perfectly",d,Eshan
-341,Which of the following is not javascript data types?,Null,Undefined ,Number,All of the above,d,Eshan
-342, Where is Client-side JavaScript code is embedded within HTML documents?,A URL that uses the special javascript:code, A URL that uses the special javascript:protocol,A URL that uses the special javascript:encoding,A URL that uses the special javascript:stack,b,Eshan
-343,What is the output?,short,123.56,tall,190,a,Eshan
-344,Which of the following can be used to call a JavaScript Code Snippet?,Function/Method, Preprocessor,Triggering Event,RMI,a,Eshan
-345,What is the output?,"Prints ""Empty Array""",Prints 0 to the length of arrray,Prints the numbers in the array in order,Prints the numbers in the array in the reverse order.,c,Eshan
-346,"what is the value of a++ + --b + a++ - --b when a=10 , b=5",22,21,20,25,B, Shubh Kapil
-347,"what is the value of a++ + --b + a++ - --b when a=3 , b=7",18,12,9,7,D, Shubh Kapil
-348,"what is the value of a++ + --b + a++ - --b when a=5 , b=10",14,11,20,12,B, Shubh Kapil
-349,"what is the value of a++ + --b + a++ - --b when a=12 , b=10",22,21,30,25,D, Shubh Kapil
-350,Which of the following languages only contains 0's and 1's?,High Levl,Assembly Language,C++,Machine,D, Shubh Kapil
-351,Size of the interger in python is,64 bits,2 bytes,32 bits,4 bytes,C, Shubh Kapil
-352,Full form of IDE is,Internal Duo Environment,Integrated Devlopment Environment,Interconnected Development Environment,Internal Distinct Environment,B, Shubh Kapil
-353,which of the following is not an example of IDE?,code:blocks,Aptana Studio 3,Komodo,CODE RUNNER,D, Shubh Kapil
-354,Monitor is also called,VDU,DUV,UDV,UVD,A, Shubh Kapil
-355,Which of the following python program gives the output as 6.87 ,"x=round(6.86792,[2])","x=round(6.86492,(2))","x=round(6.86792,'2')","x=round(6.86792,2)",D,Shubh Kapil
-356,The index of starting element of an array of n length,n,n-1,1,0,D, Shubh Kapil
-357,The slowest memory in a computer system,Register,Main Memory,Magnetic tapes,Optical Disk,C,Shubh Kapil
-358,Which of the following is not an OS,Windows,Linux,Catalina,None of these,D, Shubh Kapil
-359,Which of the following is not a network device,Hub,Address Bus,Bridge,Switch,B, Shubh Kapil
-360,Which of the following is not an arithmetic operator,Add(+),Mod(%),AND(&&),Floor Value(/),c, Shubh Kapil
-361,An example of logical operator is,Equal to (=),Double Equal to (==),Add(+),OR(||),D, Shubh Kapil
-362,An example of relational operator is,Equal to (=),Double Equal to (==),AND(&&),none of these,B, Shubh Kapil
-363,,,,,,,
-364,,,,,,,
-365,,,,,,,
-366,,,,,,,
-367,Which of these definitions correctly describes a module?,Denoted by triple quotes for providing the specification of certain program elements,Design and implementation of specific functionality to be incorporated into a program,Defines the specification of how it is to be used,Any program that reuses code,B,Ankit Sidana
-368,Program code making use of a given module is called a ______ of the module.,Client,Interface,Modularity,Docstring,A,Ankit Sidana
-369,______ is a string literal denoted by triple quotes for providing the specifications of certain program elements.,Client,Interface,Modularity,Docstring,D,Ankit Sidana
-370,_____ is a mechanism to achieve abstraction.,Client,Interface,Modularity,Docstring,B,Ankit Sidana
-371,"________ can be visualized as a way of mapping encapsulated abstractions into real, physical modules having high cohesion within the modules and their inter–module interaction or coupling is low.",Client,Interface,Modularity,Docstring,C,Ankit Sidana
-372,In top-down design every module is broken into same number of submodules.,TRUE,FALSE,,,B,Ankit Sidana
-373,All modular designs are because of a top-down design process.,TRUE,FALSE,,,B,Ankit Sidana
-374,Which of the following is not a valid namespace?,Global namespace,Public namespace,Built-in namespace,Local namespace,B,Ankit Sidana
-375,Which of the following is an acceptable variable name in python,int 7de,int d-e,int de,int d e,C,Harsh Rajpal
-376,Which of the following is a Python tuple?,"[7,8,9]","(7,8,9)","{7,8,9}",{},B,Harsh Rajpal
-377,The variables in a function definition are called,Parameters,Arguments,Function,Definition,A,Harsh Rajpal
-378,HTML is used to:,Plot complicated graphs,Translate one language into another,Author Web Pages,Solve equations,C,Harsh Rajpal
-379,The index of middle element of an array of n length,0,n/2 -1,n-1,n/2,B,Harsh Rajpal
-380,The index of last element of an array of n length,0,n-2,n,n-1,D,Harsh Rajpal
-381,Which of the following is not an image format,JPEG,PNG,PHP,SVG,a) and b),Harsh Rajpal
-382,Which of the following is the fastest Memory,HDD,SSD,CACHE,RAM,C,Harsh Rajpal
-383,Which of the following is not a peripheral device,Mouse,Hard Disk,cache,Monitor,C,Harsh Rajpal
-384,The fastest sorting Algorithm is:,Merge,Bubble,Quick,Selection,C,Harsh Rajpal
+",It is an ordered list of functions,a,Eshan,Easy
+339,,TRUE,FALSE,Compilation error,runtime error,b,Eshan,Easy
+340,,Exception will be thrown,Memory leak,Error,"yes, perfectly",d,Eshan,Easy
+341,Which of the following is not javascript data types?,Null,Undefined ,Number,All of the above,d,Eshan,Easy
+342, Where is Client-side JavaScript code is embedded within HTML documents?,A URL that uses the special javascript:code, A URL that uses the special javascript:protocol,A URL that uses the special javascript:encoding,A URL that uses the special javascript:stack,b,Eshan,Easy
+343,What is the output?,short,123.56,tall,190,a,Eshan,Easy
+344,Which of the following can be used to call a JavaScript Code Snippet?,Function/Method, Preprocessor,Triggering Event,RMI,a,Eshan,Easy
+345,What is the output?,"Prints ""Empty Array""",Prints 0 to the length of arrray,Prints the numbers in the array in order,Prints the numbers in the array in the reverse order.,c,Eshan,Easy
+346,"what is the value of a++ + --b + a++ - --b when a=10 , b=5",22,21,20,25,B, Shubh Kapil,Easy
+347,"what is the value of a++ + --b + a++ - --b when a=3 , b=7",18,12,9,7,D, Shubh Kapil,Easy
+348,"what is the value of a++ + --b + a++ - --b when a=5 , b=10",14,11,20,12,B, Shubh Kapil,Easy
+349,"what is the value of a++ + --b + a++ - --b when a=12 , b=10",22,21,30,25,D, Shubh Kapil,Easy
+350,Which of the following languages only contains 0's and 1's?,High Levl,Assembly Language,C++,Machine,D, Shubh Kapil,Easy
+351,Size of the interger in python is,64 bits,2 bytes,32 bits,4 bytes,C, Shubh Kapil,Easy
+352,Full form of IDE is,Internal Duo Environment,Integrated Devlopment Environment,Interconnected Development Environment,Internal Distinct Environment,B, Shubh Kapil,Easy
+353,which of the following is not an example of IDE?,code:blocks,Aptana Studio 3,Komodo,CODE RUNNER,D, Shubh Kapil,Easy
+354,Monitor is also called,VDU,DUV,UDV,UVD,A, Shubh Kapil,Easy
+355,Which of the following python program gives the output as 6.87 ,"x=round(6.86792,[2])","x=round(6.86492,(2))","x=round(6.86792,'2')","x=round(6.86792,2)",D,Shubh Kapil,Easy
+356,The index of starting element of an array of n length,n,n-1,1,0,D, Shubh Kapil,Easy
+357,The slowest memory in a computer system,Register,Main Memory,Magnetic tapes,Optical Disk,C,Shubh Kapil,Easy
+358,Which of the following is not an OS,Windows,Linux,Catalina,None of these,D, Shubh Kapil,Easy
+359,Which of the following is not a network device,Hub,Address Bus,Bridge,Switch,B, Shubh Kapil,Easy
+360,Which of the following is not an arithmetic operator,Add(+),Mod(%),AND(&&),Floor Value(/),c, Shubh Kapil,Easy
+361,An example of logical operator is,Equal to (=),Double Equal to (==),Add(+),OR(||),D, Shubh Kapil,Easy
+362,An example of relational operator is,Equal to (=),Double Equal to (==),AND(&&),none of these,B, Shubh Kapil,Easy
+363,,,,,,,,Easy
+364,,,,,,,,Easy
+365,,,,,,,,Easy
+366,,,,,,,,Easy
+367,Which of these definitions correctly describes a module?,Denoted by triple quotes for providing the specification of certain program elements,Design and implementation of specific functionality to be incorporated into a program,Defines the specification of how it is to be used,Any program that reuses code,B,Ankit Sidana,Easy
+368,Program code making use of a given module is called a ______ of the module.,Client,Interface,Modularity,Docstring,A,Ankit Sidana,Easy
+369,______ is a string literal denoted by triple quotes for providing the specifications of certain program elements.,Client,Interface,Modularity,Docstring,D,Ankit Sidana,Easy
+370,_____ is a mechanism to achieve abstraction.,Client,Interface,Modularity,Docstring,B,Ankit Sidana,Easy
+371,"________ can be visualized as a way of mapping encapsulated abstractions into real, physical modules having high cohesion within the modules and their inter–module interaction or coupling is low.",Client,Interface,Modularity,Docstring,C,Ankit Sidana,Easy
+372,In top-down design every module is broken into same number of submodules.,TRUE,FALSE,,,B,Ankit Sidana,Easy
+373,All modular designs are because of a top-down design process.,TRUE,FALSE,,,B,Ankit Sidana,Easy
+374,Which of the following is not a valid namespace?,Global namespace,Public namespace,Built-in namespace,Local namespace,B,Ankit Sidana,Easy
+375,Which of the following is an acceptable variable name in python,int 7de,int d-e,int de,int d e,C,Harsh Rajpal,Easy
+376,Which of the following is a Python tuple?,"[7,8,9]","(7,8,9)","{7,8,9}",{},B,Harsh Rajpal,Easy
+377,The variables in a function definition are called,Parameters,Arguments,Function,Definition,A,Harsh Rajpal,Easy
+378,HTML is used to:,Plot complicated graphs,Translate one language into another,Author Web Pages,Solve equations,C,Harsh Rajpal,Easy
+379,The index of middle element of an array of n length,0,n/2 -1,n-1,n/2,B,Harsh Rajpal,Easy
+380,The index of last element of an array of n length,0,n-2,n,n-1,D,Harsh Rajpal,Easy
+381,Which of the following is not an image format,JPEG,PNG,PHP,SVG,a) and b),Harsh Rajpal,Easy
+382,Which of the following is the fastest Memory,HDD,SSD,CACHE,RAM,C,Harsh Rajpal,Easy
+383,Which of the following is not a peripheral device,Mouse,Hard Disk,cache,Monitor,C,Harsh Rajpal,Easy
+384,The fastest sorting Algorithm is:,Merge,Bubble,Quick,Selection,C,Harsh Rajpal,Easy
 385,"  def f(a,b):
       if b:
           b.append('w')
@@ -1392,7 +1392,7 @@ What is the output of the above code?",Error,"{'b',:0 'd':0}","{'b', 'd'}","{'a'
   print(w)         # Line 3
   print(y)         # Line 4
 
-What is printed by Line 1?",30,3,0,None,c,Haneet
+What is printed by Line 1?",30,3,0,None,c,Haneet,Easy
 386,"  def f(a,b):
       if b:
           b.append('w')
@@ -1408,7 +1408,7 @@ What is printed by Line 1?",30,3,0,None,c,Haneet
   print(w)         # Line 3
   print(y)         # Line 4
 
-What is printed by Line 3?",30,,0,None,b,Haneet
+What is printed by Line 3?",30,,0,None,b,Haneet,Easy
 387,"  def f(a,b):
       if b:
           b.append('w')
@@ -1424,7 +1424,7 @@ What is printed by Line 3?",30,,0,None,b,Haneet
   print(w)         # Line 3
   print(y)         # Line 4
 
-What is printed by Line 2?"," [5, 4, 'w']","[5, 4]","[4, 3, 5, 4, 'w']","[4, 3, 5, 4]",A,Haneet
+What is printed by Line 2?"," [5, 4, 'w']","[5, 4]","[4, 3, 5, 4, 'w']","[4, 3, 5, 4]",A,Haneet,Easy
 388,"  def f(a,b):
       if b:
           b.append('w')
@@ -1440,4 +1440,998 @@ What is printed by Line 2?"," [5, 4, 'w']","[5, 4]","[4, 3, 5, 4, 'w']","[4, 3, 
   print(w)         # Line 3
   print(y)         # Line 4
 
-What is printed by Line 2?"," [5, 4, 'w']","[5, 4]","[4, 3, 5, 4, 'w']","[4, 3, 5, 4]",c,Haneet
+What is printed by Line 2?"," [5, 4, 'w']","[5, 4]","[4, 3, 5, 4, 'w']","[4, 3, 5, 4]",c,Haneet,Easy
+1,"Which statement is incorrect about ""import modulename""",This form of import prevents name clash,The namespace of imported module becomes available to importing module.,The namespace of imported module becomes part of importing module.,The identifiers in module are accessed as: modulename.identifier.,b) The namespace of imported module becomes part of importing module.,Garv Tandon,Medium
+2,Which of these companies of Eduardo Saverin related to?,Microsoft,Facebook,Google,Oyo Rooms,B,Eshan,Medium
+3,What will be the output of the following Python code snippet?,TRUE,FALSE,Error,None,C,Eshan,Medium
+4,"What type of data is: arr = [(1,1),(2,2),(3,3)]",Tuple of lists,List of tuples,Array of tuples,None,B,Surbhit,Medium
+5,"What type of data is: arr = ((1,1),(2,2),(3,3))",Tuple of lists,Tuple of tuples,Array of tuples,None,B,Surbhit,Medium
+6,"What type of data is: arr = ([1,1],[2,2],[3,3])",Tuple of lists,Tuple of tuples,Array of tuples,None,A,Surbhit,Medium
+7,"What type of data is: arr = [[1,1],[2,2],[3,3]]",List of lists,Tuple of tuples,Array of Arrays,None,A,Surbhit,Medium
+8,What will be the output of the following Python code?,,  ,,,c,Eshan,Medium
+9,What is a namespace?,A) A collection of values of variables.,B) A collection of associations between names and their values.,none,D) A collection of names.,B,saswata,Medium
+10," What is printed by 
+         print(2e3)",40.71  # 2 * math.e ** 3,8,2000,6,C,saswata,Medium
+11,"Given S = ""The parrot is dead!""
+    What is returned by S[7:11]?", rot', ' rot ', 'rot ',rot',c,saswata,Medium
+12,"What does this statement print?
+       print(""pi is {:8.4f}."".format(math.pi))
+    Note the spacing and right-left justification.",pi is 3.141592653589793.,pi is 3.141593.,pi is   3.1416., pi is 3.1416  ,c,saswata,Medium
+13,"In Python when we say that a data structure is immutable,
+    what does that mean?", It can be modified.,It cannot be modified.,"It can be modified, but with limitations.",None of the above.,B,saswata,Medium
+14," The generic ""while"" loop has the following form:
+      
+      while Boolean:
+          statement1
+	  if Boolean: 
+	      continue
+	  if Boolean: 
+	      break
+      else:
+          statement2
+
+    Which statement is true?","If 'break' is executed, statement2 is not executed.","If 'continue' is executed, the loop is terminated.",none," If 'break' is executed, control returns to the top.",A,saswata,Medium
+15,  Which of the following statements is correct?,"  The string value """" is equivalent to the Boolean value True.","
+     A)  The integer value 0 is equivalent to the Boolean value True.","  The string value ""25"" is equivalent to the Boolean value False.", The integer value -1 is equivalent to the Boolean value True.,D,saswata,Medium
+16,"#""All Summer Long"" lyrics Kid Rock
+	Line1 = ""it was 1989""
+	Line2 = ""my thoughts were short my hair was long""
+	Line3 = ""it was summertime in Northern Michigan""
+	Line4 = Line1 + Line2 + Line3   
+	print(Line2.find('my'), Line4.count('was')) ","(0, 3)",True 1,0 3,True 2,C,saswata,Medium
+17,"What is printed by the following?
+    Hint: careful, you are iterating through x and appending to x.
+
+	x = ['AB', 'CD'] 
+	for i in x: 
+    	    x.append(i.lower()) 
+	print(x)",No Output (Infinite loop) ,"['AB', 'CD', 'ab', 'cd'] ","['ab', 'cd'] "," ['a','b','c','d']",A,saswata,Medium
+18,"Analyze the following code:
+	Given: number = 27
+	#Code 1:
+	if number % 2 != 0: 
+    	    odd = True
+	else: 
+    	    odd = False
+
+	#Code 2:
+	odd = number % 2 != 0",Both Code 1 and Code 2 have errors.,Both Code 1 and Code 2 are correct.,Code 1 has errors.,Code 2 has errors.,B,saswata,Medium
+19,"Given L = [], What is printed by:
+       if L:
+           print('first')
+       else:
+           print('second')",None,first,second, firstsecond,C,saswata,Medium
+20," What is printed by this sequence of instructions?
+
+	L = [(1, 2), (3, 4), (5, 6)]
+	res = [list(x) for x in L]
+	print(res) ","[[1, 2], [3, 4], [5, 6]]"," [(1, 2), (3, 4), (5, 6)]","[1, 2, 3, 4, 5, 6]"," [[1, 2, 3, 4, 5, 6]]
+",A,saswata,Medium
+21,"What is printed by 
+        D = dict() 
+	for i in range (4): 
+    	    for j in range(2): 
+        	D[i] = j 
+	print(D)"," {0: 0, 1: 0, 2: 0, 3: 0, 0: 1, 1: 1, 2: 1, 3: 1}","{0: 1, 1: 1, 2: 1, 3: 1}","{0: 0, 1: 0, 2: 0, 3: 0}",TypeError: Immutable object,B,saswata,Medium
+22,"What is printed by
+   
+	T1 = (2) 
+	T2 = (1, 4) 
+	T1 += 6
+	print(T1, T1 + T2) "," (6, 1, 4)"," (2, 6, 1, 4)","(8, 1, 4)",TypeError,D,saswata,Medium
+23,"What is printed by
+   
+	L = [1, 3, 5, 7, 9] 
+	print(L.pop(-2), L.remove(L[1]), L) ","None 1 [1, 5, 9]","7 None [1, 5, 9]","None 1 [1, 3, 7, 9]"," None of the above
+",B,saswata,Medium
+24,"Given this sequence of instructions:
+
+    L1 = [1,2,3]
+    L2 = ['a',L1[:],'b',L1]
+    L1.append(4)
+    print(L2)
+
+    What is printed?","['a', [1, 2, 3, 4], 'b', [1, 2, 3, 4]]"," ['a', [1, 2, 3], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3,4], 'b', [1, 2, 3]]","['a',L1[:],'b',L1]",B,saswata,Medium
+25,"Given: x = 7
+    what is printed by: print(0 <= x <= 7)",0,7,TRUE,FALSE,C,saswata,Medium
+26,"Given s = ""To be, or not to be, that is the question:""
+    which code produces the following?
+   ['To be', 'or not to be', 'that is the question']
+",L = s.split().strip(),"L = s.split(',').strip()      #no space after comma"," L = s.strip(',:').split(',')  #no space after comma","L = s.strip(',:').split(', ') #space after comma",D,saswata,Medium
+27,"What does this expression return?
+        {a*b for a in range(3) for b in range(3)}"," {0, 1, 2, 3, 4, 6, 9}","{0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 4, 6, 0, 3, 6, 9}","{0, 1, 2, 4}"," {0, 0, 0, 0, 1, 2, 0, 2, 4}",c,saswata,Medium
+28,"Given the list L = [('a', 1), ('b', 7), ('c', 5), ('d', 2)]
+    what code generates D = {'a': 1, 'b': 7, 'c': 5, 'd': 2}?",D = dict(L),"D = { x:y for x,y in L }","D = dict([(x,y) for x,y in L])",All of the above,D,saswata,Medium
+29," Given: S1 = {1,2,3} and S2 = {2,3,4}
+    what is the value of S after this operation: S = S1 ^ S2",{1},"{2, 3}","{1, 4}"," {1, 2, 3, 4}",C,saswata,Medium
+30,"    def f():
+       return 5,6
+    
+    x = f()
+    
+    What is the type of x?", set,tuple,list,int,B,saswata,Medium
+31," What is the output of the code shown below?
+
+    D = {'mouse':{},'human':{}}   # all curly braces in this line
+    D['mouse']['2'] = 3
+    D['human']['1'] = 4
+    D['mouse']['2'] += 5
+    print(D)","{'mouse': {'2': 3}, 'human': {'1': 9}}","{'mouse': {'2': 3}, 'human': {'1': 5}}","{'mouse': {'2': 5}, 'human': {'1': 4}}","{'mouse': {'2': 8}, 'human': {'1': 4}}",D,saswata,Medium
+32," 
+In which language is Python written?",C,C++,JAVA,GOLANG,,saswata,Medium
+33,How can assertions be disabled in Python?,passing -O while running the file,assertions are disabled by default ,both A and B are wrong,assertions cannot be disabled,A,saswata,Medium
+34,Which of the following is not a valid set operation in python?,Union,Intersection ,Difference ,None of the above.,D,saswata,Medium
+35,What keyword is used in Python to raise exceptions?,raise,try,goto,except,A,saswata,Medium
+36,"As what datatype are the *kwargs stored, when passed into a function?",List,Tupple,Dictionary ,None of the above.,C,saswata,Medium
+37,"As what datatype are the *args stored, when passed into a function?",List,Tupple,Dictionary ,None of the above.,B,saswata,Medium
+38,Which of the following functions converts date to corresponding time in Python?,strptime(),strftime(),both A and B,None of the above.,A,saswata,Medium
+39,What is output for − min(”hello world”),e,a blank space character,w,hello world,B,saswata,Medium
+40,Mathematical operations can be performed on a string in Python? State whether true or false:,TRUE,FALSE,,,FALSE,saswata,Medium
+41,In JAVA how can a constructor be used for a servlet?,Initialisation ,Setup() method,Constructor function ,Initialisation and Constructor function ,D,saswata,Medium
+42,Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?,javah command, javadoc tool,javap tool,javaw command,B,saswata,Medium
+43,"If there are x vertices then what is time
+ coplexity for finding an edge between 
+two particular vertices",O(V),O(x),O(V+E),non of the above,b,Umesh,Medium
+44,Find the Output for the given program? ,mpuetrco,omputerc,rcompute,mputeoc,b,Umesh,Medium
+45,which of the statement will give output 7?,"print(list[1][""Tyre""] + list[2][""Engine""][""TYPE""])","print(list[2][""Engine""][""Milage""] + list[2][""Engine""][""TYPE""])","print(list[2][""Engine""][""TYPE""] + list[2][""Tyre""])","print(list[2][""Engine""][""TYPE""] + list[2][""Engine""][""Tyre""])",c,Umesh,Medium
+46,"write the output following ?
+a = [4, 5, 2]
+b = a
+c = a.copy()
+d = list(a)
+a[2] = [7]
+print(a, b, d, c)","[4, 5, [7]] [4, 5, [7]] [4, 5, 2] [4, 5, 2]","[4, [7], 7] [4, 5, 7] [4, 5, 7] [4, 5, 7]","[4, [7], 7] [4, [7], 7] [4, 5, 7] [4, 5, 7]","[4, [7], 7] [4, 5, 7] [4, 5, 7]",a,Umesh,Medium
+47,"write the output following ?
+a = [5, [10, 8], 7]
+b = a.copy()
+b[1][1]=7
+print(a,b,b)","[5, [10, 7], 7] [5, [10, 7], 7] [5, [10, 7], 7]","[5, [10, 7], 7] [5, [10, 7], 7] [5, [10, 7], 7]","[5, [10, 7], 7] [5, [10, 7], 7] [5, [10, 7], 7]","[5, [10, 7], 7] [5, [10, 7], 7] [5, [10, 7], 7]",b,Umesh,Medium
+48,"write the output following ?
+a = [3, [6, 8]]
+b = a.copy()
+c = b.pop(1)[0] - 3 
+print(c ** 2)",3,6,9,non of the above,c,Umesh,Medium
+49,"c = [1,2,3,4,5]
+result = 0
+for i in range(0,5):
+    if (c[i] % 2 == 0):
+        result += c[i]
+c.pop()
+c.pop()
+c.append(result)
+print(c)
+
+In the above program values in c lies in",1 to 4,1 to 7,1 to 5,non of the above,b,Umesh,Medium
+50,"from random import randint
+
+for i in range(5):
+    print(random(1, 5))",five random numbers in between 1 to 4,five random numbers in between 1 to 5,five random number in between 2 to 4,its an exception,d,Umesh,Medium
+51,"What is the output for 
+def p(i, x=[]):
+    x.append(x.append(i))
+    return x
+for i in range(3):
+    y = p(i)
+print(y)","[0, None, 1, None, 2, None]","[2, None, 1, None, 0, None]","[[[0]], [[[0]], [1]], [[[0]], [[[0]], [1]]]","[[[0]], [[[0]], [1]], [[[0]], [[[0]]]",a,Umesh,Medium
+52,"a=[[""a"",[[""2""]],[[[""b""]]]],[[""c""],""4""]]
+flatten=lambda l: sum(map(flatten,l),[]) if isinstance(l,list) else [l]
+print(flatten(a))
+What is the output for the following ","['a', '2', 'b', 'c', '4']","[""a"",[[""2""]],[[[""b""]]]],[[""c""],""4""]","[""a"",[""2""],[[""b""]]],[""c""],""4""]",non of the above,a,Umesh,Medium
+53,"Given j = 0
+    how do I print: 1 3 8 19","for i in range(1,5):
+           print(i + j, end = ' ')
+           j = i + j + 1","for i in range(1,5):
+           print(i + j, end = ' ')
+           j = j + 2","for i in range(1,5):
+           print(j + 1, end = ' ')
+	   j = i + j*2 + 1","for i in range(1,5):
+           print(j + 1, end = ' ')
+	   j = i*2 + j + 2",c,Umesh,Medium
+54,"Given j = 0
+    how do I print: 1 4 7 10"," for i in range(1,5):
+    print(i + j, end = ' ') 
+    j = i + j + 1","for i in range(1,5):
+    print(i + j) 
+    j = j + 2","for i in range(1,5):
+    print(j + 1, end = ' ')
+    j = i + j*2 + 1",non of the above,b,Umesh,Medium
+55,"There is a function f when a f is called 
+with proper parametera node is inserted in
+a doubly link list.Find the worst 
+time complexity of the function f.",O(n),O(nlogn),O(1),O(n^2),a,Umesh,Medium
+56,"int meth(int n) { 
+    int i, j;
+    for (i = 1; i < = n; i++) {
+        for (j = 1; j < n; j + = i) {
+            printf (‘’ %d %d’’, i, j);
+        } 
+    } 
+}
+Find the time complexity of meth function",theta((n^2)logn),theta(nlogn),theta(n),non of the above,b,Umesh,Medium
+57,"void meth(int n) { 
+    sum=0;
+    for (i=1; I <= n; i*=2)
+        for(j=1; j<=n;j++)
+            sum++;
+}
+
+Find the complexity of the meth function",O(nlogn),O((n^2)logn),O(n^2),O(n),a,Umesh,Medium
+58,"p=set('sabc')
+p.update(set(['a', 'c']))
+p.add('ADG')
+print(p)
+What is the output for the following code","{'ADG','a', 'b', 'c', 's'}","{'c', 's', 'b', 'a', 'ADG'}","{'c', 'ADG', 's', 'b', 'a'}","{'s','c', 'ADG', 'b', 'a'}",c,Umesh,Medium
+59,"p=set('XYZ')
+p.update(set(['X', 'c']))
+p.add('ADG')
+print(p)
+
+What is the output for the following code","{'Z', 'Y','X', 'ADG', 'c'}","{'Z', 'X', 'ADG', 'c', 'Y'}","{'X','Y','Z','ADG','c'}",non of the above,b,Umesh,Medium
+60,"ct={}
+ct[(1,2,4)] = 5
+ct[(4,2,1)] = 2
+t = 0
+for i in ct:
+    t=t+ct[i]
+print(len(ct)+t)
+
+Find the output for the following code",5,9,12,15,b,Umesh,Medium
+61,"ct={}
+
+ct[(4,2,1)] = 7
+ct[(1,2)] = 6
+
+t = 0
+for i in ct:
+    t=t+ct[i]
+print(len(ct)+t)
+What is the output for follwoing code",12,10,15,18,c,Umesh,Medium
+62,"void show(n){
+  int t1 = 0, t2 = 1;
+  int nt= t1 + t2;
+  printf( t1, t2);
+  for (int i = 3; i <= n; ++i) {
+    printf(""%d, "", nt);
+    t1 = t2;
+    t2 = nt;
+    nt = t1 + t2;
+  }
+ }
+what is the time complexity for show function",O(n),O(2^n),O(nlogn),O(n^2),b,Umesh,Medium
+63,"S=""Apple Developers Group ""
+print(S[-6:2:-1])",G srepoleveD el,orG srepoleveD e,o elee,rspeDl,A,Adwaita,Medium
+64,"## predict output
+S=""Apple Developers Group ""
+print(S[-7:3:-1])","
+orG srepoleveD e", srepoleveD e,G srepoleveD el,oGseoee l,B,Adwaita,Medium
+65,"## predict output
+txt=""Cristiano Ronaldo""
+print(txt[-7:2:-1])",noR onaits,noR onait,ERROR,R onaits,D,Adwaita,Medium
+66,"## predict output
+txt=""Cristiano Ronaldo""
+print(txt[-3:2:-1])",R onaits,lanoR onaits,noR onaits,dlanoR onaits,B,Adwaita,Medium
+67,"# predict output
+def adg(x,y):
+    if(y==0):
+        return x
+    else:
+        return adg(x+y,y-1)
+print(adg(-2,10))",53,8,-20,-8,A,Adwaita,Medium
+68,"# predict output
+def adg(x,y):
+    if(y==0):
+        return x
+    else:
+        return adg(x+y,y-1)
+print(adg(-8,2))",-16,-5,-6,-10,B,Adwaita,Medium
+69,"# predict output
+def adg(x,y):
+    if(y==0):
+        return x
+    else:
+        return adg(x+y,y-1)
+print(adg(12,7))",19,5,40,84,C,Adwaita,Medium
+70,"# predict output
+def adg(x,y):
+    if(y==0):
+        return x
+    else:
+        return adg(x+y,y-1)
+print(adg(9,10))",19,1,90,64,D,Adwaita,Medium
+71,What is the output of the following code?,3 1,"[1, 2, 'Parameter] {""item"": ""Computer}",Error,None of the above,B,srinivas,Medium
+72,"import re
+reg = input()
+if re.search(""^(B|M)[A-z]{2}[0-9]{2}"", reg):
+    print(""valid"")
+else:
+    print(""invalid"")
+
+which of the following inputs will print ""valid""",bce21,21Bce,Bce21,BCE21,c,harsh vardhan,Medium
+73,"n = int(input())
+l1=[]
+l2=[]
+while(n>0):
+    l1.append(n)
+    n-=1
+l3 = l1.sort()
+for elements in l1:
+    l2.append(str(elements))
+print("" "".join(l2).split("" ""))
+
+output when value of n is 5?","['1', '2', '3', '4', '5']","[1,2,3,4,5]","[1, "" "", 2, "" "", 3, "" "", 4, "" "", 5]","1
+2
+3
+4
+5",a,harsh vardhan,Medium
+74,which string input method may cause a buffer overflow in C?,gets(str),"fgets(str, MAX, stdin);
+where MAX is size of str array","scanf(""%s"", str)",std::cin >> str,a,harsh vardhan,Medium
+75,"def adg(p=[1,2,5,6], q=2):
+    q =  q*5
+    r = []
+    p.append(q)
+    for i in p:
+        r.append(q*i)
+    return r
+print(adg())","[20, 10, 25]","[4, 2, 5]","[10, 20, 50, 60, 100]","[2, 5, 8, 2, 5]",C,Adwaita,Medium
+76,"def adg(p=[3,7,4,1], q=3):
+    q =  q*2
+    r = []
+    p.append(q)
+    for i in p:
+        r.append(q*i)
+    return r
+print(adg())","[8, 4, 4]","[4, 2, 2]","[6, 8, 5, 8, 3]","[18, 42, 24, 6, 36]",D,Adwaita,Medium
+77,"def adg(p=[3,7,4], q=7):
+    q =  q*6
+    r = []
+    p.append(q)
+    for i in p:
+        r.append(q*i)
+    return r
+print(adg())","[126, 294, 168, 1764]","[641, 778, 891, 585]","[4, 2, 6]","[24, 12, 36]",A,Adwaita,Medium
+78,"def adg(p=[3,7,3,6,4], q=7):
+    q =  q*3
+    r = []
+    p.append(q)
+    for i in p:
+        r.append(q*i)
+    return r
+print(adg())","[12, 6, 18, 9]","[63, 147, 63, 126, 84, 441]","[4, 2, 6, 3]","[736, 668, 749, 867]",B,Adwaita,Medium
+79,"def adg(p=[3,7,6,4], q=5):
+    q =  q*6
+    r = []
+    p.append(q)
+    for i in p:
+        r.append(q*i)
+    return r
+print(adg())","[48, 12, 36, 36]","[90, 210, 180, 120, 900]","[8, 2, 6, 6]","[775, 178, 447, 880]",B,Adwaita,Medium
+80,"print(++~~52--+-~~~34)",87,18,88,-19,A,Adwaita,Medium
+81,"print(++~~87--34+-~~~~65)",118,56,-12,120,b,Adwaita,Medium
+82,What will be the output of the following code?,Random number,0,Error,None of the above,Random Number,srinivas,Medium
+83,What will be the output of the following code?,Random number,0,Error,None of the above,Random Number,srinivas,Medium
+84,What will be the output of the following code?,Random number,0,Error,None of the above,Random Number,srinivas,Medium
+85,What will be the output of the following code?,Random number,0,Error,None of the above,Random Number,srinivas,Medium
+86,What will be the output of the following code?,Random number,0,Error,None of the above,Random Number,srinivas,Medium
+87,What will be the output of the following code?,Random number,0,Error,None of the above,0,srinivas,Medium
+88," What is printed by 
+         print(2e2)",40.71  # 2 * math.e ** 3,200,4,6,B,saswata,Medium
+89,"Given S = ""The detective is already dead!""
+    What is returned by S[7:11]?",  ecti', '  ecti  ', 'ecti ',ecti  ',c,saswata,Medium
+90,"What does this statement print?
+       print(""pi is {:8.6f}."".format(math.pi))
+    Note the spacing and right-left justification.",pi is 3.141592653589793.,pi is 3.141593.,pi is   3.1416., pi is 3.1416  ,B,saswata,Medium
+91,"#""Comfortably Numb"" lyrics Pink Floyd
+Line1 = ""The child is grown""
+Line2 = ""The dream is gone""
+Line3 = ""I have become comfortably numb""
+Line4 = Line1 + Line2 + Line3   
+print(Line2.find('my'), Line4.count('was'))","(0, 3)",True 1,-1 0,True 2,C,saswata,Medium
+92,"What is printed by the following?
+    Hint: careful, you are iterating through x and appending to x.
+
+        x = ['AB', 'CD'] 
+        for i in x: 
+                x.append(i.lower()) 
+        print(x)","['ab', 'cd']  "," ['a','b','c','d']",No Output (Infinite loop) ,"['AB', 'CD', 'ab', 'cd']  ",C,saswata,Medium
+93,"Analyze the following code:
+        Given: number = 13
+        #Code 1:
+        if number % 2 != 0: 
+                odd = True
+        else: 
+                odd = False
+
+        #Code 2:
+        odd = number % 2 != 0",Both Code 1 and Code 2 have errors.,Both Code 1 and Code 2 are correct.,Code 1 has errors.,Code 2 has errors.,B,saswata,Medium
+94,"Given L = [1], What is printed by:
+       if L:
+           print('first')
+       else:
+           print('second')",None,first,second, firstsecond,B,saswata,Medium
+95," What is printed by this sequence of instructions?
+
+        L = [(1, 2), (3, 4), (5, 6)]
+        res = [for x in L]
+        print(res) ","[[1, 2], [3, 4], [5, 6]]"," [(1, 2), (3, 4), (5, 6)]","[1, 2, 3, 4, 5, 6]",error,D,saswata,Medium
+96,"What is printed by 
+        D = dict() 
+        for i in range (4): 
+                for j in range(2): 
+                D[i] = j 
+        print(D)"," {0: 0, 1: 0, 2: 0, 3: 0, 0: 1, 1: 1, 2: 1, 3: 1}","{0: 0, 1: 1, 2: 2, 3: 3}","{0: 0, 1: 0, 2: 0, 3: 0}",TypeError: Immutable object,B,saswata,Medium
+97,"What is printed by
+   
+T1 = (2) 
+T2 = (1, 4) 
+T1 += (Tupple)(6)
+print(T1, T1 + T2) "," (6, 1, 4)"," (2, 6, 1, 4)","(8, 1, 4)",Tupple Not Defined ,D,saswata,Medium
+98,"What is printed by
+   
+        L = [1, 3, 5, 7, 9] 
+        print(L.pop(-2), L.remove(L[1]), L) ","None 1 [1, 5, 9]","3 None [1, 7, 9]","None 1 [1, 3, 7, 9]"," None of the above
+",B,saswata,Medium
+99,"Given this sequence of instructions:
+
+    L1 = [1,2,3]
+    L2 = ['a',L1[:],'b',L1]
+    L1.append(4)
+    print(L1)
+
+    What is printed?","['a', [1, 2, 3, 4], 'b', [1, 2, 3, 4]]"," ['a', [1, 2, 3], 'b', [1, 2, 3, 4]]","['a', [1, 2, 3,4], 'b', [1, 2, 3]]","[1, 2, 3, 4]",D,saswata,Medium
+100,"Given: x = 13
+    what is printed by: print(0 <= x <= 13)",0,7,TRUE,FALSE,C,saswata,Medium
+101,"What does this expression return?
+        {a*b for a in range(3) for b in range(3)}"," {0, 1, 2, 3, 4, 6, 9}","{0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 4, 6, 0, 3, 6, 9}"," {0, 0, 0, 0, 1, 2, 0, 2, 4}",error,D,saswata,Medium
+102," Given: S1 = {1,2,3} and S2 = {2,3,4}
+    what is the value of S after this operation: S = S1 * S2",{1},"{2, 3}","{1, 4}",error,D,saswata,Medium
+103," What is the output of the code shown below?
+
+D = {'Itachi':{},'Uchiha':{}}   # all curly braces in this line
+D['Itachi']['2'] = 3
+D['Uchiha']['1'] = 4
+D['Itachi']['2'] += 5
+print(D)","{'Itachi': {'2': 3}, 'Uchiha': {'1': 9}}","{'Itachi': {'2': 3}, 'Uchiha': {'1': 5}}","{'Itachi': {'2': 5}, 'Uchiha': {'1': 4}}","{'Itachi': {'2': 8}, 'Uchiha': {'1': 4}}",D,saswata,Medium
+104,Which one of the following statements is used to import only the specific function sqrt() of the math module to use without a qualifier?,All of these,import math,from math import sqrt  ,from math import *,C,Mugdha,Medium
+105,"Identify which one of the following statement is used to import only choice(), and randint() functions from the random module, and to use the them without using the name of the module(qualifier) in Python program.",from random import choice.randint,from random import *,import random,"from random import choice, randint",D,Mugdha,Medium
+106,"According to the below program, which of the following names are called module variables?
+
+SampleProgram.py
+
+from random import *
+colors = ['red', 'blue', 'yellow']
+def selectColor(colorsList):
+chosenOrder = []
+colorsList.insert(1,'green')
+for color in colorsList:
+chosenOrder.append(choice(colorsList))
+return chosenOrder","insert, append","selectColor, colors","chosenOrder, color",colorsList,B,Mugdha,Medium
+107,"Which of the following quotation marks are not used to enclose/represent the string in Python? 
+
+1. ' "" 
+2. "" "" 
+3. ' '",Only 1,Only 2,Both 1 & 2,Both 2 & 3,A,Mugdha,Medium
+108,Which of the following statements is used to import all of the resources of the images module to use without a qualifier?,import images,from images import Image,from images import *,from images import image,C,Mugdha,Medium
+109,"For the given assignment operations, which one of the following is not the augmented assignment operation?
+u = 5
+p = “welcome”",p += “John”,u =- 2 ,u -= 2,u *= 2,B,Mugdha,Medium
+110,"In the implementation of data encryption, which one of the following functions gives back a character that represents the specified Unicode integer value?",chr() ,input(),ord(),int(),A,Mugdha,Medium
+111,Which one of the following is the equivalent finite recursive function for the below displayRange() function?,Function-2,Function-4,Function-1,Function-3,C,Mugdha,Medium
+112,"Assume that craps is a module and it contains the functions playOneGame(), playManyGames(), and the class Player. Assume that these functions are defined within the module craps but outside of the class Player, and assume these resources are used to develop the game of craps. To import these specific different resources such as playOneGame(), playManyGames(), and the class Player from the module craps and to use the same without a qualifier in a program, which one of the following statements is used?
+
+from craps import *
+
+from craps import playOneGame, playManyGames, Player
+
+import craps
+
+from craps import playOneGame.playManyGames.Player
+
+
+Which one of the following will be produced as the output for the statement “%-10s” % “five”?",‘ five’,‘five’,‘five ’,‘ five ’,C,Mugdha,Medium
+113,Which one of the following represents a list of strings in Python?,"[2,-4.5, ‘done’]","['welcome', ""hi"", 'hello']","[3,6,-4]","[3.4,4.5,5.1]",B,Mugdha,Medium
+114,Which one of the following comparison operators are used to check whether the values of operands are different or not?,<=,!=,>=,"""==""",B,Mugdha,Medium
+115,,The sum of the numbers between lower and upper inclusive.,The sum of the numbers from lower to one less than the upper.,The sum of the numbers from lower+1 to one less than the upper.,The sum of the numbers from lower to one more than the upper.,B,Mugdha,Medium
+116,Which one of the following types of value can be written in the form a+bj?,complex,str,int,float,A,Mugdha,Medium
+117,Which one of the following is the representation of 46 in hexadecimal notation in Python?,(46)10,(56)8,(101110)2,2.00E+16,D,Mugdha,Medium
+118,Which of the following data types is used to store decimal numbers with the single-precision?,double,char,int,float,D,Mugdha,Medium
+119,Which of the following are not the characteristics of structured programming?,Code reusability,Information hiding,Top-down design,Bottom-up design,D,Mugdha,Medium
+120,"def fun1(string):
+	 string = string[::-1] 
+	return string 
+print(fun1(""hello""))
+","""hell""","""olleh""","""hlo""","""ello""",B,Harsh Rajpal,Medium
+121,"What does the following statement mean?
+     int (*fp)(char*)
+",pointer to a pointer,pointer to an array of chars ,"pointer to function taking a char* 
+argument and returns an int
+","function taking a char* argument 
+and returning a pointer to int
+",C,Harsh Rajpal,Medium
+122,"What will be the output of the following Python code: 
+x = 'abcd'
+print(list(map(list, x)))"," [‘a’, ‘b’, ‘c’, ‘d’] ",[‘abcd’],"[[‘a’], [‘b’], [‘c’], [‘d’]]",None,C,Harsh Rajpal,Medium
+123,"Suppose t = (1, 2, 4, 3), which of the following is incorrect in python?",print(t[3]),t[3] = 45,print(max(t)),print(len(t)),B,Harsh Rajpal,Medium
+124,"Find the output of the following program:
+a = {i: i * i for i in range(6)} 
+print (a) 
+",Dictionary comprehension doesn’t exist,"{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6:36}","{0: 0, 1: 1, 4: 4, 9: 9, 16: 16, 25: 25}","{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}",D,Harsh Rajpal,Medium
+125,"import string
+ A, B, C = 0, 0, 0
+ for ch in ""Arthur, Britain’s King"":
+ if ch in ""aeiou"":
+ A += 1
+ if ch not in string.ascii_letters:
+ B += 1
+ else:
+ C += 1
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+
+Which of the following statements about the Python code labeled ""Line 1"" is correct?",It will display 0 when the program is executed.,It will display 4 when the program is executed.,It will display 5 when the program is executed.,It will display 6 when the program is executed.,c,Haneet,Medium
+126,"import string
+ A, B, C = 0, 0, 0
+ for ch in ""Arthur, Britain’s King"":
+ if ch in ""aeiou"":
+ A += 1
+ if ch not in string.ascii_letters:
+ B += 1
+ else:
+ C += 1
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+
+Which of the following statements about the Python code labeled ""Line 2"" is correct?",It will display 0 when the program is executed.,It will display 1 when the program is executed.,It will display 2 when the program is executed.,None of the above,D,Haneet,Medium
+127,"import string
+ A, B, C = 0, 0, 0
+ for ch in ""Arthur, Britain’s King"":
+ if ch in ""aeiou"":
+ A += 1
+ if ch not in string.ascii_letters:
+ B += 1
+ else:
+ C += 1
+ print( A ) # Line 1
+ print( B ) # Line 2
+ print( C ) # Line 3
+
+Which of the following statements about the Python code labeled ""Line 3"" is correct?",It will display 0 when the program is executed.,It will display 15 when the program is executed.,It will display 18 when the program is executed.,It will display 22 when the program is executed.,c,Haneet,Medium
+128,"
+What will be displayed when the following Python code is executed?
+ for n in range( 1, 5 ):
+ print( n, sep="", "", end=""."" )
+ print()",1.2.3.4.,"1, 2, 3, 4.",1.2.3.4.5.,E) None of the above.,A,Haneet,Medium
+129,"out = open( ""midterm.txt"", ""w"" ) 
+for n in range( 4 ): 
+  print( ""Line"", n, file=out ) 
+print( ""Done!"" ) 
+After the above Python code executes, which of the following statements about file ""midterm.txt"" is correct? Assume the call to function ""open"" does not cause an exception. ",The file contains 0 characters.,The file contains 20 characters.,The file contains 24 characters.,The file contains 34 characters.,A,Haneet,Medium
+130," value = int( input( ""Value:"" ) )
+ try:
+ print( ""Result="", end="""" )
+ result = 20 / value
+ print( result, end="""" )
+ except:
+ print( ""Error"", end="""" )
+ print()
+
+What will be displayed when the
+program is executed and the user pushes the A key, followed by the Enter key?",Result=,Result=4,Result=4.0,None of the Above,d,Haneet,Medium
+131," value = int( input( ""Value:"" ) )
+ try:
+ print( ""Result="", end="""" )
+ result = 20 / value
+ print( result, end="""" )
+ except:
+ print( ""Error"", end="""" )
+ print()
+
+What will be displayed when the
+program is executed and the user pushes the 5 key, followed by the Enter key?",Result=,Result=4,Result=4.1,None of the Above,c,Haneet,Medium
+132," value = int( input( ""Value:"" ) )
+ try:
+ print( ""Result="", end="""" )
+ result = 20 / value
+ print( result, end="""" )
+ except:
+ print( ""Error"", end="""" )
+ print()
+
+What will be displayed when the
+program is executed and the user pushes the 0 key, followed by the Enter key?",Result=,Result=5,Result=4.2,Result=Error,d,Haneet,Medium
+1,"Evaluate the following expression and identify the correct answer
+10-(1+1) * 2+ 2 * 3**2 * 2",54,42,18,32,b,Garv Tandon,Hard
+2,"Evaluate the following expression and identify the correct answer
+6-(3+2) * 5+ 4 * 2**2 * 4",54,45,18,32,b,Garv Tandon,Hard
+3,"Evaluate the following expression and identify the correct answer
+(3+2) - 10 * 3+ 1 * 5**2 * 2",225,25,5,125,b,Garv Tandon,Hard
+4,"Evaluate the following expression and identify the correct answer
+(100 - 100) * 3+ 1 * 10**3 * 2",2000,1000,100,10,a,Garv Tandon,Hard
+5,"Evaluate the following expression and identify the correct answer
+(3+2) - 10 * 3+ 1 *0**-1",9,-27,3,27,b,Garv Tandon,Hard
+6,"Which of the following option can be the output for the following code?
+
+import random 
+List = [""Delhi"", ""Mumbai"", ""Chennai"", ""Kolkata""]
+for y in range (4):
+    x= random.randint (1,3)
+    print (List[x].end=""#"")",Delhi#Mumbai#Chennai#Kolkata#,Mumbai#Chennai#Kolkata#Mumbai#,Mumbai#Mumbai#Mumbai#Delhi#,Mumbai#Mumbai#Chennai#Mumbai,b,Garv Tandon,Hard
+7,"What will be the output of the following code?
+tupl= (40,3,[11,33],39)
+tupl[2][1] = 1.23
+print (tupl)",Error message,"(40,3,[1.23,33],39)","(40,3,[11,1.23],39)","(40,3,[11,33],39)",c,Garv Tandon,Hard
+8,"What will be the output of the following code?
+tupl= (20,1,[22,44],41)
+tupl[2][1] = 3.45
+print (tupl)",Error message,"(20,1,[1.23,33],41)","(20, 1, [22, 3.45], 41)","(20,1,[22,44],41)",c,Garv Tandon,Hard
+9,"What will be the output of the following code?
+tupl= (40,3,[11,33],39)
+tupl[2][0] = 1.13
+print (tupl)",Error message,"(40,3,[1.13,33],39)","(40, 3, [1.13, 33], 39)","(40,3,[11,33],39)",c,Garv Tandon,Hard
+10,"What will be the output of the following code?
+tupl= (40,3,[11,33],39)
+tupl[2][2] = 1.23
+print (tupl)",Error message,"(40,3,[1.23,33],39)","(40,3,[11,1.23],39)","(40,3,[11,33],39)",a,Garv Tandon,Hard
+11,"What will be the output of the following code?
+tupl= (40,3,[11,33],39)
+tupl[2] = 1.23
+print (tupl)",Error message,"(40,3,[1.23,33],39)","(40,3,[11,1.23],39)","(40,3,[11,33],39)",a,Garv Tandon,Hard
+12,"What will be the output
+all(0,6,3.2)",Error,TRUE,FALSE,0,a) Error,Garv Tandon,Hard
+13,"What will ""95"" + 5 evaluate to",100,955,Error,None of these,c) Error,Garv Tandon,Hard
+14,"If I have 
+>>> a = [8,6,19]
+>>> b = [0,6,0]
+>>> t = tuple((a,b))
+What will t[0][0] = 5 do",t cannot be modified because t is a tuple,t[0][0] does not exist,"t will be updated and the result will be 
+>>> t
+([5, 6, 19], [0, 6, 0])","t will be not be updated and the result will be 
+>>> t
+([8, 6, 19], [0, 6, 0])",c),Garv Tandon,Hard
+15,"Predict the output:
+num = 15
+for x in range(num):
+    x = x+3
+    print(x)","3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17","3
+6
+9
+12
+15","0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14","3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14",a) ,Garv Tandon,Hard
+16,"Predict the output:
+a, b = 30, 30
+print(a is b)
+
+a, b = 301, 301
+print(a is b)","True
+True","True
+False","False
+False","False 
+True",b),Garv Tandon,Hard
+17,"Predict the output:
+def fun(lst = []):
+   lst.append('ADG')
+   return lst
+print(fun())
+print(fun())
+print(fun())","['ADG']
+['ADG']
+['ADG']","['ADG']
+['ADG', 'ADG']
+['ADG', 'ADG', 'ADG']",No output,None of these,b),Garv Tandon,Hard
+18,"Predict the output:
+def function1():
+    ls1 = [5,10,15] 
+    ls2 = ls1 
+    ls1 += ['A', 'D', 'G']
+    print(ls1) 
+    print(ls2)
+    
+def function2():
+    ls1 = [5,10,15]
+    ls2 = ls1 
+    ls1 = ls1 + ['A', 'D', 'G']
+    print(ls1) 
+    print(ls2)
+    
+function1()
+function2()","[5, 10, 15, 'A', 'D', 'G']
+[5, 10, 15, 'A', 'D', 'G']
+[5, 10, 15, 'A', 'D', 'G']
+[5, 10, 15, 'A', 'D', 'G']","[5, 10, 15, 'A', 'D', 'G']
+[5, 10, 15, 'A', 'D', 'G']
+[5, 10, 15, 'A', 'D', 'G']
+[5, 10, 15]","[5, 10, 15, 'A', 'D', 'G']
+[5, 10, 15, 'A', 'D', 'G']","[5, 10, 15, 'A', 'D', 'G']",b),Garv Tandon,Hard
+19,"def f1(s):
+    result1 = 0
+    result2 = ''
+    result3 = 0
+    for c in s:
+        if c.isdigit() :
+            result1 += int(c)
+        elif c.isalpha():
+            result2 += c
+        else:
+            result3 += 1
+    return result1,result2,result3
+  
+def f2(str1, str2):
+    return len(str1) < len(str2)
+  
+data = ""It is 2017!""
+r1, r2, r3 = f1(data)
+print( r1 )
+
+What is the output for the following program.",0,2,20,10,d,Umesh,Hard
+20,"def f1(s):
+    result1 = 0
+    result2 = ''
+    result3 = 0
+    for c in s:
+        if c.isdigit() :
+            result1 += int(c)
+        elif c.isalpha():
+            result2 += c
+        else:
+            result3 += 1
+    return result1,result2,result3
+  
+def f2(str1, str2):
+    return len(str1) < len(str2)
+  
+data = ""It is 2017!""
+r1, r2, r3 = f1(data)
+print( r2 )
+
+What is the output for the following program.",it i,itis,2017,is20,b,Umesh,Hard
+21,"def f1(s):
+    result1 = 0
+    result2 = ''
+    result3 = 0
+    for c in s:
+        if c.isdigit() :
+            result1 += int(c)
+        elif c.isalpha():
+            result2 += c
+        else:
+            result3 += 1
+    return result1,result2,result3
+  
+def f2(str1, str2):
+    return len(str1) < len(str2)
+  
+data = ""It is 2017!""
+r1, r2, r3 = f1(data)
+print( r3 )
+
+What is the output for the follwing program",1,2,3,4,c,Umesh,Hard
+22,"def f1(s):
+    result1 = 0
+    result2 = ''
+    result3 = 0
+    for c in s:
+        if c.isdigit() :
+            result1 += int(c)
+        elif c.isalpha():
+            result2 += c
+        else:
+            result3 += 1
+    return result1,result2,result3
+  
+def f2(str1, str2):
+    return len(str1) < len(str2)
+  
+data = ""It is 2017!""
+r1, r2, r3 = f1(data)
+print( f2( r2,'aeiou'))
+What is the output for the following program
+",FALSE,0,1,Non of the above,d,Umesh,Hard
+23,"def second(s):
+    for i,ch in enumerate(s):
+        if not ch.isdigit():
+            continue
+        if i == 0:
+            x = int(ch)
+            continue
+        y = int(ch)
+        if y > x:
+            x = y
+    return x
+    
+print(second('1a7 24x 5 9z'))
+What is the output for the following program",1,24,75,9,d,Umesh,Hard
+24,"import re
+email = input()
+if re.search('^[a-zA-Z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$',email):
+    print(""welcome back sir"")
+else:
+    print('initiating self destruct sequence')
+
+Which of the following input prints ""welcome back sir""",me$$i@psg.fr,halamadrid@rm.corn,yolocr7@united.com,yolo`@gmail.com,c,harsh vardhan,Hard
+25,"l = ""[1,5,6,7,7,8,8,6,6,6,4,3]""
+s = l.split("","")
+print(list(set('`'.join(s))))
+
+what is the output of the above python code","['5', '4', '[', '`', '7', '8', '1', ']', '6', '3']",[1`5`6`7`7`8`8`6`6`6`4`3],"[']', '7', '3', '8', '1', '4', '`', '5', '[', '6']",None,a,harsh vardhan,Hard
+26,What will be the output of the following code?,23,24,25,26,24,srinivas,Hard
+27,What will be the output of the following code?,14,15,16,17,15,srinivas,Hard
+28,What will be the output of the following code?,12,11,13,14,13,srinivas,Hard
+29,"main()  
+{  
+  int i = 2;  
+  {  
+    int i = 4, j = 5;  
+     printf(""%d %d"", i, j);  
+  }    
+  printf(""%d %d"", i, j);  
+}  ",4525,2525,4545,None of the these,4525,Raehat Singh Nanda,Hard
+30,"Which of the following comment is correct when a macro definition includes arguments?
+
+The opening parenthesis should immediately follow the macro name.
+There should be at least one blank between the macro name and the opening parenthesis.
+There should be only one blank between the macro name and the opening parenthesis.
+All the above comments are correct.",,,,,The opening parenthesis should immediately follow the macro name.,Raehat Singh Nanda,Hard
+31,"What is a lint?
+
+C compiler
+Interactive debugger
+Analyzing tool
+C interpreter",,,,,Analyzing tool,Raehat Singh Nanda,Hard
+32,"What is the output of this statement ""printf(""%d"", (a++))""?
+
+The value of (a + 1)
+The current value of a
+Error message
+Garbage",,,,,"The current value of ""a"".",Raehat Singh Nanda,Hard
+33,"main()  
+{  
+   char x [10], *ptr = x;  
+  scanf (""%s"", x);  
+  change(&x[4]);  
+}  
+ change(char a[])  
+ {  
+   puts(a);  
+ }  
+If abcdefg is the input, the output will be
+
+abcd
+abc
+efg
+Garbage",,,,,efg,Raehat Singh Nanda,Hard
+34,"main()  
+{  
+  int a = 1, b = 2, c = 3:  
+  printf(""%d"", a + = (a + = 3, 5, a))  
+}  
+What will be the output of this program?6
+9
+12
+8",,,,,8,Raehat Singh Nanda,Hard
+35,"What does this declaration mean?
+
+int x : 4;  
+X is a four-digit integer.
+X cannot be greater than a four-digit integer.
+X is a four-bit integer.
+None of the these",,,,,X is a four-bit integer.,Raehat Singh Nanda,Hard
+36,"Why is a macro used in place of a function?
+
+It reduces execution time.
+It reduces code size.
+It increases execution time.
+It increases code size.",,,,,It reduces code size.,Raehat Singh Nanda,Hard
+37," In the C language, the constant is defined _______.
+
+Before main
+After main
+Anywhere, but starting on a new line.
+None of the these.",,,,,"Anywhere, but starting on a new line.",Raehat Singh Nanda,Hard
+38,What will be the output of the following code?,10,11,12,13,13,srinivas,Hard
+39,What will be the output of the following code?,-69,-70,-71,-72,-70,srinivas,Hard
+40,What will be the output of the following code?,40,41,42,43,42,srinivas,Hard
+41,What will be the output of the following code?,42,43,45,46,46,srinivas,Hard
+42,What will be the output of the following code?,-60,-61,-62,-63,-63,srinivas,Hard
+43,What will be the output of the following code?,-14,-15,-16,-17,-14,srinivas,Hard
+44,What will be the output of the following code?,-69,-70,-71,-72,-70,srinivas,Hard
+45,What will be the output of the following code?,41,42,43,44,43,srinivas,Hard
+46,"What will be the output of the following Python code?
+f=lambda x:bool(x%2)
+print(f(20), f(21))",False True,False False,True True,True False,A,Ankit Sidana,Hard
+47,"What will be the output of the following Python code?
+f=lambda x:bool(x%2)
+print(f(26), f(45))",False True,False False,True True,True False,A,Ankit Sidana,Hard
+48,"What will be the output of the following Python code?
+f=lambda x:bool(x%2)
+print(f(91), f(12))",False True,False False,True True,True False,D,Ankit Sidana,Hard
+49,"What will be the output of the following Python code?
+f=lambda x:bool(x%2)
+print(f(77), f(50))",False True,False False,True True,True False,D,Ankit Sidana,Hard
+50,"What will be the output of the following Python code?
+f=lambda x:bool(x%2)
+print(f(73), f(21))",False True,False False,True True,True False,C,Ankit Sidana,Hard
+51,"What will be the output of the following Python code?
+f=lambda x:bool(x%2)
+print(f(20), f(60))",False True,False False,True True,True False,B,Ankit Sidana,Hard
+52,"What will be the output of the following Python code?
+l=[1, -2, -3, 4, 5]
+def f1(x):
+    return x<2
+m1=filter(f1, l)
+print(list(m1))","[1, 4, 5 ]","[-2, -3]","[1, -2, -3]",Error,C,Ankit Sidana,Hard
+53,"What will be the output of the following Python code?
+l=[1, -2, -3, 4, 5,10]
+def f1(x):
+    return x<1
+m1=filter(f1, l)
+print(list(m1))","[1, 4, 5 ]","[-2, -3]","[1, -2, -3]",Error,B,Ankit Sidana,Hard
+54,"What will be the output of the following Python code?
+l=[1, -2, -3, 4, 5, 7]
+def f1(x):
+    return x<5
+m1=filter(f1, l)
+print(list(m1))","[1, 4, 5 ]","[-2, -3]","[4, 1, -2, -3]",Error,C,Ankit Sidana,Hard
+55,"What will be the output of the following Python code?
+l=[1, -2, -3, 4, 5]
+def f1(x):
+    return x>-1
+m1=filter(f1, l)
+print(list(m1))","[1, 4, 5 ]","[-2, -3]","[1, -2, -3]",Error,A,Ankit Sidana,Hard
+56,"What will be the output of the following Python code?
+l=[1, -2, -3, 4, 5]
+def f1(x):
+    return x<-3
+m1=filter(f1, l)
+print(list(m1))","[1, 4, 5 ]","[5,4,1,-2]","[1, -2, -3]",Error,B,Ankit Sidana,Hard
+57,"What is the output of the code given below:
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main() {
+
+  
+  cout << abs(-3);
+
+  return 0;
+}",3,-3,0,Error,A,Harsh Rajpal,Hard

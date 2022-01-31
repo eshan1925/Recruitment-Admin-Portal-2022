@@ -27,6 +27,9 @@ var csvSchema = new mongoose.Schema({
     },
     Name:{
         type:String
+    },
+    LOD:{
+        type:String
     }
 });
 

@@ -18,68 +18,45 @@
                 </select>
                 <button class="publish">Publish</button>
             </div>
-            <div class="question_section" id="all">
-                <% var number_of_questions = Questions.length %> 
-                <% for(var i=0;i<number_of_questions;i++){ %> 
-                    <a href="#">
-                        <div class="question">
-                            <div class="questionNumber">Q<%= Questions[i]["SNo"] %>.</div>
-                            <%= Questions[i]["Question"] %> 
-                        </div>
-                    </a>
-                <% } %>
-            </div>
-
-            Easy
-            <div class="question_section hidden" id="easy">
-                <% for(var i=0;i<25;i++){ %> 
-                    <a href="#">
-                        <div class="question">
-                            <div class="questionNumber">Q1.</div>
-                            EASY QUESTIONS Lorem ipsum dolor, sit amet
-                            consectetur adipisicing elit. Illo numquam earum
-                            inventore eveniet deserunt aperiam quos deleniti
-                            tenetur ea blanditiis dignissimos repudiandae
-                            corporis atque, maxime fugiat officiis aliquid.
-                            Amet, doloremque!
-                        </div>
-                    </a>
-                <% } %>
-            </div>
-            <!-- Medium -->
-
-            <div class="question_section hidden" id="medium">
-                <% for(var i=0;i<25;i++){ %> 
-                <a href="#">
-                    <div class="question">
-                        <div class="questionNumber">Q1.</div>
-                        Medium Questions, sit amet consectetur adipisicing
-                        elit. Illo numquam earum inventore eveniet deserunt
-                        aperiam quos deleniti tenetur ea blanditiis
-                        dignissimos repudiandae corporis atque, maxime
-                        fugiat officiis aliquid. Amet, doloremque!
-                    </div>
-                </a>
-                <% } %>
-            </div>
-
-            <!-- Hard -->
-
-            <div class="question_section class" id="hard">
-                <% for(var i=0;i<25;i++){ %> 
-                <a href="#">
-                    <div class="question">
-                        <div class="questionNumber">Q1.</div>
-                        Hard Questions Lorem ipsum dolor, sit amet
-                        consectetur adipisicing elit. Illo numquam earum
-                        inventore eveniet deserunt aperiam quos deleniti
-                        tenetur ea blanditiis dignissimos repudiandae
-                        corporis atque, maxime fugiat officiis aliquid.
-                        Amet, doloremque!
-                    </div>
-                </a>
-                <% } %>
-            </div>
+                <div class="question_section" id="easy">
+                    <% var number_of_questions = Questions.length %> 
+                    <% for(var i=0;i<number_of_questions;i++){ %> 
+                        <% if(Questions[i]["LOD"]==="Easy"){ %>
+                            <a href="#">
+                                <div class="question">
+                                    <div class="questionNumber">Q<%= Questions[i]["SNo"] %>.</div>
+                                    <%= Questions[i]["Question"] %> 
+                                </div>
+                            </a>
+                        <% } %>
+                    <% } %>
+                </div>
+                <div class="question_section" id="medium">
+                    <% var number_of_questions = Questions.length %> 
+                    <% for(var i=0;i<number_of_questions;i++){ %> 
+                        <% if(Questions[i]["LOD"]==="Medium"){ %>
+                            <a href="#">
+                                <div class="question">
+                                    <div class="questionNumber">Q<%= Questions[i]["SNo"] %>.</div>
+                                    <%= Questions[i]["Question"] %> 
+                                </div>
+                            </a>
+                        <% } %>
+                    <% } %>
+                </div>
+                <div class="question_section" id="hard">
+                    <% var number_of_questions = Questions.length %> 
+                    <% for(var i=0;i<number_of_questions;i++){ %> 
+                        <% if(Questions[i]["LOD"]==="Hard"){ %>
+                            <a href="#">
+                                <div class="question">
+                                    <div class="questionNumber">Q<%= Questions[i]["SNo"] %>.</div>
+                                    <%= Questions[i]["Question"] %> 
+                                </div>
+                            </a>
+                        <% } %>
+                    <% } %>
+                </div>
         </div>
         <div class="selected_question"></div>
     </div>
