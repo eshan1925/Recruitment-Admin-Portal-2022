@@ -1,22 +1,22 @@
-SNo,Question,OptionA,OptionB,OptionC,OptionD,Answer,Name
-1,Which of these formats supports Transparency?,JPEG,Jpg,png,All of the above ,C ,Ankit
-2, In which of these formats does not change the image quality when the image is saved?,JPEG,Tiff,png,Jpg,B,
-3,Which color mode is used for printing?,RGB,BGR,CMYK,All of the above,C,
-4,Which one of these formats is not an image format?,DPI,EPS,PCX,WPG,A,
-5,What does HSB stand for color?,"Hue, Saturation and Brightness","Highlights, Saturation and Brightness","Highlights, Saturation and Backlight","Hue, Selection and Brightness",A,
-6,Raster Image is also known as …………,Color Image,Curve Image ,Graphic Image,Bitmap Image,D,
-7,Photoshop was launched by which company ?,Microsoft,EULA,Adobe,Microsoft,C,
-8,"What kind of colors are red, yellow and blue?",Primary,Secondary,Tertiary,Complementary,A,
-9,Which of these color models is not in Photoshop? ,HSB,RGB,BGR,CNYK,D,
-10,What is the shortcut for move tool?,A,Ctrl+A,V,M ,C,Pranav
-11,What is the shortcut for viewing Rulers in Figma?,Shift+R,R,Ctrl+R,None of the Above,,Pranav
-12,What is the shortcut to group a set of selected elements in Figma?,Ctrl+G,G,Ctrl+A,Ctrl+Shift+G,A,Pranav
-13,Which of these color models is not in Photoshop?,HSB,LAB,RGB,CNYK,A,Saumya
-14,What is the shortcut key to create a duplicate layer of a ,Ctrl+N,Ctrl+T,Ctrl+J,None of the Above,C,Saumya
-15,Photoshop was launched by which company?,Adobe Systems,Aldus,Microsoft,EULA,A,Saumya
-16,How many color modes are there in photoshop,3,4,5,6,C,Saumya
-17,Photoshop is a image ______ application,Sharing,Downloading,Editing,Deleting,C,Saumya
-18,What is file extension in photoshop,Tiff,Txt,Psd,Bmp,C,Saumya
-19,Which colour mode is used for printing,RGB,CMYK,Gray Scale,None of the Above,B,Saumya
-20,What is the shortcut key to create a new file in Photoshop,Shift+N,Ctrl+N,Ctrl+Shift+N,None of the Above,B,Saumya
-21,"To get Desturate option in Photoshop, we have to go to",File Menu,Layer Menu,Image>Adjustment,None of the Above,C,Saumya
+SNo,Question,OptionA,OptionB,OptionC,OptionD,Answer,Name,LOD
+1,Which of these formats supports Transparency?,JPEG,Jpg,png,All of the above ,C ,Ankit,Easy
+2, In which of these formats does not change the image quality when the image is saved?,JPEG,Tiff,png,Jpg,B,,Easy
+3,Which color mode is used for printing?,RGB,BGR,CMYK,All of the above,C,,Easy
+4,Which one of these formats is not an image format?,DPI,EPS,PCX,WPG,A,,Easy
+5,What does HSB stand for color?,"Hue, Saturation and Brightness","Highlights, Saturation and Brightness","Highlights, Saturation and Backlight","Hue, Selection and Brightness",A,,Easy
+6,Raster Image is also known as …………,Color Image,Curve Image ,Graphic Image,Bitmap Image,D,,Easy
+7,Photoshop was launched by which company ?,Microsoft,EULA,Adobe,Microsoft,C,,Easy
+8,"What kind of colors are red, yellow and blue?",Primary,Secondary,Tertiary,Complementary,A,,Easy
+9,Which of these color models is not in Photoshop? ,HSB,RGB,BGR,CNYK,D,,Easy
+10,What is the shortcut for move tool?,A,Ctrl+A,V,M ,C,Pranav,Easy
+11,What is the shortcut for viewing Rulers in Figma?,Shift+R,R,Ctrl+R,None of the Above,,Pranav,Easy
+12,What is the shortcut to group a set of selected elements in Figma?,Ctrl+G,G,Ctrl+A,Ctrl+Shift+G,A,Pranav,Easy
+13,Which of these color models is not in Photoshop?,HSB,LAB,RGB,CNYK,A,Saumya,Easy
+14,What is the shortcut key to create a duplicate layer of a ,Ctrl+N,Ctrl+T,Ctrl+J,None of the Above,C,Saumya,Easy
+15,Photoshop was launched by which company?,Adobe Systems,Aldus,Microsoft,EULA,A,Saumya,Easy
+16,How many color modes are there in photoshop,3,4,5,6,C,Saumya,Easy
+17,Photoshop is a image ______ application,Sharing,Downloading,Editing,Deleting,C,Saumya,Easy
+18,What is file extension in photoshop,Tiff,Txt,Psd,Bmp,C,Saumya,Easy
+19,Which colour mode is used for printing,RGB,CMYK,Gray Scale,None of the Above,B,Saumya,Easy
+20,What is the shortcut key to create a new file in Photoshop,Shift+N,Ctrl+N,Ctrl+Shift+N,None of the Above,B,Saumya,Easy
+21,"To get Desturate option in Photoshop, we have to go to",File Menu,Layer Menu,Image>Adjustment,None of the Above,C,Saumya,Easy

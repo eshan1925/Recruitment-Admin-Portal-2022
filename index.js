@@ -47,6 +47,8 @@ var selectedDomain = "";
 
 
 app.get("/", function (req, res) {
+    activeCookie="";
+    selectedDomain="";
     res.render("login.ejs");
 });
 
@@ -56,6 +58,10 @@ app.get("/domain", function (req, res) {
     } else {
         res.redirect("/");
     }
+});
+
+app.get("/editdomain",function(req,res){
+    res.render("editDomain.ejs");
 });
 
 app.get("/result", function (req, res) {
@@ -96,6 +102,7 @@ app.get("/edit", function (req, res) {
                 }else{
                     if(foundQuestions.length===0){
                         console.log("No data found");
+                        res.redirect("/upload");
                     }else{
                         res.render("edit",{Questions:foundQuestions});
                     }
@@ -108,6 +115,7 @@ app.get("/edit", function (req, res) {
                 }else{
                     if(foundQuestions.length===0){
                         console.log("No data found");
+                        res.redirect("/upload");
                     }else{
                         res.render("edit",{Questions:foundQuestions});
                     }
@@ -121,6 +129,7 @@ app.get("/edit", function (req, res) {
                 }else{
                     if(foundQuestions.length===0){
                         console.log("No data found");
+                        res.redirect("/upload");
                     }else{
                         res.render("edit",{Questions:foundQuestions});
                     }
@@ -211,6 +220,16 @@ app.post("/domain", function (req, res) {
         res.redirect("/upload");
     } else {
         res.redirect("/domain");
+    }
+});
+
+
+app.post("/editdomain", function (req, res) {
+    if (req.body.selected_domain != null) {
+        selectedDomain = req.body.selected_domain;
+        res.redirect("/edit");
+    } else {
+        res.redirect("/editdomain");
     }
 });
 
