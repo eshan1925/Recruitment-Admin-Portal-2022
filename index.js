@@ -117,7 +117,7 @@ app.get("/edit", function (req, res) {
                         console.log("No data found");
                         res.redirect("/upload");
                     }else{
-                        res.render("edit",{Questions:foundQuestions,Domain:selectedDomain});
+                        res.render("edit",{Questions:foundQuestions});
                     }
                 }
             });
@@ -232,6 +232,10 @@ app.post("/editdomain", function (req, res) {
         res.redirect("/editdomain");
     }
 });
+
+app.post("/edit",function (req,res) {
+    console.log(req.body);
+})
 
 
 let port = process.env.PORT;

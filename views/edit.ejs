@@ -3,7 +3,7 @@
 </head>
     <body>
         <%- include("navbar") -%> 
-        <% var editableQuestion = 0; %> 
+        <% var editableQuestion = 50; %> 
         <div class="all_questions">
             <div class="question_selector">
                 <select
@@ -63,12 +63,13 @@
     </div>
 
     <div class="all_options">
+        <form method="post" action="/edit">
         <div class="question_selector1">
             <div class="qhead">
                 <p class="qnum">Question <span><%= editableQuestion+1 %> </span> :</p>
-                <textarea class="content" id="content" disabled><%= Questions[editableQuestion]['Question'] %> </textarea>
+                <textarea name="updatedQuestion" rows="4" class="content" id="content" disabled><%= Questions[editableQuestion]['Question'] %> </textarea>
             </div>
-            <button onclick="btnSave()" id="change" class="change">Edit</button>
+            <button type="submit" onclick="btnSave()" id="change" class="change">Edit</button>
         </div>
   <div class="questionView">
     <div class="questionPic">
@@ -78,33 +79,34 @@
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <input class="content" id="content" value="<%= Questions[editableQuestion]['OptionA'] %>" disabled>
-                    </input>
+                        <textarea name="updatedOptionA" class="content" id="content" value="" disabled>A. <%= Questions[editableQuestion]['OptionA'] %>
+                    </textarea>
                     </div>
                 </div>
             </a>
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <input class="content" id="content" value="<%= Questions[editableQuestion]['OptionB'] %>" disabled>
+                        <textarea name="updatedOptionB" class="content" id="content" value="" disabled>B. <%= Questions[editableQuestion]['OptionB'] %></textarea>
                     </div>
                 </div>
             </a>
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <input class="content" id="content" value="<%= Questions[editableQuestion]['OptionC'] %>" disabled>
+                        <textarea name="updatedOptionC" class="content" id="content" value="" disabled>C. <%= Questions[editableQuestion]['OptionC'] %></textarea>
                     </div>
                 </div>
             </a>
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <input class="content" id="content" value="<%= Questions[editableQuestion]['OptionD'] %>" disabled>
+                        <textarea name="updatedOptionD" class="content" id="content" value="" disabled>D. <%= Questions[editableQuestion]['OptionD'] %></textarea>
                     </div>
                 </div>
             </a>
         </div>
+    </form>
     </div>
   </div>
         

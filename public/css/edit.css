@@ -232,7 +232,7 @@ p.content {
 }
 
 
-textarea,textarea:disabled,input:disabled{
+textarea,textarea:disabled{
 	width: 100%;
 	height: 100%;
 	outline: none;
@@ -247,6 +247,8 @@ textarea,textarea:disabled,input:disabled{
 	word-wrap: break-word;
 
 }
+
+
 
 .answer {
 	/* margin: 4%; */

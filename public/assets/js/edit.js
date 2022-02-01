@@ -1,20 +1,28 @@
 function btnSave() {
+
     var but = document.getElementById("change").innerHTML;
     if (but === "Save Changes") {
         document.getElementById("change").innerHTML = "Edit";
-        document.getElementById("content").disabled = true;
+        var e1 = document.getElementsByClassName("content");
+        for (var i = 0; i < e1.length; i++) {
+            e1[i].disabled = true;
+        }
     }
     if (but === "Edit") {
         document.getElementById("change").innerHTML = "Save Changes";
-        document.getElementById("content").disabled = false;
+        var e1 = document.getElementsByClassName("content");
+        for (var i = 0; i < e1.length; i++) {
+            e1[i].disabled = false;
+        }
     }
 }
 
-var editableQuestion = 0;
 
 function getId(btn) {
-    editableQuestion = btn.id;
-    console.log(editableQuestion);
+    // var Questions = "<%= passer %>";
+    var editableQuestion = btn.id;
+    document.getElementById("qnum").innerHTML = "Question " + editableQuestion;
+    // document.getElementById("question-content").innerHTML = Questions[editableQuestion]['Question'];
 }
 
 function selectCategory() {
