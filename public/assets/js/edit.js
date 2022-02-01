@@ -1,3 +1,4 @@
+
 function btnSave() {
 
     var but = document.getElementById("change").innerHTML;
@@ -19,10 +20,17 @@ function btnSave() {
 
 
 function getId(btn) {
-    // var Questions = "<%= passer %>";
-    var editableQuestion = btn.id;
-    document.getElementById("qnum").innerHTML = "Question " + editableQuestion;
-    // document.getElementById("question-content").innerHTML = Questions[editableQuestion]['Question'];
+    var editableQuestion = JSON.parse(btn.id);
+    // console.log(editableQuestion["Question"]);
+    // editableQuestion = JSON.parse(editableQuestion);
+    document.getElementById("qnum").innerHTML = "Question " + editableQuestion["SNo"];
+    document.getElementById("mainQuestion").innerHTML = editableQuestion["Question"];
+    document.getElementById("mainOptionA").innerHTML = editableQuestion["OptionA"];
+    document.getElementById("mainOptionB").innerHTML = editableQuestion["OptionB"];
+    document.getElementById("mainOptionC").innerHTML = editableQuestion["OptionC"];
+    document.getElementById("mainOptionD").innerHTML = editableQuestion["OptionD"];
+    // console.log(editableQuestion);
+    // console.log(editableQuestion["SNo"]);
 }
 
 function selectCategory() {

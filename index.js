@@ -41,10 +41,8 @@ app.use(express.static(__dirname + "/public"));
 //localhost:3000  www.xyz.com/domain
 var activeCookie = "";
 var selectedDomain = "";
-
-
-
-
+var currentData = [];
+module.exports = {currentData , selectedDomain};
 
 app.get("/", function (req, res) {
     activeCookie="";
@@ -104,6 +102,7 @@ app.get("/edit", function (req, res) {
                         console.log("No data found");
                         res.redirect("/upload");
                     }else{
+                        currentData=foundQuestions;
                         res.render("edit",{Questions:foundQuestions});
                     }
                 }
@@ -117,6 +116,7 @@ app.get("/edit", function (req, res) {
                         console.log("No data found");
                         res.redirect("/upload");
                     }else{
+                        currentData=foundQuestions;
                         res.render("edit",{Questions:foundQuestions});
                     }
                 }
@@ -131,6 +131,7 @@ app.get("/edit", function (req, res) {
                         console.log("No data found");
                         res.redirect("/upload");
                     }else{
+                        currentData=foundQuestions;
                         res.render("edit",{Questions:foundQuestions});
                     }
                 }
