@@ -59,7 +59,7 @@
                     <% } %>
                 </div>
         </div>
-        <div class="selected_question"></div>
+        <div id="<%= ActiveDomain %>" class="selected_question"></div>
     </div>
 
     <div class="all_options">
@@ -115,7 +115,7 @@
             <a id="decorate" href="#">
                 <div class="options">
                     <div class="optionSelect">
-                        <div class="questionNumber">
+                        <div class="questionNumberz">
                             <label>D. </label>
                             <textarea name="updatedOptionD" class="content" id="mainOptionD" value="" disabled><%= Questions[editableQuestion]['OptionD'] %></textarea>
                         </div>

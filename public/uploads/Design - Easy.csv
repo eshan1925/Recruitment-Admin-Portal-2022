@@ -6,17 +6,17 @@ SNo,Question,OptionA,OptionB,OptionC,OptionD,Answer,Name,LOD
 5,What does HSB stand for color?,"Hue, Saturation and Brightness","Highlights, Saturation and Brightness","Highlights, Saturation and Backlight","Hue, Selection and Brightness",A,,Easy
 6,Raster Image is also known as …………,Color Image,Curve Image ,Graphic Image,Bitmap Image,D,,Easy
 7,Photoshop was launched by which company ?,Microsoft,EULA,Adobe,Microsoft,C,,Easy
-8,"What kind of colors are red, yellow and blue?",Primary,Secondary,Tertiary,Complementary,A,,Easy
-9,Which of these color models is not in Photoshop? ,HSB,RGB,BGR,CNYK,D,,Easy
-10,What is the shortcut for move tool?,A,Ctrl+A,V,M ,C,Pranav,Easy
-11,What is the shortcut for viewing Rulers in Figma?,Shift+R,R,Ctrl+R,None of the Above,,Pranav,Easy
-12,What is the shortcut to group a set of selected elements in Figma?,Ctrl+G,G,Ctrl+A,Ctrl+Shift+G,A,Pranav,Easy
-13,Which of these color models is not in Photoshop?,HSB,LAB,RGB,CNYK,A,Saumya,Easy
-14,What is the shortcut key to create a duplicate layer of a ,Ctrl+N,Ctrl+T,Ctrl+J,None of the Above,C,Saumya,Easy
-15,Photoshop was launched by which company?,Adobe Systems,Aldus,Microsoft,EULA,A,Saumya,Easy
-16,How many color modes are there in photoshop,3,4,5,6,C,Saumya,Easy
-17,Photoshop is a image ______ application,Sharing,Downloading,Editing,Deleting,C,Saumya,Easy
-18,What is file extension in photoshop,Tiff,Txt,Psd,Bmp,C,Saumya,Easy
-19,Which colour mode is used for printing,RGB,CMYK,Gray Scale,None of the Above,B,Saumya,Easy
-20,What is the shortcut key to create a new file in Photoshop,Shift+N,Ctrl+N,Ctrl+Shift+N,None of the Above,B,Saumya,Easy
-21,"To get Desturate option in Photoshop, we have to go to",File Menu,Layer Menu,Image>Adjustment,None of the Above,C,Saumya,Easy
+8,"What kind of colors are red, yellow and blue?",Primary,Secondary,Tertiary,Complementary,A,,Medium
+9,Which of these color models is not in Photoshop? ,HSB,RGB,BGR,CNYK,D,,Medium
+10,What is the shortcut for move tool?,A,Ctrl+A,V,M ,C,Pranav,Medium
+11,What is the shortcut for viewing Rulers in Figma?,Shift+R,R,Ctrl+R,None of the Above,,Pranav,Medium
+12,What is the shortcut to group a set of selected elements in Figma?,Ctrl+G,G,Ctrl+A,Ctrl+Shift+G,A,Pranav,Medium
+13,Which of these color models is not in Photoshop?,HSB,LAB,RGB,CNYK,A,Saumya,Medium
+14,What is the shortcut key to create a duplicate layer of a ,Ctrl+N,Ctrl+T,Ctrl+J,None of the Above,C,Saumya,Medium
+15,Photoshop was launched by which company?,Adobe Systems,Aldus,Microsoft,EULA,A,Saumya,Medium
+16,How many color modes are there in photoshop,3,4,5,6,C,Saumya,Hard
+17,Photoshop is a image ______ application,Sharing,Downloading,Editing,Deleting,C,Saumya,Hard
+18,What is file extension in photoshop,Tiff,Txt,Psd,Bmp,C,Saumya,Hard
+19,Which colour mode is used for printing,RGB,CMYK,Gray Scale,None of the Above,B,Saumya,Hard
+20,What is the shortcut key to create a new file in Photoshop,Shift+N,Ctrl+N,Ctrl+Shift+N,None of the Above,B,Saumya,Hard
+21,"To get Desturate option in Photoshop, we have to go to",File Menu,Layer Menu,Image>Adjustment,None of the Above,C,Saumya,Hard
