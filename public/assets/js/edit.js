@@ -1,8 +1,19 @@
-
+var editableQuestion ;
 function btnSave() {
-
     var but = document.getElementById("change").innerHTML;
+    var form  = document.getElementById("form-controller");
+    var submitter = document.getElementById("change");
     if (but === "Save Changes") {
+        var updatedContent = {};
+        updatedContent.SNo = parseInt(document.getElementById("qnum").value);
+        updatedContent.Question = document.getElementById("mainQuestion").value;
+        updatedContent.OptionA = document.getElementById("mainOptionA").value;
+        updatedContent.OptionB = document.getElementById("mainOptionB").value;
+        updatedContent.OptionC = document.getElementById("mainOptionC").value;
+        updatedContent.OptionD = document.getElementById("mainOptionD").value;
+        document.getElementById("hidden-input").value = JSON.stringify(updatedContent);
+        submitter.type="submit";
+        form.method="post";
         document.getElementById("change").innerHTML = "Edit";
         var e1 = document.getElementsByClassName("content");
         for (var i = 0; i < e1.length; i++) {
@@ -10,6 +21,8 @@ function btnSave() {
         }
     }
     if (but === "Edit") {
+        submitter.type="button";
+        form.method="";
         document.getElementById("change").innerHTML = "Save Changes";
         var e1 = document.getElementsByClassName("content");
         for (var i = 0; i < e1.length; i++) {
@@ -19,11 +32,26 @@ function btnSave() {
 }
 
 
+// function btnActivator(){
+//     var but = document.getElementById("publish").innerHTML;
+//     if(but==="Open Portal"){
+//         document.getElementById("publish").innerHTML = "Close Portal";
+//         var e1 = document.getElementById("change");
+//         e1.disabled = false;
+//     }
+//     if(but === "Close Portal"){
+//         document.getElementById("publish").innerHTML = "Open Portal";
+//         var e1 = document.getElementById("change");
+//         e1.disabled = true;
+//     }
+// }
+
+
 function getId(btn) {
-    var editableQuestion = JSON.parse(btn.id);
+    editableQuestion = JSON.parse(btn.id);
     // console.log(editableQuestion["Question"]);
     // editableQuestion = JSON.parse(editableQuestion);
-    document.getElementById("qnum").innerHTML = "Question " + editableQuestion["SNo"];
+    document.getElementById("qnum").innerHTML = editableQuestion["SNo"];
     document.getElementById("mainQuestion").innerHTML = editableQuestion["Question"];
     document.getElementById("mainOptionA").innerHTML = editableQuestion["OptionA"];
     document.getElementById("mainOptionB").innerHTML = editableQuestion["OptionB"];

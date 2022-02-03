@@ -260,3 +260,10 @@ textarea,textarea:disabled{
 	padding: 3%;
 	border-radius: 3%;
 }
+
+.questionNumberz{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+}

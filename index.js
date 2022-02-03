@@ -235,7 +235,8 @@ app.post("/editdomain", function (req, res) {
 });
 
 app.post("/edit",function (req,res) {
-    console.log(req.body);
+    
+    console.log(JSON.parse(req.body.finalData));
 })
 
 
