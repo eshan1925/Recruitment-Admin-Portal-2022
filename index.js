@@ -12,6 +12,7 @@ var technicalFileModel = require('./models/technicalModel');
 var designFileModel = require('./models/designModel');
 var managementModel = require('./models/managementModel');
 
+
 var csv = require('csvtojson');
 const req = require('express/lib/request');
 
@@ -232,7 +233,35 @@ app.post("/editdomain", function (req, res) {
 
 app.post("/edit",function (req,res) {
     var updatedData = JSON.parse(req.body.finalData);
-    console.log(updatedData);
+    var updateDomain = updatedData.currentDomain;
+    if(updateDomain === "Technical"){
+        technicalFileModel.updateOne({SNo:updatedData.SNo},updatedData,{new:true},(err,doc)=>{
+            if(!err){
+                res.redirect("/edit");
+            }else{
+                console.log(err);
+            }
+        });
+    }
+    else if(updateDomain === "Design"){
+        designFileModel.updateOne({SNo:updatedData.SNo},updatedData,{new:true},(err,doc)=>{
+            if(!err){
+               res.redirect("/edit");
+            }else{
+                console.log(err);
+            }
+        });
+    }else if(updateDomain === "Management"){
+        managementModel.updateOne({SNo:updatedData.SNo},updatedData,{new:true},(err,doc)=>{
+            if(!err){
+               res.redirect("/edit");
+            }else{
+                console.log(err);
+            }
+        });
+    }else{
+        console.log("Error no active domain found!!!");
+    }
 })
 
 

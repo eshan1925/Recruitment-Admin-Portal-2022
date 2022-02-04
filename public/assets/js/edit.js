@@ -1,3 +1,4 @@
+var editableQuestion;
 
 function btnSave() {
     var but = document.getElementById("change").innerHTML;
@@ -36,7 +37,7 @@ function btnSave() {
 
 
 function getId(btn) {
-    var editableQuestion = JSON.parse(btn.id);
+    editableQuestion = JSON.parse(btn.id);
     document.getElementById("qnum").innerHTML = editableQuestion["SNo"];
     document.getElementById("mainQuestion").innerHTML = editableQuestion["Question"];
     document.getElementById("mainOptionA").innerHTML = editableQuestion["OptionA"];
