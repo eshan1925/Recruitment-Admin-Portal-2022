@@ -45,8 +45,8 @@ var selectedDomain = "";
 
 
 app.get("/", function (req, res) {
-    activeCookie="";
-    selectedDomain="";
+    activeCookie = "";
+    selectedDomain = "";
     res.render("login.ejs");
 });
 
@@ -58,7 +58,7 @@ app.get("/domain", function (req, res) {
     }
 });
 
-app.get("/editdomain",function(req,res){
+app.get("/editdomain", function (req, res) {
     res.render("editDomain.ejs");
 });
 
@@ -91,50 +91,50 @@ app.get("/upload", function (req, res) {
 
 app.get("/edit", function (req, res) {
     if (activeCookie != "") {
-        if(selectedDomain===null){
+        if (selectedDomain === null) {
             res.redirect("/domain");
-        }else if(selectedDomain==="Technical"){
-            technicalFileModel.find({},function(err,foundQuestions){
-                if(err){
+        } else if (selectedDomain === "Technical") {
+            technicalFileModel.find({}, function (err, foundQuestions) {
+                if (err) {
                     console.log(err);
-                }else{
-                    if(foundQuestions.length===0){
+                } else {
+                    if (foundQuestions.length === 0) {
                         console.log("No data found");
                         res.redirect("/upload");
-                    }else{
-                        res.render("edit",{Questions:foundQuestions,ActiveDomain:selectedDomain});
+                    } else {
+                        res.render("edit", { Questions: foundQuestions, ActiveDomain: selectedDomain });
                     }
                 }
             });
-        }else if(selectedDomain==="Design"){
-            designFileModel.find({},function(err,foundQuestions){
-                if(err){
+        } else if (selectedDomain === "Design") {
+            designFileModel.find({}, function (err, foundQuestions) {
+                if (err) {
                     console.log(err);
-                }else{
-                    if(foundQuestions.length===0){
+                } else {
+                    if (foundQuestions.length === 0) {
                         console.log("No data found");
                         res.redirect("/upload");
-                    }else{
-                        res.render("edit",{Questions:foundQuestions,ActiveDomain:selectedDomain});
-                    }
-                }
-            });
-        }
-        else if(selectedDomain==="Management"){
-            managementModel.find({},function(err,foundQuestions){
-                if(err){
-                    console.log(err);
-                }else{
-                    if(foundQuestions.length===0){
-                        console.log("No data found");
-                        res.redirect("/upload");
-                    }else{
-                        res.render("edit",{Questions:foundQuestions,ActiveDomain:selectedDomain});
+                    } else {
+                        res.render("edit", { Questions: foundQuestions, ActiveDomain: selectedDomain });
                     }
                 }
             });
         }
-        else{
+        else if (selectedDomain === "Management") {
+            managementModel.find({}, function (err, foundQuestions) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    if (foundQuestions.length === 0) {
+                        console.log("No data found");
+                        res.redirect("/upload");
+                    } else {
+                        res.render("edit", { Questions: foundQuestions, ActiveDomain: selectedDomain });
+                    }
+                }
+            });
+        }
+        else {
             res.render("edit.ejs");
         }
     } else {
@@ -196,7 +196,7 @@ app.post('/upload', uploads.single('csv'), (req, res) => {
                     res.redirect("/domain");
                 }
             });
-        } else if(selectedDomain === "Management") {
+        } else if (selectedDomain === "Management") {
             managementModel.insertMany(jsonObj, (err, data) => {
                 if (err) {
                     console.log(err);
@@ -204,7 +204,7 @@ app.post('/upload', uploads.single('csv'), (req, res) => {
                     res.redirect("/domain");
                 }
             });
-        } else{
+        } else {
             console.log("No data added");
             res.redirect("/domain");
         }
@@ -231,36 +231,68 @@ app.post("/editdomain", function (req, res) {
     }
 });
 
-app.post("/edit",function (req,res) {
+app.post("/edit", function (req, res) {
     var updatedData = JSON.parse(req.body.finalData);
     var updateDomain = updatedData.currentDomain;
-    if(updateDomain === "Technical"){
-        technicalFileModel.updateOne({SNo:updatedData.SNo},updatedData,{new:true},(err,doc)=>{
-            if(!err){
-                res.redirect("/edit");
-            }else{
-                console.log(err);
-            }
-        });
-    }
-    else if(updateDomain === "Design"){
-        designFileModel.updateOne({SNo:updatedData.SNo},updatedData,{new:true},(err,doc)=>{
-            if(!err){
-               res.redirect("/edit");
-            }else{
-                console.log(err);
-            }
-        });
-    }else if(updateDomain === "Management"){
-        managementModel.updateOne({SNo:updatedData.SNo},updatedData,{new:true},(err,doc)=>{
-            if(!err){
-               res.redirect("/edit");
-            }else{
-                console.log(err);
-            }
-        });
-    }else{
-        console.log("Error no active domain found!!!");
+    var takeAction = updatedData.action;
+    if (takeAction === "Delete") {
+        if(updateDomain === "Technical"){
+            technicalFileModel.deleteOne({SNo:updatedData.SNo},function(err,doc) {
+               if(!err){
+                   res.redirect("/edit");
+               } else{
+                   console.log(err);
+                   res.redirect("/editdomain");
+               }
+            });
+        }else if(updateDomain === "Design"){
+            designFileModel.deleteOne({SNo:updatedData.SNo},function(err,doc) {
+                if(!err){
+                    res.redirect("/edit");
+                } else{
+                    console.log(err);
+                    res.redirect("/editdomain");
+                }
+             });
+        }else if(updateDomain === "Management"){
+            managementModel.deleteOne({SNo:updatedData.SNo},function(err,doc) {
+                if(!err){
+                    res.redirect("/edit");
+                } else{
+                    console.log(err);
+                    res.redirect("/editdomain");
+                }
+             });
+        }
+    } else if(takeAction === "Edit") {
+        if (updateDomain === "Technical") {
+            technicalFileModel.updateOne({ SNo: updatedData.SNo }, updatedData, { new: true }, (err, doc) => {
+                if (!err) {
+                    res.redirect("/edit");
+                } else {
+                    console.log(err);
+                }
+            });
+        }
+        else if (updateDomain === "Design") {
+            designFileModel.updateOne({ SNo: updatedData.SNo }, updatedData, { new: true }, (err, doc) => {
+                if (!err) {
+                    res.redirect("/edit");
+                } else {
+                    console.log(err);
+                }
+            });
+        } else if (updateDomain === "Management") {
+            managementModel.updateOne({ SNo: updatedData.SNo }, updatedData, { new: true }, (err, doc) => {
+                if (!err) {
+                    res.redirect("/edit");
+                } else {
+                    console.log(err);
+                }
+            });
+        } else {
+            console.log("Error no active domain found!!!");
+        }
     }
 })
 

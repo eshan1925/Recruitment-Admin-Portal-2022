@@ -73,7 +73,11 @@
                 <textarea name="updatedQuestion" rows="4" class="content" id="mainQuestion" disabled><%= Questions[editableQuestion]['Question'] %> </textarea>
                 <input name="finalData" type="hidden" value="" id="hidden-input"/>
             </div>
-            <button onclick="btnSave()" id="change" class="change" type="button" >Edit</button>
+            <div class="buttons-pos">
+                <button onclick="btnSave()" id="change" class="change" type="button" >Edit</button>
+            <button onclick="show_button()" id="delete" class="delete" type="button" style="display: none;">Delete</button>
+            </div>
+            
         </div>
   <div class="questionView">
     <div class="questionPic">

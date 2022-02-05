@@ -1,13 +1,29 @@
 var editableQuestion;
+var updatedContent = {};
+
+function show_button() {
+
+    var form = document.getElementById("form-controller");
+    var submitter = document.getElementById("delete");
+    var domain = document.getElementsByClassName("selected_question");
+    var presentDomain = domain[0].id;
+    updatedContent.SNo = parseInt(document.getElementById("qnum").value);
+    updatedContent.currentDomain = presentDomain;
+    updatedContent.action = "Delete";
+    document.getElementById("hidden-input").value = JSON.stringify(updatedContent);
+    submitter.type = "submit";
+    form.method = "post";
+}
 
 function btnSave() {
+
     var but = document.getElementById("change").innerHTML;
-    var form  = document.getElementById("form-controller");
+    var form = document.getElementById("form-controller");
     var submitter = document.getElementById("change");
     var domain = document.getElementsByClassName("selected_question");
     var presentDomain = domain[0].id;
     if (but === "Save Changes") {
-        var updatedContent = {};
+        document.getElementById("delete").style.display = "none";
         updatedContent.SNo = parseInt(document.getElementById("qnum").value);
         updatedContent.Question = document.getElementById("mainQuestion").value;
         updatedContent.OptionA = document.getElementById("mainOptionA").value;
@@ -15,9 +31,10 @@ function btnSave() {
         updatedContent.OptionC = document.getElementById("mainOptionC").value;
         updatedContent.OptionD = document.getElementById("mainOptionD").value;
         updatedContent.currentDomain = presentDomain;
+        updatedContent.action = "Edit";
         document.getElementById("hidden-input").value = JSON.stringify(updatedContent);
-        submitter.type="submit";
-        form.method="post";
+        submitter.type = "submit";
+        form.method = "post";
         document.getElementById("change").innerHTML = "Edit";
         var e1 = document.getElementsByClassName("content");
         for (var i = 0; i < e1.length; i++) {
@@ -25,8 +42,9 @@ function btnSave() {
         }
     }
     if (but === "Edit") {
-        submitter.type="button";
-        form.method="";
+        document.getElementById("delete").style.display = "block";
+        submitter.type = "button";
+        form.method = "";
         document.getElementById("change").innerHTML = "Save Changes";
         var e1 = document.getElementsByClassName("content");
         for (var i = 0; i < e1.length; i++) {

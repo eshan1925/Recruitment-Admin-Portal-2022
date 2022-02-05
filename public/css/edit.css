@@ -212,6 +212,25 @@ p.content {
 	cursor: pointer;
 }
 
+.delete{
+	color: white;
+	background-color: #4506c8;
+	border-radius: 7px;
+	width: auto;
+	height: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	/* margin-right: 100px; */
+	cursor: pointer;
+}
+
+.buttons-pos{
+	width: 30%;
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+}
 .qhead {
 	width: 450px;
 	padding: 2%;
